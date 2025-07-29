@@ -6,6 +6,10 @@ import os
 import sys
 import logging
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Add src to Python path so we can import our modules
 sys.path.append('src')
 
