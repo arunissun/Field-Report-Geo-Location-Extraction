@@ -1,4 +1,3 @@
-
 """
 Main entry point for the JSON-based Field Reports Pipeline
 """
@@ -6,11 +5,6 @@ Main entry point for the JSON-based Field Reports Pipeline
 import os
 import sys
 import logging
-
-from dotenv import load_dotenv
-
-# Load environment variables from .env file FIRST
-load_dotenv()
 
 # Add src to Python path so we can import our modules
 sys.path.append('src')
@@ -23,11 +17,9 @@ def main():
 
     # Check if authentication token is configured
     if not os.environ.get('GO_AUTH_TOKEN'):
-        print("❌ Please set GO_AUTH_TOKEN in your .env file")
-        print(
-            "   Make sure your .env file contains: GO_AUTH_TOKEN=your_token_here"
-        )
-        print("   The .env file should be in your project root directory")
+        print("❌ Please set GO_AUTH_TOKEN in your Replit Secrets")
+        print("   Go to the 🔒 Secrets tab and add your IFRC GO API token")
+
         return
 
     print("✅ Authentication token found")
