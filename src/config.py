@@ -2,6 +2,9 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
+dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
+load_result = load_dotenv(dotenv_path)
+
 
 class Config:
     """Configuration management for the field reports pipeline"""
