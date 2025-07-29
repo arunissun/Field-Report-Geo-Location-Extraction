@@ -34,7 +34,10 @@ class Config:
         self.START_DATE = "2025-06-01T00:00:00Z"
 
         # Required fields from API
-        self.REQUIRED_FIELDS = ['id', 'title', 'description', 'summary']
+        self.REQUIRED_FIELDS = [
+            'id', 'title', 'description', 'summary', 'country_name',
+            'event_name', 'disaster_type_name'
+        ]
 
         # File paths
         self.RAW_DATA_DIR = "data/raw"
