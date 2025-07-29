@@ -30957,12 +30957,409 @@
       "description": "The Ministry of Health, through the Director of the National Institute of Public Hygiene (INHP), declared on June 5, 2025 that this is a cholera epidemic that is raging in the locality of Akobraké village in the context of a rainy season. Two health centers have reported positive cases from the same locality (Akobraké village) in the Port-Bouët Health District.",
       "other_sources": "Ministry of Health - Port-Bouët Health District & Red Cross Côte d'Ivoire",
       "title": "Cholera epidemic"
+    },
+    {
+      "id": 17822,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [
+            32,
+            34,
+            36,
+            37,
+            38,
+            28,
+            30,
+            31
+          ],
+          "actions_details": [
+            {
+              "id": 32,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Shelter",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 34,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Psychosocial support services",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 36,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Evacuation",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 37,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "First Aid",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 38,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Relief/Supply distribution",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 28,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Search & Rescue",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 30,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Food aid",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 31,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Health",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23962,
+          "summary": "The HRC has been actively involved in wildfire response efforts across Greece since the emergency began. They are partnering closely with the Hellenic Civil Protection and local authorities, making a significant difference on the ground. Their dedicated team is engaged in crucial tasks, including firefighting support, search and rescue operations, and evacuation assistance. Together, they are demonstrating true resilience and compassion in the face of adversity, supporting those in need every step of the way.\nThe HRC has made a remarkable impact by supporting both emergency services and communities affected by the wildfires through extensive humanitarian efforts. With incredible speed, they deployed dedicated volunteers and emergency teams to tackle the challenges in the hardest-hit areas. Trained firefighting teams worked alongside national units to help contain the fires and provide vital on-site first aid for individuals facing burns, smoke inhalation, and heat-related emergencies, offering crucial support to local hospitals and clinics and ensuring that everyone received the care they needed.\nMoreover, the Hellenic Red Cross excelled in coordinating evacuation efforts, ensuring the safe departure of residents and tourists from high-risk zones. The Social Welfare Sector teams provided compassionate psychological first aid and emotional support to evacuees and those in distress, setting up hotlines and mobile counseling units to foster hope and resilience within the community.\nAdditionally, volunteers lovingly cared for displaced pets, making sure they had food, water, and shelter. This holistic approach highlights the Red Cross’s steadfast commitment to community well-being in times of crisis. Together, we can overcome challenges and emerge stronger!\nIt is important to highlight their efforts in the immediate coordination and intervention for transferring an elderly bedridden woman, who was alone in a house next to the front of the fire, as it is considered life-saving. Their quick and decisive actions truly saved her life and reflect a remarkable commitment to community and compassion.\nAdditionally, in a remarkable display of dedication, 40 passionate volunteers from the Hellenic Red Cross—representing the Samaritans-Rescue, Health, and Social Welfare teams—swiftly mobilized to evacuate patients from the “Agios Andreas” hospital in Patras after a fire erupted in a ward. Their tireless efforts ensured the safe transport of numerous patients, showcasing the incredible strength and support of community spirit in times of need. Together, they truly made a difference when it mattered most!",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Thaleia Fonazaki",
+          "title": "Head of International Relations and Partnerships",
+          "email": "th.fonazaki@redcross.gr",
+          "phone": "00306948148526",
+          "id": 56140
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Thaleia Fonazaki",
+          "title": "Head of International Relations and Partnerships",
+          "email": "th.fonazaki@redcross.gr",
+          "phone": "00306948148526",
+          "id": 56141
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "GR",
+          "iso3": "GRC",
+          "id": 74,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 3,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DGR001",
+          "average_household_size": null,
+          "society_name": "Hellenic Red Cross",
+          "name": "Greece",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Attika",
+          "code": "GR002",
+          "id": 1081,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "West Greece",
+          "code": "GR003",
+          "id": 1092,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Epirus",
+          "code": "GR006",
+          "id": 1086,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Crete",
+          "code": "GR008",
+          "id": 1084,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Peloponnese",
+          "code": "GR010",
+          "id": 1089,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Central Greece",
+          "code": "GR011",
+          "id": 1082,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 3,
+          "id": 3,
+          "region_name": "Europe",
+          "label": "Europe",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 15,
+        "id": 7582,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "GRC: Fire - 07-2025 - Wildfires in Greece, 26-28, July, 2025 ",
+        "translation_module_original_language": "en"
+      },
+      "dtype_details": {
+        "id": 15,
+        "summary": "",
+        "name": "Fire",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 6287,
+        "username": "th.fonazaki@redcross.gr",
+        "email": "th.fonazaki@redcross.gr",
+        "first_name": "Thaleia",
+        "last_name": "Fonazaki"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 1,
+      "status": 9,
+      "request_assistance": true,
+      "ns_request_assistance": false,
+      "num_injured": 117,
+      "num_dead": 0,
+      "num_missing": 0,
+      "num_affected": 31998,
+      "num_displaced": 18000,
+      "num_assisted": null,
+      "num_localstaff": 28,
+      "num_volunteers": 118,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": null,
+      "gov_num_dead": null,
+      "gov_num_missing": null,
+      "gov_num_affected": null,
+      "gov_num_displaced": null,
+      "gov_num_assisted": null,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": null,
+      "other_num_missing": null,
+      "other_num_affected": null,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-26T00:00:00Z",
+      "report_date": "2025-07-29T16:33:40.120410Z",
+      "created_at": "2025-07-29T16:33:40.142417Z",
+      "updated_at": "2025-07-29T16:33:40.217172Z",
+      "previous_update": null,
+      "translation_module_original_language": "en",
+      "translation_module_skip_auto_translation": false,
+      "user": 6287,
+      "dtype": 15,
+      "event": 7582,
+      "regions": [
+        3
+      ],
+      "countries": [
+        74
+      ],
+      "districts": [
+        1081,
+        1092,
+        1086,
+        1084,
+        1089,
+        1082
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "other_sources": "",
+      "summary": "GRC: Fire - 07-2025 - Wildfires in Greece, 26-28, July, 2025 ",
+      "description": "<p class=\"MsoNormal\" style=\"margin-top: 12.0pt; text-align: justify;\"><span lang=\"EN-US\" style=\"font-size: 12.0pt; line-height: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">Greece experienced one of its most intense wildfire outbreaks in recent years, with over 50 wildfires reported in just 24 hours. The fires were fueled by a prolonged heatwave (temperatures reaching up to 45&deg;C) and strong winds (6&ndash;7 Beaufort), creating extreme fire conditions across the country. </span></p>\n<p class=\"MsoNormal\" style=\"margin-top: 12.0pt; text-align: justify;\"><span lang=\"EN-US\" style=\"font-size: 12.0pt; line-height: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">The primary affected areas were Kryoneri (Attica), Pedini - Ioannina (Epirus Region), Patra (Achaea Region), Temenia and surrounding villages (Chania, Crete), Polithea, Monastiri, and Aetos (Messinia, Peloponnese), Serres (Northern Greece), and Central and Northern Euboea (Evia). </span></p>\n<p class=\"MsoNormal\" style=\"margin-top: 12.0pt; text-align: justify;\"><span lang=\"EN-US\" style=\"font-size: 12.0pt; line-height: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">Thousands of residents were evacuated across multiple regions. In numbers over 32,000 people were displaced nationwide, with many seeking shelter in schools, community centers, and temporary shelters. </span></p>\n<p class=\"MsoNormal\" style=\"margin-top: 12.0pt; text-align: justify;\"><span lang=\"EN-US\" style=\"font-size: 12.0pt; line-height: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">Over 1,100 firefighters were deployed nationwide. Moreover, Greece requested six additional water-dropping aircraft from the EU Civil Protection Mechanism. One hundred forty-five firefighters, 44 vehicles, 7 helicopters, and 10 aircraft were active in Attica alone.</span></p>\n<p class=\"MsoNormal\" style=\"margin-top: 12.0pt; text-align: justify;\"><span lang=\"EN-US\" style=\"font-size: 12.0pt; line-height: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">Many firefighters were hospitalized due to burns and smoke inhalation while battling the fires. These injuries occurred during intense efforts to contain fires threatening residential areas, with some fire trucks also damaged in the process. Moreover, civilians were injured, suffering from burns, respiratory problems, and other injuries. <span style=\"mso-spacerun: yes;\">&nbsp;</span></span></p>\n<p class=\"MsoNormal\" style=\"margin-top: 12.0pt; text-align: justify;\"><span lang=\"EN-US\" style=\"font-size: 12.0pt; line-height: 107%; mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;\">The extensive damage influences the forests, agricultural land, animal pens, houses, cars, and more.</span></p>\n<p class=\"MsoNormal\" style=\"text-align: justify;\">&nbsp;</p>",
+      "actions_others": null,
+      "title": "Wildfires in Greece, 26-28, July, 2025"
     }
   ],
   "metadata": {
-    "total_count": 92,
-    "last_updated": "2025-07-29T16:08:32.018331",
-    "api_total_count": 92,
+    "total_count": 93,
+    "last_updated": "2025-07-29T16:49:26.190946",
+    "api_total_count": 93,
     "new_reports_added": 0
   }
 }
