@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "total_reports": 92,
-    "last_updated": "2025-07-29T15:13:13.942948",
-    "new_reports_added": 42,
+    "total_reports": 93,
+    "last_updated": "2025-07-29T16:49:23.788598",
+    "new_reports_added": 1,
     "updated_reports": 0,
     "processing_info": {
       "html_cleaned": true,
@@ -10,9 +10,12 @@
         "id",
         "title",
         "description",
-        "summary"
+        "summary",
+        "country_name",
+        "event_name",
+        "disaster_type_name"
       ],
-      "processing_date": "2025-07-29T15:13:13.942956"
+      "processing_date": "2025-07-29T16:49:23.788603"
     }
   },
   "reports": [
@@ -751,6 +754,17 @@
       "summary": "CIV: Epidemic - 06-2025 - Cholera epidemic",
       "status": "fetched",
       "fetched_at": "2025-07-29T15:13:13.942530"
+    },
+    {
+      "id": 17822,
+      "country": null,
+      "event_name": "GRC: Fire - 07-2025 - Wildfires in Greece, 26-28, July, 2025 ",
+      "disaster_type": "Fire",
+      "title": "Wildfires in Greece, 26-28, July, 2025",
+      "description": "Greece experienced one of its most intense wildfire outbreaks in recent years, with over 50 wildfires reported in just 24 hours. The fires were fueled by a prolonged heatwave (temperatures reaching up to 45°C) and strong winds (6–7 Beaufort), creating extreme fire conditions across the country. The primary affected areas were Kryoneri (Attica), Pedini - Ioannina (Epirus Region), Patra (Achaea Region), Temenia and surrounding villages (Chania, Crete), Polithea, Monastiri, and Aetos (Messinia, Peloponnese), Serres (Northern Greece), and Central and Northern Euboea (Evia). Thousands of residents were evacuated across multiple regions. In numbers over 32,000 people were displaced nationwide, with many seeking shelter in schools, community centers, and temporary shelters. Over 1,100 firefighters were deployed nationwide. Moreover, Greece requested six additional water-dropping aircraft from the EU Civil Protection Mechanism. One hundred forty-five firefighters, 44 vehicles, 7 helicopters, and 10 aircraft were active in Attica alone. Many firefighters were hospitalized due to burns and smoke inhalation while battling the fires. These injuries occurred during intense efforts to contain fires threatening residential areas, with some fire trucks also damaged in the process. Moreover, civilians were injured, suffering from burns, respiratory problems, and other injuries. The extensive damage influences the forests, agricultural land, animal pens, houses, cars, and more.",
+      "summary": "GRC: Fire - 07-2025 - Wildfires in Greece, 26-28, July, 2025",
+      "status": "fetched",
+      "fetched_at": "2025-07-29T16:49:23.787864"
     }
   ]
 }
