@@ -2,17 +2,6 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
-dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
-load_result = load_dotenv(dotenv_path)
-
-# If that fails, try current directory
-if not load_result:
-    load_result = load_dotenv('.env')
-
-# Debug: Print load result (remove this in production)
-print(f"dotenv load result: {load_result}")
-
 
 class Config:
     """Configuration management for the field reports pipeline"""
