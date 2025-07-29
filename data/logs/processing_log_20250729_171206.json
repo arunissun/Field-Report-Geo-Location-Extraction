@@ -1,0 +1,19 @@
+{
+  "start_time": "2025-07-29T17:12:02.786663",
+  "parameters": {
+    "max_reports": null,
+    "created_at_gte": "2025-06-01T00:00:00Z",
+    "existing_reports_count": 93
+  },
+  "batches": [],
+  "summary": {
+    "total_fetched": 93,
+    "total_new_reports": 0,
+    "total_skipped": 93,
+    "batches_created": 0,
+    "initial_existing_reports": 93,
+    "final_total_reports": 93,
+    "existing_reports_count": 93
+  },
+  "end_time": "2025-07-29T17:12:06.996802"
+}
