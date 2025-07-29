@@ -1,7 +1,7 @@
 import re
 import logging
 from bs4 import BeautifulSoup
-from typing import Dict, Optional, List
+from typing import Dict, Optional
 from datetime import datetime
 
 
@@ -70,12 +70,25 @@ class DataProcessor:
         try:
             # Simplified cleaned report with only essential fields
             cleaned_report = {
-                'id': report.get('id'),
-                'title': self.clean_html(report.get('title', '')),
-                'description': self.clean_html(report.get('description', '')),
-                'summary': self.clean_html(report.get('summary', '')),
-                'status': 'fetched',  # Processing status
-                'fetched_at': datetime.now().isoformat()
+                'id':
+                report.get('id'),
+                'country':
+                self._safe_extracted_nested(report,
+                                            ['country_details', 'name']),
+                'event_name':
+                self._safe_extracted_nested(report, ['event_details', 'name']),
+                'disaster_type':
+                self._safe_extracted_nested(report, ['dtype_details', 'name']),
+                'title':
+                self.clean_html(report.get('title', '')),
+                'description':
+                self.clean_html(report.get('description', '')),
+                'summary':
+                self.clean_html(report.get('summary', '')),
+                'status':
+                'fetched',  # Processing status
+                'fetched_at':
+                datetime.now().isoformat()
             }
 
             # Validate the result is a proper dictionary
@@ -124,3 +137,24 @@ class DataProcessor:
             return False
 
         return True
+
+    def _safe_extracted_nested(self, data: Dict, keys: list) -> Optional[str]:
+        """Safely extract nested value from dictionary"""
+
+        try:
+            current = data
+            for key in keys:
+                if isinstance(current, dict) and key in current:
+                    current = current[key]
+
+                else:
+                    return None
+
+            if current is not None:
+                return str(current)
+
+            return None
+
+        except Exception as e:
+            self.logger.debug(f"Error extractin nested keys {keys}: {e}")
+            return None
