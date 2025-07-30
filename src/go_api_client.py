@@ -9,6 +9,10 @@ from rate_limiter import RateLimiter
 from data_processor import DataProcessor
 from json_manager import JSONManager
 
+# Add this import after your existing imports
+import asyncio
+from location_manager import LocationManager
+
 
 class GOAPIClient:
     """Client for fetching field reports from IFRC GO API and saving to JSON"""
@@ -89,21 +93,27 @@ class GOAPIClient:
             raise
 
     def fetch_and_save_all_reports(
-            self,
-            max_reports: Optional[int] = None,
-            created_at_gte: Optional[str] = None) -> Dict:
-        """Fetch all field reports and save them to JSON files with duplicate prevention"""
-
+        self,
+        max_reports: Optional[int] = None,
+        created_at_gte: Optional[str] = None) -> Dict:
+        
+        """Fetch all field reports, save them to JSON files, and extract locations"""
+    
         if created_at_gte is None:
             created_at_gte = config.START_DATE
 
         # Get existing processed report IDs to avoid duplicates
         existing_ids = self.json_manager.get_processed_report_ids()
 
+        # Initialize location manager for automatic extraction
+        location_manager = LocationManager(config)
+
         offset = 0
         total_fetched = 0
         total_new = 0
         batch_number = 0
+        all_new_reports = []  # Track all new reports for location extraction
+
         processing_log = {
             'start_time': datetime.now().isoformat(),
             'parameters': {
@@ -115,8 +125,7 @@ class GOAPIClient:
             'summary': {}
         }
 
-        self.logger.info(
-            f"Starting to fetch field reports since {created_at_gte}")
+        self.logger.info(f"Starting to fetch field reports since {created_at_gte}")
         self.logger.info(f"Found {len(existing_ids)} existing reports to skip")
 
         while True:
@@ -148,22 +157,19 @@ class GOAPIClient:
 
                     # Enhanced validation: Check if report is actually a dictionary
                     if not isinstance(report, dict):
-                        self.logger.error(
-                            f"Expected dict, got {type(report)}: {report}")
+                        self.logger.error(f"Expected dict, got {type(report)}: {report}")
                         continue
 
                     # Get report ID
                     report_id = report.get('id')
                     if report_id is None:
-                        self.logger.warning(
-                            f"Report missing ID, skipping: {report}")
+                        self.logger.warning(f"Report missing ID, skipping: {report}")
                         continue
 
                     # Skip if already processed (duplicate prevention)
                     if report_id in existing_ids:
                         page_skipped_count += 1
-                        self.logger.debug(
-                            f"Skipping existing report ID: {report_id}")
+                        self.logger.debug(f"Skipping existing report ID: {report_id}")
                         continue
 
                     # Validate report data
@@ -172,37 +178,28 @@ class GOAPIClient:
 
                     # Extract and clean text content with error handling
                     try:
-                        processed_report = self.data_processor.extract_and_clean_report(
-                            report)
+                        processed_report = self.data_processor.extract_and_clean_report(report)
 
                         # Validate the processed report is a dictionary
                         if not isinstance(processed_report, dict):
-                            self.logger.error(
-                                f"Processed report is not a dict: {type(processed_report)}"
-                            )
+                            self.logger.error(f"Processed report is not a dict: {type(processed_report)}")
                             continue
 
                         processed_reports.append(processed_report)
-                        existing_ids.add(
-                            report_id
-                        )  # Add to existing IDs to prevent duplicates in same run
+                        all_new_reports.append(processed_report)  # Add to total new reports for location extraction
+                        existing_ids.add(report_id)  # Add to existing IDs to prevent duplicates in same run
                         page_new_count += 1
                         total_new += 1
 
-                        self.logger.debug(
-                            f"Successfully processed new report ID: {report_id}"
-                        )
+                        self.logger.debug(f"Successfully processed new report ID: {report_id}")
 
                     except Exception as e:
-                        self.logger.error(
-                            f"Error processing report {report_id}: {e}")
+                        self.logger.error(f"Error processing report {report_id}: {e}")
                         continue
 
                     # Check max_reports limit
                     if max_reports and total_new >= max_reports:
-                        self.logger.info(
-                            f"Reached maximum new reports limit: {max_reports}"
-                        )
+                        self.logger.info(f"Reached maximum new reports limit: {max_reports}")
                         break
 
                 # Save processed reports if any new ones found
@@ -222,9 +219,7 @@ class GOAPIClient:
                     processing_log['batches'].append(batch_info)
                     batch_number += 1
                 else:
-                    self.logger.info(
-                        f"No new reports found in page {offset // config.DEFAULT_LIMIT}"
-                    )
+                    self.logger.info(f"No new reports found in page {offset // config.DEFAULT_LIMIT}")
 
                 # Check if there are more pages
                 next_url = page_data.get('next')
@@ -238,45 +233,53 @@ class GOAPIClient:
                 time.sleep(1)
 
             except Exception as e:
-                self.logger.error(
-                    f"Error fetching reports at offset {offset}: {e}")
+                self.logger.error(f"Error fetching reports at offset {offset}: {e}")
                 processing_log['error'] = str(e)
                 break
+
+        # Automatic Location Extraction for New Reports
+        location_summary = {}
+        if all_new_reports:
+            try:
+                self.logger.info(f"[LOCATION] Starting automatic location extraction for {len(all_new_reports)} new reports...")
+                location_summary = asyncio.run(location_manager.extract_locations_from_new_reports(all_new_reports))
+                self.logger.info(f"[LOCATION] Location extraction completed: {location_summary.get('total_new_extractions', 0)} successful")
+            except Exception as e:
+                self.logger.error(f"Location extraction failed: {e}")
+                location_summary = {
+                    'total_processed': len(all_new_reports),
+                    'total_new_extractions': 0,
+                    'total_locations_extracted': 0,
+                    'error': str(e)
+                }
 
         # Complete processing log
         processing_log['end_time'] = datetime.now().isoformat()
         processing_log['summary'] = {
-            'total_fetched':
-            total_fetched,
-            'total_new_reports':
-            total_new,
-            'total_skipped':
-            total_fetched - total_new,
-            'batches_created':
-            batch_number,
-            'initial_existing_reports':
-            processing_log['parameters']['existing_reports_count'],
-            'final_total_reports':
-            processing_log['parameters']['existing_reports_count'] + total_new,
-            'existing_reports_count':
-            len(existing_ids)
+            'total_fetched': total_fetched,
+            'total_new_reports': total_new,
+            'total_skipped': total_fetched - total_new,
+            'batches_created': batch_number,
+            'initial_existing_reports': processing_log['parameters']['existing_reports_count'],
+            'final_total_reports': processing_log['parameters']['existing_reports_count'] + total_new,
+            'existing_reports_count': len(existing_ids),
+            'location_extraction': location_summary  # Add location extraction summary
         }
 
         # Save processing log
         log_file = self.json_manager.save_processing_log(processing_log)
 
         if total_new > 0:
-            self.logger.info(
-                f"Successfully added {total_new} new field reports out of {total_fetched} total fetched"
-            )
+            self.logger.info(f"Successfully added {total_new} new field reports out of {total_fetched} total fetched")
+            if location_summary.get('total_new_extractions', 0) > 0:
+                self.logger.info(f"[LOCATION] Location extraction: {location_summary['total_new_extractions']} successful extractions, {location_summary.get('total_locations_extracted', 0)} total locations found")
         else:
-            self.logger.info(
-                f"No new reports found. All {total_fetched} fetched reports were duplicates"
-            )
+            self.logger.info(f"No new reports found. All {total_fetched} fetched reports were duplicates")
 
         self.logger.info(f"Processing log saved to {log_file}")
 
         return processing_log['summary']
+
 
     def get_recent_reports(self,
                            days: int = 7,
