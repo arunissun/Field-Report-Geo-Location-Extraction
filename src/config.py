@@ -22,7 +22,7 @@ class Config:
             print("❌ Config: GO_AUTH_TOKEN not found")
 
         # OpenAI Configuration (for future use)
-        self.OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
+        self.OPENAI_API_KEY = os.environ.get('Key')
         self.GEONAMES_USERNAME = os.environ.get('GEONAMES_USERNAME')
 
         # Pagination settings
@@ -31,7 +31,7 @@ class Config:
         self.REQUEST_TIMEOUT = 30
 
         # Date filtering - reports since January 1st, 2025
-        self.START_DATE = "2025-06-01T00:00:00Z"
+        self.START_DATE = "2025-07-01T00:00:00Z"
 
         # Required fields from API
         self.REQUIRED_FIELDS = [
@@ -43,6 +43,9 @@ class Config:
         self.RAW_DATA_DIR = "data/raw"
         self.PROCESSED_DATA_DIR = "data/processed"
         self.LOGS_DIR = "data/logs"
+        # Add this line after self.LOGS_DIR:
+        self.EXTRACTED_DATA_DIR = "data/extracted"
+
 
         # JSON file settings
         self.BATCH_SIZE = 50  # Number of reports per JSON file
