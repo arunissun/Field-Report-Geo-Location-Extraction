@@ -1,0 +1,44 @@
+{
+  "start_time": "2025-07-30T18:53:50.275450",
+  "parameters": {
+    "max_reports": null,
+    "created_at_gte": "2025-07-01T00:00:00Z",
+    "existing_reports_count": 0
+  },
+  "batches": [
+    {
+      "batch_number": 0,
+      "offset": 0,
+      "raw_file": "data/raw\\all_raw_reports.json",
+      "processed_file": "data/processed\\all_processed_reports.json",
+      "total_in_page": 50,
+      "new_reports": 50,
+      "skipped_existing": 0
+    },
+    {
+      "batch_number": 1,
+      "offset": 50,
+      "raw_file": "data/raw\\all_raw_reports.json",
+      "processed_file": "data/processed\\all_processed_reports.json",
+      "total_in_page": 9,
+      "new_reports": 9,
+      "skipped_existing": 0
+    }
+  ],
+  "summary": {
+    "total_fetched": 59,
+    "total_new_reports": 59,
+    "total_skipped": 0,
+    "batches_created": 2,
+    "initial_existing_reports": 0,
+    "final_total_reports": 59,
+    "existing_reports_count": 59,
+    "location_extraction": {
+      "total_processed": 59,
+      "total_new_extractions": 59,
+      "total_locations_extracted": 806,
+      "failed_extractions": 0
+    }
+  },
+  "end_time": "2025-07-30T18:56:01.109931"
+}
