@@ -11,7 +11,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add src to Python path so we can import our modules
-sys.path.append('src')
+src_dir = os.path.join(os.path.dirname(__file__), 'src')
+if src_dir not in sys.path:
+    sys.path.insert(0, src_dir)
 
 
 def main():
@@ -132,17 +134,31 @@ def main():
 
 
 def print_summary(summary: dict):
-    """Print processing summary with actual files created"""
+    """Print processing summary with location extraction results"""
     print("\n📋 Processing Summary:")
     print(f"   Total new reports: {summary['total_new_reports']}")
     print(f"   Total skipped (duplicates): {summary['total_skipped']}")
     print(f"   Batches created: {summary['batches_created']}")
     print(f"   Existing reports: {summary['existing_reports_count']}")
+    
+    # Add location extraction summary
+    location_info = summary.get('location_extraction', {})
+    if location_info:
+        print(f"\n🌍 Location Extraction Summary:")
+        print(f"   Reports processed for locations: {location_info.get('total_processed', 0)}")
+        print(f"   Successful extractions: {location_info.get('total_new_extractions', 0)}")
+        print(f"   Total locations found: {location_info.get('total_locations_extracted', 0)}")
+        if location_info.get('failed_extractions', 0) > 0:
+            print(f"   Failed extractions: {location_info['failed_extractions']}")
+        if location_info.get('error'):
+            print(f"   ⚠️ Error: {location_info['error']}")
 
     print("\n📁 Files status:")
     if summary['total_new_reports'] > 0:
         print("   ✅ Raw data file: Updated with new reports")
         print("   ✅ Processed data file: Updated with new reports")
+        if location_info.get('total_new_extractions', 0) > 0:
+            print("   ✅ Location extraction file: Updated with new extractions")
         print("   ✅ Processing log: Created")
     else:
         print("   📝 Raw data file: No changes (all reports were duplicates)")
@@ -152,7 +168,10 @@ def print_summary(summary: dict):
     print("\n📂 File locations:")
     print("   Raw data: data/raw/all_raw_reports.json")
     print("   Processed data: data/processed/all_processed_reports.json")
+    if location_info.get('total_new_extractions', 0) > 0:
+        print("   Location extractions: data/extracted/location_extraction_results.json")
     print("   Logs: data/logs/")
+
 
 
 def show_existing_reports(json_manager):
