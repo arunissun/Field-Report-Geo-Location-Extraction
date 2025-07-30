@@ -1,0 +1,20 @@
+{
+  "start_time": "2025-07-30T19:08:16.306078",
+  "parameters": {
+    "max_reports": null,
+    "created_at_gte": "2025-07-01T00:00:00Z",
+    "existing_reports_count": 59
+  },
+  "batches": [],
+  "summary": {
+    "total_fetched": 59,
+    "total_new_reports": 0,
+    "total_skipped": 59,
+    "batches_created": 0,
+    "initial_existing_reports": 59,
+    "final_total_reports": 59,
+    "existing_reports_count": 59,
+    "location_extraction": {}
+  },
+  "end_time": "2025-07-30T19:08:19.255014"
+}
