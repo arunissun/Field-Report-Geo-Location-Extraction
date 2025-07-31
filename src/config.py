@@ -31,7 +31,7 @@ class Config:
         self.REQUEST_TIMEOUT = 30
 
         # Date filtering - reports since January 1st, 2025
-        self.START_DATE = "2025-07-01T00:00:00Z"
+        self.START_DATE = "2025-07-23T00:00:00Z"
 
         # Required fields from API
         self.REQUIRED_FIELDS = [
