@@ -14,13 +14,6 @@ class Config:
         self.GO_API_BASE_URL = "https://goadmin.ifrc.org/api/v2/"
         self.GO_AUTH_TOKEN = os.environ.get('GO_AUTH_TOKEN')
 
-        # Debug: Print if token was found (remove this in production)
-        if self.GO_AUTH_TOKEN:
-            print(
-                f"✅ Config loaded GO_AUTH_TOKEN: {self.GO_AUTH_TOKEN[:10]}...")
-        else:
-            print("❌ Config: GO_AUTH_TOKEN not found")
-
         # OpenAI Configuration (for future use)
         self.OPENAI_API_KEY = os.environ.get('Key')
         self.GEONAMES_USERNAME = os.environ.get('GEONAMES_USERNAME')

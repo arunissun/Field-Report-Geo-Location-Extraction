@@ -23,12 +23,8 @@ def main():
 
     # Check if authentication token is configured
     if not os.environ.get('GO_AUTH_TOKEN'):
-        print("❌ Please set GO_AUTH_TOKEN in your Replit Secrets")
-        print("   Go to the 🔒 Secrets tab and add your IFRC GO API token")
-
+        print("❌ Please set GO_AUTH_TOKEN in your environment variables")
         return
-
-    print("✅ Authentication token found")
 
     try:
         # Import and test your existing GO API code
@@ -44,21 +40,19 @@ def main():
         existing_reports = json_manager.get_all_processed_reports()
         print(f"   Existing processed reports: {len(existing_reports)}")
 
-        # Get API stats
-        stats = client.get_api_stats()
-        print(
-            f"   Rate limit status: {stats['rate_limiting']['requests_last_minute']}/{stats['rate_limiting']['requests_per_minute_limit']} requests/minute"
-        )
-
         # Ask user what they want to do
         print("\n🔧 What would you like to do?")
         print("   1. Fetch recent reports (last 7 days, max 50)")
         print("   2. Fetch all reports since January 1st, 2025 (max 100)")
-        print("   3. Fetch specific number of reports")
+        print("   3. Fetch specific number of reports [DEFAULT]")
         print("   4. Show existing processed reports")
         print("   5. Run tests")
 
-        choice = input("\nEnter your choice (1-5): ").strip()
+        choice = input("\nEnter your choice (1-5, or press Enter for default): ").strip()
+        
+        # Set default to option 3 if no input provided
+        if choice == "":
+            choice = "3"
 
         if choice == "1":
             print("\n📥 Fetching recent reports...")
