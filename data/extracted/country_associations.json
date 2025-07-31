@@ -1,0 +1,900 @@
+{
+  "metadata": {
+    "total_associations": 31,
+    "successful_associations": 30,
+    "failed_associations": 1,
+    "last_updated": "2025-07-31T20:23:01.144280",
+    "new_associations_added": 31,
+    "model_used": "Azure OpenAI GPT-3.5 Turbo",
+    "output_format": "simplified_flat_structure"
+  },
+  "associations": [
+    {
+      "field_report_id": 17836,
+      "success": true,
+      "countries": [
+        "El Salvador"
+      ],
+      "elsalvador_states": [
+        "Ahuachapán"
+      ],
+      "elsalvador_cities": [
+        "San Lorenzo"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (El Salvador) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:10.239872"
+    },
+    {
+      "field_report_id": 17835,
+      "success": true,
+      "countries": [
+        "Indonesia"
+      ],
+      "indonesia_states": [
+        "Central Sulawesi"
+      ],
+      "indonesia_cities": [
+        "Bungku",
+        "Kolonodale",
+        "Mangkutana",
+        "Mappadeceng",
+        "Palu",
+        "Poso"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Indonesia) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:10.239872"
+    },
+    {
+      "field_report_id": 17834,
+      "countries": [
+        "Chile",
+        "Russia"
+      ],
+      "confidence_notes": "Assignments made based on precise geographic knowledge and administrative boundaries.",
+      "chile_states": [
+        "Antofagasta",
+        "Araucanía",
+        "Arica and Parinacota",
+        "Atacama",
+        "Biobío",
+        "Coquimbo",
+        "Los Lagos",
+        "Los Ríos",
+        "Magallanes",
+        "Maule",
+        "O'Higgins",
+        "Tarapacá",
+        "Valparaiso",
+        "Ñuble",
+        "Aysén"
+      ],
+      "chile_cities": [
+        "Antofagasta",
+        "Arica",
+        "Caldera",
+        "Castro",
+        "Chanaral",
+        "Constitución",
+        "Coquimbo",
+        "Coronel",
+        "Corral",
+        "Huasco",
+        "Iquique",
+        "Lebu",
+        "Mejillones",
+        "Patache",
+        "Pichidangui",
+        "Pisagua",
+        "Puerto Montt",
+        "Punta Arenas",
+        "Punta de Choros",
+        "Quintero",
+        "San Antonio",
+        "Talcahuano",
+        "Taltal",
+        "Tocopilla",
+        "Valparaíso",
+        "Ancud",
+        "Bahía Gregorio",
+        "Bahía Mansa",
+        "Boyeruca",
+        "Caleta Meteoro",
+        "Caleta Paposo",
+        "Coliumo",
+        "Easter Island",
+        "Juan Fernandez",
+        "Nehuentue",
+        "Port Melinka",
+        "Puerto Aguirre",
+        "Puerto Aldea",
+        "Puerto Chacabuco",
+        "Puerto Eden",
+        "Puerto Natales",
+        "Puerto Williams",
+        "Queule",
+        "Quiriquina Island",
+        "San Félix"
+      ],
+      "russia_states": [
+        "Kamchatka"
+      ],
+      "russia_cities": [
+        "Petropavlovsk"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [
+        "Antarctica Base Ohiggins",
+        "Antarctica Base Prat",
+        "Corral"
+      ],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:13.758089"
+    },
+    {
+      "field_report_id": 17833,
+      "countries": [
+        "Russia",
+        "USA"
+      ],
+      "confidence_notes": "The Kamchatka Peninsula is located in Russia.",
+      "russia_states": [
+        "Kamchatsky Peninsula"
+      ],
+      "russia_cities": [],
+      "usa_states": [],
+      "usa_cities": [],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:17.724350"
+    },
+    {
+      "field_report_id": 17832,
+      "success": true,
+      "countries": [
+        "Chile"
+      ],
+      "chile_states": [
+        "Antofagasta Region",
+        "Atacama Region"
+      ],
+      "chile_cities": [
+        "Antofagasta"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Chile) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:17.726353"
+    },
+    {
+      "field_report_id": 17831,
+      "countries": [
+        "Antarctica",
+        "Chile",
+        "Russia"
+      ],
+      "confidence_notes": "High confidence based on precise geographic knowledge",
+      "antarctica_states": [],
+      "antarctica_cities": [],
+      "chile_states": [
+        "Antofagasta",
+        "Arica and Parinacota",
+        "Atacama",
+        "Aysén",
+        "Biobío",
+        "Coquimbo",
+        "La Araucanía",
+        "Los Lagos",
+        "Los Ríos",
+        "Magallanes",
+        "Maule",
+        "O'Higgins",
+        "Tarapacá",
+        "Valparaíso",
+        "Ñuble"
+      ],
+      "chile_cities": [
+        "Ancud",
+        "Antofagasta",
+        "Arica",
+        "Caldera",
+        "Castro",
+        "Chanaral",
+        "Constitución",
+        "Coquimbo",
+        "Coronel",
+        "Corral",
+        "Huasco",
+        "Iquique",
+        "Lebu",
+        "Pichidangui",
+        "Pisagua",
+        "Puerto Montt",
+        "Puerto Natales",
+        "Punta Arenas",
+        "Quintero",
+        "San Antonio",
+        "Talcahuano",
+        "Taltal",
+        "Tocopilla",
+        "Valparaíso",
+        "Bahía Gregorio",
+        "Bahía Mansa",
+        "Boyeruca",
+        "Caleta Meteoro",
+        "Caleta Paposo",
+        "Coliumo",
+        "Easter Island",
+        "Juan Fernandez",
+        "Nehuentue",
+        "Port Melinka",
+        "Puerto Aguirre",
+        "Puerto Aldea",
+        "Puerto Chacabuco",
+        "Puerto Eden",
+        "Puerto Williams",
+        "Queule",
+        "Quiriquina Island",
+        "San Félix"
+      ],
+      "russia_states": [],
+      "russia_cities": [
+        "Petropavlovsk-Kamchatsky"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [
+        "Corral",
+        "Mussels",
+        "Patache",
+        "Punta de Choros"
+      ],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:21.275342"
+    },
+    {
+      "field_report_id": 17830,
+      "countries": [
+        "Costa Rica",
+        "Russia"
+      ],
+      "confidence_notes": "High confidence based on precise geographic knowledge.",
+      "costarica_states": [
+        "Guanacaste",
+        "Puntarenas"
+      ],
+      "costarica_cities": [
+        "Liberia",
+        "Nicoya",
+        "Puntarenas",
+        "Quepos"
+      ],
+      "russia_states": [
+        "Kamchatka Krai"
+      ],
+      "russia_cities": [
+        "Petropavlovsk-Kamchatsky"
+      ],
+      "unassigned_states": [
+        "Central Pacific region",
+        "North Pacific region",
+        "South Pacific region"
+      ],
+      "unassigned_cities": [
+        "Carrillo",
+        "Cocos Island",
+        "Esparza",
+        "Garabito",
+        "Golfito",
+        "Hojancha",
+        "La Cruz",
+        "Nandayure",
+        "Osa",
+        "Parrita",
+        "Santa Cruz",
+        "Santa Cruz"
+      ],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:26.178567"
+    },
+    {
+      "field_report_id": 17829,
+      "countries": [
+        "Peru",
+        "Russia"
+      ],
+      "confidence_notes": "All assignments are based on precise geographic knowledge.",
+      "peru_states": [],
+      "peru_cities": [
+        "Atico",
+        "Callao",
+        "Cerro Azul",
+        "Chimbote",
+        "Huacho",
+        "Huarmey",
+        "Ilo",
+        "Matarani",
+        "Paita",
+        "Pimentel",
+        "Pisco",
+        "Puerto La Cruz",
+        "Salaverry",
+        "San Juan",
+        "Talara"
+      ],
+      "russia_states": [],
+      "russia_cities": [
+        "Petropavlovsk-Kamchatsky"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [
+        "La Cruz"
+      ],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:27.614058"
+    },
+    {
+      "field_report_id": 17828,
+      "success": true,
+      "countries": [
+        "Chile"
+      ],
+      "chile_states": [
+        "Biobío",
+        "Los Ríos",
+        "Maule",
+        "O'Higgins",
+        "The Araucanía",
+        "The Lakes",
+        "Ñuble"
+      ],
+      "chile_cities": [
+        "Cochamó",
+        "Fresia",
+        "Maullín",
+        "Muermos",
+        "Río Negro",
+        "San Juan de La Costa",
+        "Valdivia"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Chile) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:27.615053"
+    },
+    {
+      "field_report_id": 17826,
+      "countries": [
+        "Kenya",
+        "Somalia"
+      ],
+      "confidence_notes": "Jubaland State is located in Somalia, Bulla Hawa is in Somalia, Mandera Town is in Kenya",
+      "kenya_states": [
+        "Mandera"
+      ],
+      "kenya_cities": [
+        "Mandera Town"
+      ],
+      "somalia_states": [
+        "Jubaland"
+      ],
+      "somalia_cities": [
+        "Bulla Hawa"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:31.899833"
+    },
+    {
+      "field_report_id": 17825,
+      "countries": [
+        "Japan",
+        "Russia"
+      ],
+      "confidence_notes": "High confidence based on precise geographic knowledge",
+      "japan_states": [
+        "Hokkaido",
+        "Kanto",
+        "Tohoku"
+      ],
+      "japan_cities": [
+        "Ishinomaki",
+        "Kuji",
+        "Nemuro",
+        "Yokohama"
+      ],
+      "russia_states": [],
+      "russia_cities": [
+        "Petropavlovsk-Kamchatsky"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:33.272356"
+    },
+    {
+      "field_report_id": 17824,
+      "countries": [
+        "Chile",
+        "Russia"
+      ],
+      "confidence_notes": "High confidence based on precise geographic knowledge.",
+      "chile_states": [
+        "Antofagasta",
+        "Araucania",
+        "Arica and Parinacota",
+        "Atacama",
+        "Biobio",
+        "Coquimbo",
+        "Los Lagos",
+        "Los Rios",
+        "Magallanes",
+        "Maule",
+        "Nuble",
+        "O'Higgins",
+        "Tarapaca",
+        "Valparaiso",
+        "Aysen"
+      ],
+      "chile_cities": [
+        "Ancud",
+        "Antofagasta",
+        "Caldera",
+        "Castro",
+        "Coquimbo",
+        "Iquique",
+        "Puerto Montt",
+        "Quintero",
+        "San Antonio",
+        "Tocopilla",
+        "Valparaiso"
+      ],
+      "russia_states": [],
+      "russia_cities": [
+        "Petropavlovsk"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [
+        "Huasco",
+        "Mejillones"
+      ],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:35.295945"
+    },
+    {
+      "field_report_id": 17823,
+      "countries": [
+        "El Salvador",
+        "Guatemala"
+      ],
+      "confidence_notes": "Jutiapa is a department in Guatemala.",
+      "elsalvador_states": [],
+      "elsalvador_cities": [],
+      "guatemala_states": [
+        "Jutiapa"
+      ],
+      "guatemala_cities": [],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:39.190784"
+    },
+    {
+      "field_report_id": 17822,
+      "success": true,
+      "countries": [
+        "Greece"
+      ],
+      "greece_states": [
+        "Achaea Region",
+        "Attica",
+        "Central and Northern Euboea (Evia)",
+        "Chania (Crete)",
+        "Epirus Region",
+        "Messinia (Peloponnese)",
+        "Northern Greece"
+      ],
+      "greece_cities": [
+        "Aetos",
+        "Ioannina",
+        "Kryoneri",
+        "Monastiri",
+        "Patra",
+        "Pedini",
+        "Polithea",
+        "Serres",
+        "Temenia"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Greece) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:39.191786"
+    },
+    {
+      "field_report_id": 17821,
+      "countries": [
+        "Angola",
+        "Democratic Republic of Congo"
+      ],
+      "confidence_notes": "Based on precise geographic knowledge and administrative boundaries",
+      "angola_states": [],
+      "angola_cities": [],
+      "democraticrepublicofcongo_states": [
+        "Equateur",
+        "Kinshasa"
+      ],
+      "democraticrepublicofcongo_cities": [
+        "Loukoléla",
+        "Mbamou",
+        "Mossaka"
+      ],
+      "unassigned_states": [
+        "Kabinda"
+      ],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:40.356889"
+    },
+    {
+      "field_report_id": 17820,
+      "success": true,
+      "countries": [
+        "Thailand"
+      ],
+      "thailand_states": [
+        "Chiang Mai",
+        "Chiang Rai",
+        "Lampang",
+        "Loei",
+        "Mae Hong Son",
+        "Nan",
+        "Phayao",
+        "Phrae",
+        "Sukhothai",
+        "Tak",
+        "Uttaradit"
+      ],
+      "thailand_cities": [
+        "Mueang",
+        "Tha Wang Pha"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Thailand) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:43.368057"
+    },
+    {
+      "field_report_id": 17819,
+      "success": true,
+      "countries": [
+        "Vietnam"
+      ],
+      "vietnam_states": [
+        "Dien Bien",
+        "Lao Cai",
+        "Nghe An",
+        "Ninh Binh",
+        "Phu Tho",
+        "Quang Tri",
+        "Son La",
+        "Thanh Hoa"
+      ],
+      "vietnam_cities": [
+        "Anh Son",
+        "Ban Con",
+        "Chieng So",
+        "Muong Luan",
+        "Na Cai 2",
+        "Nhan Hoa",
+        "Tan Lap",
+        "Tan Trung",
+        "Tia Dinh",
+        "Vinh Tuong"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Vietnam) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:43.368057"
+    },
+    {
+      "field_report_id": 17818,
+      "countries": [
+        "Cambodia",
+        "Thailand"
+      ],
+      "confidence_notes": "Assignments made based on precise geographic knowledge and administrative boundaries.",
+      "cambodia_states": [
+        "Banteay Meanchey",
+        "Battambang",
+        "Oddar Meanchey",
+        "Preah Vihear",
+        "Pursat",
+        "Siem Reap"
+      ],
+      "cambodia_cities": [],
+      "thailand_states": [
+        "Burirum",
+        "Sisaket",
+        "Surin",
+        "Ubon Ratchathani"
+      ],
+      "thailand_cities": [
+        "Buachet",
+        "Chalerm Phrakiat",
+        "Na Chaluai",
+        "Sangkha"
+      ],
+      "unassigned_states": [
+        "Koh Kong"
+      ],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:44.937875"
+    },
+    {
+      "field_report_id": 17817,
+      "success": true,
+      "countries": [
+        "Nigeria"
+      ],
+      "nigeria_states": [
+        "Adamawa State"
+      ],
+      "nigeria_cities": [
+        "Yola"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Nigeria) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:47.941374"
+    },
+    {
+      "field_report_id": 17816,
+      "success": true,
+      "countries": [
+        "Nepal"
+      ],
+      "nepal_states": [
+        "Madhesh Province (Province-2)"
+      ],
+      "nepal_cities": [],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Nepal) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:47.941374"
+    },
+    {
+      "field_report_id": 17815,
+      "success": true,
+      "countries": [
+        "Ecuador"
+      ],
+      "ecuador_states": [
+        "Tungurahua"
+      ],
+      "ecuador_cities": [
+        "El Triunfo",
+        "La Matriz",
+        "Patate"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Ecuador) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:47.941374"
+    },
+    {
+      "field_report_id": 17814,
+      "success": true,
+      "countries": [
+        "Ecuador"
+      ],
+      "ecuador_states": [
+        "Pichincha"
+      ],
+      "ecuador_cities": [
+        "Caupicho",
+        "Chillogallo",
+        "Ciudadela Ejército",
+        "Guamaní",
+        "La Forestal",
+        "Nueva Aurora",
+        "Puengasí",
+        "Quito"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Ecuador) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:50.948532"
+    },
+    {
+      "field_report_id": 17813,
+      "success": false,
+      "error": "No states/regions or cities/towns to associate",
+      "processed_at": "2025-07-31T20:22:50.948532"
+    },
+    {
+      "field_report_id": 17812,
+      "success": true,
+      "countries": [
+        "Mongolia"
+      ],
+      "mongolia_states": [
+        "Sukhbaatar Province",
+        "Tuv Province"
+      ],
+      "mongolia_cities": [
+        "Argalant",
+        "Bayankhangai",
+        "Erdenesant",
+        "Halzan",
+        "Lun",
+        "Songinokhairkhan District",
+        "Tumentsogt",
+        "Ulaanbaatar",
+        "Uulbayan",
+        "Zuunmod"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Mongolia) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:50.949528"
+    },
+    {
+      "field_report_id": 17811,
+      "countries": [
+        "Cambodia",
+        "Thailand"
+      ],
+      "confidence_notes": "Based on precise geographic knowledge and administrative boundaries.",
+      "cambodia_states": [
+        "Oddar Meanchey",
+        "Preah Vihear"
+      ],
+      "cambodia_cities": [],
+      "thailand_states": [
+        "Si Saket",
+        "Surin",
+        "Ubon Ratchathani"
+      ],
+      "thailand_cities": [
+        "Kantharalak"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "success": true,
+      "processed_at": "2025-07-31T20:22:55.132139"
+    },
+    {
+      "field_report_id": 17810,
+      "success": true,
+      "countries": [
+        "Thailand"
+      ],
+      "thailand_states": [
+        "Chiang Mai",
+        "Chiang Rai",
+        "Kanchanaburi",
+        "Lampang",
+        "Loei",
+        "Mae Hong Son",
+        "Nan",
+        "Phayao",
+        "Tak"
+      ],
+      "thailand_cities": [
+        "Tha Wang Pha"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Thailand) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:55.133141"
+    },
+    {
+      "field_report_id": 17809,
+      "success": true,
+      "countries": [
+        "Samoa"
+      ],
+      "samoa_states": [
+        "Upolu"
+      ],
+      "samoa_cities": [
+        "Apia"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Samoa) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:55.133141"
+    },
+    {
+      "field_report_id": 17808,
+      "success": true,
+      "countries": [
+        "Pakistan"
+      ],
+      "pakistan_states": [
+        "AJK",
+        "Balochistan",
+        "Khyber Pakhtunkhwa",
+        "Punjab",
+        "Sindh"
+      ],
+      "pakistan_cities": [
+        "Kurram",
+        "Shigar",
+        "Swat",
+        "Upper Dir"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Pakistan) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:58.139887"
+    },
+    {
+      "field_report_id": 17807,
+      "success": true,
+      "countries": [
+        "The Gambia"
+      ],
+      "thegambia_states": [
+        "Western One Health Region"
+      ],
+      "thegambia_cities": [
+        "Faji-kunda",
+        "Kunkujang Keitaya"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (The Gambia) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:58.139887"
+    },
+    {
+      "field_report_id": 17806,
+      "success": true,
+      "countries": [
+        "Viet Nam"
+      ],
+      "vietnam_states": [
+        "Hung Yen",
+        "Nghe An",
+        "Ninh Binh",
+        "Phu Tho",
+        "Thanh Hoa"
+      ],
+      "vietnam_cities": [],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Viet Nam) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:22:58.140939"
+    },
+    {
+      "field_report_id": 17805,
+      "success": true,
+      "countries": [
+        "Lao PDR"
+      ],
+      "laopdr_states": [
+        "Bolikhamxay",
+        "Khammuane",
+        "Luang Prabang",
+        "Vientiane",
+        "Xayabouly",
+        "Xaysomboun",
+        "Xieng Khouang"
+      ],
+      "laopdr_cities": [
+        "Kasi",
+        "Thathom",
+        "Vang Vieng"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Lao PDR) - all locations assigned automatically",
+      "processed_at": "2025-07-31T20:23:01.144280"
+    }
+  ]
+}
