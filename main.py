@@ -17,15 +17,28 @@ if src_dir not in sys.path:
 
 
 def main():
-    """Main function to demonstrate JSON-based pipeline"""
-    print("🌍 Field Reports Geolocation Pipeline (JSON Version)")
+    """Main function with automatic and interactive modes"""
+    print("Field Reports Geolocation Pipeline (JSON Version)")
     print("=" * 60)
 
     # Check if authentication token is configured
     if not os.environ.get('GO_AUTH_TOKEN'):
-        print("❌ Please set GO_AUTH_TOKEN in your environment variables")
+        print("ERROR: Please set GO_AUTH_TOKEN in your environment variables")
         return
 
+    # Check if running in automatic mode (for scheduled execution)
+    auto_mode = os.environ.get('AUTO_MODE', 'false').lower() == 'true'
+    
+    if auto_mode:
+        print("Running in AUTOMATIC MODE (scheduled execution)")
+        run_automatic_mode()
+    else:
+        print("Running in INTERACTIVE MODE")
+        run_interactive_mode()
+
+
+def run_automatic_mode():
+    """Run automatically without user input - for scheduled execution"""
     try:
         # Import and test your existing GO API code
         from go_api_client import GOAPIClient
@@ -36,36 +49,55 @@ def main():
         client = GOAPIClient()
         json_manager = JSONManager(config)
 
-        print("\n📊 Current Status:")
+        print("\nCurrent Status:")
         existing_reports = json_manager.get_all_processed_reports()
         print(f"   Existing processed reports: {len(existing_reports)}")
 
-        # Ask user what they want to do
-        print("\n🔧 What would you like to do?")
-        print("   1. Fetch recent reports (last 7 days, max 50)")
-        print("   2. Fetch all reports since January 1st, 2025 (max 100)")
+        # Run automatically - fetch all available reports
+        print("\nRunning automatic field report processing...")
+        print("   Fetching ALL available reports...")
+        
+        summary = client.fetch_and_save_all_reports(max_reports=None)
+        print_summary(summary)
+
+    except ImportError as e:
+        print(f"WARNING: Module not found: {e}")
+        print("HINT: Make sure you've copied all the code files to the src/ folder")
+        print("HINT: Also check that your .env file is properly configured")
+    except Exception as e:
+        print(f"ERROR: {e}")
+        logging.error(f"Main execution error: {e}", exc_info=True)
+
+
+def run_interactive_mode():
+    """Run with user interaction - for manual execution"""
+    try:
+        # Import and test your existing GO API code
+        from go_api_client import GOAPIClient
+        from json_manager import JSONManager
+        from config import config
+
+        # Initialize client
+        client = GOAPIClient()
+        json_manager = JSONManager(config)
+
+        print("\nCurrent Status:")
+        existing_reports = json_manager.get_all_processed_reports()
+        print(f"   Existing processed reports: {len(existing_reports)}")
+
+        # Ask user what they want to do (only options 3, 4, 5)
+        print("\nWhat would you like to do?")
         print("   3. Fetch specific number of reports [DEFAULT]")
         print("   4. Show existing processed reports")
         print("   5. Run tests")
 
-        choice = input("\nEnter your choice (1-5, or press Enter for default): ").strip()
+        choice = input("\nEnter your choice (3-5, or press Enter for default): ").strip()
         
         # Set default to option 3 if no input provided
         if choice == "":
             choice = "3"
 
-        if choice == "1":
-            print("\n📥 Fetching recent reports...")
-            summary = client.fetch_and_save_all_reports(max_reports=50,
-                                                        created_at_gte=None)
-            print_summary(summary)
-
-        elif choice == "2":
-            print("\n📥 Fetching all reports since January 1st, 2025...")
-            summary = client.fetch_and_save_all_reports(max_reports=100)
-            print_summary(summary)
-
-        elif choice == "3":
+        if choice == "3":
             try:
                 user_input = input(
                     "Enter maximum number of reports to fetch (or press Enter for all): "
@@ -73,63 +105,58 @@ def main():
 
                 if user_input == "":
                     max_reports = None  # No limit - fetch all available reports
-                    print("\n📥 Fetching ALL available reports...")
+                    print("\nFetching ALL available reports...")
                 else:
                     max_reports = int(user_input)
-                    print(f"\n📥 Fetching up to {max_reports} reports...")
+                    print(f"\nFetching up to {max_reports} reports...")
 
-                summary = client.fetch_and_save_all_reports(
-                    max_reports=max_reports)
+                summary = client.fetch_and_save_all_reports(max_reports=max_reports)
                 print_summary(summary)
             except ValueError:
-                print(
-                    "❌ Please enter a valid number or press Enter for all reports"
-                )
+                print("ERROR: Please enter a valid number or press Enter for all reports")
 
         elif choice == "4":
             show_existing_reports(json_manager)
 
         elif choice == "5":
-            # Fixed test import - more robust approach
-            try:
-                # Try direct import first
-
-                from tests.test_api_client import run_all_tests
-                run_all_tests()
-            except ImportError:
-                # Fallback: run test file directly
-                import subprocess
-                try:
-                    print("Running tests directly...")
-                    result = subprocess.run(
-                        ['python', 'tests/test_api_client.py'],
-                        capture_output=True,
-                        text=True)
-                    print(result.stdout)
-                    if result.stderr:
-                        print("Errors:", result.stderr)
-                except Exception as e:
-                    print(f"❌ Could not run tests: {e}")
-                    print(
-                        "💡 Make sure test_api_client.py exists in the tests/ folder"
-                    )
+            run_tests()
 
         else:
-            print("❌ Invalid choice")
+            print("ERROR: Invalid choice. Please choose 3, 4, or 5.")
 
     except ImportError as e:
-        print(f"⚠️  Module not found: {e}")
-        print(
-            "💡 Make sure you've copied all the code files to the src/ folder")
-        print("💡 Also check that your .env file is properly configured")
+        print(f"WARNING: Module not found: {e}")
+        print("HINT: Make sure you've copied all the code files to the src/ folder")
+        print("HINT: Also check that your .env file is properly configured")
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f"ERROR: {e}")
         logging.error(f"Main execution error: {e}", exc_info=True)
+
+
+def run_tests():
+    """Run tests"""
+    try:
+        from tests.test_api_client import run_all_tests
+        run_all_tests()
+    except ImportError:
+        import subprocess
+        try:
+            print("Running tests directly...")
+            result = subprocess.run(
+                ['python', 'tests/test_api_client.py'],
+                capture_output=True,
+                text=True)
+            print(result.stdout)
+            if result.stderr:
+                print("Errors:", result.stderr)
+        except Exception as e:
+            print(f"ERROR: Could not run tests: {e}")
+            print("HINT: Make sure test_api_client.py exists in the tests/ folder")
 
 
 def print_summary(summary: dict):
     """Print processing summary with location extraction results"""
-    print("\n📋 Processing Summary:")
+    print("\nProcessing Summary:")
     print(f"   Total new reports: {summary['total_new_reports']}")
     print(f"   Total skipped (duplicates): {summary['total_skipped']}")
     print(f"   Batches created: {summary['batches_created']}")
@@ -138,28 +165,28 @@ def print_summary(summary: dict):
     # Add location extraction summary
     location_info = summary.get('location_extraction', {})
     if location_info:
-        print(f"\n🌍 Location Extraction Summary:")
+        print(f"\nLocation Extraction Summary:")
         print(f"   Reports processed for locations: {location_info.get('total_processed', 0)}")
         print(f"   Successful extractions: {location_info.get('total_new_extractions', 0)}")
         print(f"   Total locations found: {location_info.get('total_locations_extracted', 0)}")
         if location_info.get('failed_extractions', 0) > 0:
             print(f"   Failed extractions: {location_info['failed_extractions']}")
         if location_info.get('error'):
-            print(f"   ⚠️ Error: {location_info['error']}")
+            print(f"   WARNING: {location_info['error']}")
 
-    print("\n📁 Files status:")
+    print("\nFiles status:")
     if summary['total_new_reports'] > 0:
-        print("   ✅ Raw data file: Updated with new reports")
-        print("   ✅ Processed data file: Updated with new reports")
+        print("   SUCCESS: Raw data file: Updated with new reports")
+        print("   SUCCESS: Processed data file: Updated with new reports")
         if location_info.get('total_new_extractions', 0) > 0:
-            print("   ✅ Location extraction file: Updated with new extractions")
-        print("   ✅ Processing log: Created")
+            print("   SUCCESS: Location extraction file: Updated with new extractions")
+        print("   SUCCESS: Processing log: Created")
     else:
-        print("   📝 Raw data file: No changes (all reports were duplicates)")
-        print("   📝 Processed data file: No changes (no new reports)")
-        print("   ✅ Processing log: Created")
+        print("   INFO: Raw data file: No changes (all reports were duplicates)")
+        print("   INFO: Processed data file: No changes (no new reports)")
+        print("   SUCCESS: Processing log: Created")
 
-    print("\n📂 File locations:")
+    print("\nFile locations:")
     print("   Raw data: data/raw/all_raw_reports.json")
     print("   Processed data: data/processed/all_processed_reports.json")
     if location_info.get('total_new_extractions', 0) > 0:
@@ -173,10 +200,10 @@ def show_existing_reports(json_manager):
     reports = json_manager.get_all_processed_reports()
 
     if not reports:
-        print("📭 No processed reports found")
+        print("No processed reports found")
         return
 
-    print(f"\n📚 Found {len(reports)} processed reports:")
+    print(f"\nFound {len(reports)} processed reports:")
 
     # Show first 5 reports as examples
     for i, report in enumerate(reports[:5], 1):
