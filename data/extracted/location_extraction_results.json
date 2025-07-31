@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "total_extractions": 59,
-    "successful_extractions": 59,
+    "total_extractions": 32,
+    "successful_extractions": 32,
     "failed_extractions": 0,
-    "total_locations_extracted": 707,
+    "total_locations_extracted": 474,
     "locations_by_category": {
-      "countries": 81,
-      "states_regions": 200,
-      "cities_towns": 292,
-      "administrative_areas": 134
+      "countries": 44,
+      "states_regions": 149,
+      "cities_towns": 225,
+      "administrative_areas": 56
     },
-    "last_updated": "2025-07-30T19:28:07.789419",
-    "new_extractions_added": 59,
+    "last_updated": "2025-07-31T20:22:10.214773",
+    "new_extractions_added": 32,
     "extraction_info": {
       "model_used": "Azure OpenAI GPT-3.5 Turbo",
       "extraction_fields": [
@@ -20,15 +20,255 @@
         "cities_towns",
         "administrative_areas"
       ],
-      "processing_date": "2025-07-30T19:28:07.789419"
+      "processing_date": "2025-07-31T20:22:10.214773"
     }
   },
   "extractions": [
     {
+      "id": 17836,
+      "success": true,
+      "extracted_at": "2025-07-31T20:21:02.784588",
+      "total_locations_found": 4,
+      "countries": [
+        "El Salvador"
+      ],
+      "states_regions": [
+        "Ahuachapán"
+      ],
+      "cities_towns": [
+        "San Lorenzo"
+      ],
+      "administrative_areas": [
+        "district of San Lorenzo"
+      ],
+      "confidence_notes": "High confidence in extraction"
+    },
+    {
+      "id": 17835,
+      "success": true,
+      "extracted_at": "2025-07-31T20:21:03.048206",
+      "total_locations_found": 10,
+      "countries": [
+        "Indonesia"
+      ],
+      "states_regions": [
+        "Central Sulawesi"
+      ],
+      "cities_towns": [
+        "Bungku",
+        "Kolonodale",
+        "Mangkutana",
+        "Mappadeceng",
+        "Palu",
+        "Poso"
+      ],
+      "administrative_areas": [
+        "Pamona Tenggara District",
+        "Poso Regency"
+      ],
+      "confidence_notes": "High confidence in extraction"
+    },
+    {
+      "id": 17834,
+      "success": true,
+      "extracted_at": "2025-07-31T20:21:05.277338",
+      "total_locations_found": 66,
+      "countries": [
+        "Chile",
+        "Russia"
+      ],
+      "states_regions": [
+        "Antofagasta",
+        "Araucanía",
+        "Arica and Parinacota",
+        "Atacama",
+        "Aysén",
+        "Biobío",
+        "Coquimbo",
+        "Kamchatka",
+        "Los Lagos",
+        "Los Ríos",
+        "Magallanes",
+        "Maule",
+        "O'Higgins",
+        "Tarapacá",
+        "Valparaiso",
+        "Ñuble"
+      ],
+      "cities_towns": [
+        "Ancud",
+        "Antarctica Base Ohiggins",
+        "Antarctica Base Prat",
+        "Antofagasta",
+        "Arica",
+        "Bahía Gregorio",
+        "Bahía Mansa",
+        "Boyeruca",
+        "Caldera",
+        "Caleta Meteoro",
+        "Caleta Paposo",
+        "Castro",
+        "Chanaral",
+        "Coliumo",
+        "Constitution",
+        "Coquimbo",
+        "Coronel",
+        "Corral",
+        "Easter Island",
+        "Huasco",
+        "Iquique",
+        "Juan Fernandez",
+        "Lebu",
+        "Mejillones",
+        "Nehuentue",
+        "Patache",
+        "Petropavlovsk",
+        "Pichidangui",
+        "Pisagua",
+        "Port Melinka",
+        "Puerto Aguirre",
+        "Puerto Aldea",
+        "Puerto Chacabuco",
+        "Puerto Eden",
+        "Puerto Montt",
+        "Puerto Natales",
+        "Puerto Williams",
+        "Punta Arenas",
+        "Punta de Choros",
+        "Queule",
+        "Quintero",
+        "Quiriquina Island",
+        "San Antonio",
+        "San Félix",
+        "Talcahuano",
+        "Taltal",
+        "Tocopilla",
+        "Valparaíso"
+      ],
+      "administrative_areas": [],
+      "confidence_notes": "High precision extraction"
+    },
+    {
+      "id": 17833,
+      "success": true,
+      "extracted_at": "2025-07-31T20:21:11.009928",
+      "total_locations_found": 3,
+      "countries": [
+        "Russia",
+        "USA"
+      ],
+      "states_regions": [
+        "Kamchatsky Peninsula"
+      ],
+      "cities_towns": [],
+      "administrative_areas": [],
+      "confidence_notes": "High confidence in extraction"
+    },
+    {
+      "id": 17832,
+      "success": true,
+      "extracted_at": "2025-07-31T20:21:11.173977",
+      "total_locations_found": 6,
+      "countries": [
+        "Chile"
+      ],
+      "states_regions": [
+        "Antofagasta Region",
+        "Atacama Region"
+      ],
+      "cities_towns": [
+        "Antofagasta"
+      ],
+      "administrative_areas": [
+        "Antofagasta Region",
+        "Atacama Region"
+      ],
+      "confidence_notes": "High confidence in the extraction of geographic locations"
+    },
+    {
+      "id": 17831,
+      "success": true,
+      "extracted_at": "2025-07-31T20:21:13.190878",
+      "total_locations_found": 65,
+      "countries": [
+        "Antarctica",
+        "Chile",
+        "Russia"
+      ],
+      "states_regions": [
+        "Antofagasta",
+        "Arica and Parinacota",
+        "Atacama",
+        "Aysén",
+        "Biobío",
+        "Coquimbo",
+        "La Araucanía",
+        "Los Lagos",
+        "Los Ríos",
+        "Magallanes",
+        "Maule",
+        "O'Higgins",
+        "Tarapacá",
+        "Valparaíso",
+        "Ñuble"
+      ],
+      "cities_towns": [
+        "Ancud",
+        "Antofagasta",
+        "Arica",
+        "Bahía Gregorio",
+        "Bahía Mansa",
+        "Boyeruca",
+        "Caldera",
+        "Caleta Meteoro",
+        "Caleta Paposo",
+        "Castro",
+        "Chanaral",
+        "Coliumo",
+        "Constitution",
+        "Coquimbo",
+        "Coronel",
+        "Corral",
+        "Easter Island",
+        "Huasco",
+        "Iquique",
+        "Juan Fernandez",
+        "Lebu",
+        "Mussels",
+        "Nehuentue",
+        "Patache",
+        "Petropavlovsk-Kamchatsky",
+        "Pichidangui",
+        "Pisagua",
+        "Port Melinka",
+        "Puerto Aguirre",
+        "Puerto Aldea",
+        "Puerto Chacabuco",
+        "Puerto Eden",
+        "Puerto Montt",
+        "Puerto Natales",
+        "Puerto Williams",
+        "Punta Arenas",
+        "Punta de Choros",
+        "Queule",
+        "Quintero",
+        "Quiriquina Island",
+        "San Antonio",
+        "San Félix",
+        "Talcahuano",
+        "Taltal",
+        "Tocopilla",
+        "Valparaíso"
+      ],
+      "administrative_areas": [
+        "Antarctic Territory"
+      ]
+    },
+    {
       "id": 17830,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:08.101607",
-      "total_locations_found": 27,
+      "extracted_at": "2025-07-31T20:21:19.742313",
+      "total_locations_found": 25,
       "countries": [
         "Costa Rica",
         "Russia"
@@ -37,6 +277,7 @@
         "Central Pacific region",
         "Guanacaste",
         "North Pacific region",
+        "Petropavlovsk-Kamchatsky",
         "Puntarenas",
         "South Pacific region"
       ],
@@ -53,23 +294,20 @@
         "Nicoya",
         "Osa",
         "Parrita",
-        "Petropavlovsk-Kamchatsky",
         "Puerto Jiménez",
         "Puntarenas",
         "Quepos",
         "Santa Cruz"
       ],
       "administrative_areas": [
-        "Cantons",
-        "Cocos Island",
-        "Municipal Emergency Committees"
+        "Cantons"
       ],
       "confidence_notes": "High confidence in the extraction of geographic locations"
     },
     {
       "id": 17829,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:07.795224",
+      "extracted_at": "2025-07-31T20:21:19.513287",
       "total_locations_found": 19,
       "countries": [
         "Peru",
@@ -96,13 +334,13 @@
         "Talara"
       ],
       "administrative_areas": [],
-      "confidence_notes": "High confidence in the extraction"
+      "confidence_notes": "High confidence in the extraction results"
     },
     {
       "id": 17828,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:08.144413",
-      "total_locations_found": 29,
+      "extracted_at": "2025-07-31T20:21:19.561230",
+      "total_locations_found": 22,
       "countries": [
         "Chile"
       ],
@@ -117,7 +355,6 @@
       ],
       "cities_towns": [
         "Cochamó",
-        "Corral",
         "Fresia",
         "Maullín",
         "Muermos",
@@ -126,39 +363,35 @@
         "Valdivia"
       ],
       "administrative_areas": [
-        "El Bolsón Bridge",
+        "Corral",
+        "El Bolsón",
         "Esperanza",
-        "Frio River",
-        "Huacamapu estuary",
-        "Liucura River",
-        "Llico River",
-        "Loma de La Piedra",
+        "Llico",
         "Peuchen",
-        "Quilloimo bridge",
         "Quilmes",
-        "Ten-Ten population",
-        "V-440 route",
-        "Yerbas Buenas"
+        "Ten-Ten"
       ],
       "confidence_notes": "High precision extraction"
     },
     {
       "id": 17827,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:13.819225",
-      "total_locations_found": 1,
+      "extracted_at": "2025-07-31T20:21:25.573933",
+      "total_locations_found": 2,
       "countries": [],
       "states_regions": [
-        "Ouaddaï province"
+        "Ouaddaï"
       ],
       "cities_towns": [],
-      "administrative_areas": [],
+      "administrative_areas": [
+        "Ouaddaï"
+      ],
       "confidence_notes": "High confidence in extraction"
     },
     {
       "id": 17826,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:13.960609",
+      "extracted_at": "2025-07-31T20:21:25.650345",
       "total_locations_found": 6,
       "countries": [
         "Kenya",
@@ -179,7 +412,7 @@
     {
       "id": 17825,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:14.195345",
+      "extracted_at": "2025-07-31T20:21:25.902135",
       "total_locations_found": 12,
       "countries": [
         "Japan",
@@ -187,26 +420,27 @@
       ],
       "states_regions": [
         "Hokkaido",
-        "Iwate",
-        "Miyagi",
-        "Wakayama"
+        "Kanto",
+        "Tohoku"
       ],
       "cities_towns": [
         "Ishinomaki",
         "Kuji",
         "Nemuro",
         "Petropavlovsk-Kamchatsky",
-        "Sendai",
         "Yokohama"
       ],
-      "administrative_areas": [],
-      "confidence_notes": "High confidence in the extraction results"
+      "administrative_areas": [
+        "Iwate Prefecture",
+        "Miyagi"
+      ],
+      "confidence_notes": "High confidence in the extraction"
     },
     {
       "id": 17824,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:21.429371",
-      "total_locations_found": 45,
+      "extracted_at": "2025-07-31T20:21:32.662459",
+      "total_locations_found": 34,
       "countries": [
         "Chile",
         "Russia"
@@ -231,41 +465,29 @@
       "cities_towns": [
         "Ancud",
         "Antofagasta",
-        "Arica",
         "Caldera",
         "Castro",
         "Coquimbo",
-        "Coronel",
         "Huasco",
         "Iquique",
-        "Lebu",
         "Mejillones",
         "Petropavlovsk",
         "Puerto Montt",
+        "Quintero",
         "San Antonio",
-        "Talcahuano",
         "Tocopilla",
         "Valparaiso"
       ],
       "administrative_areas": [
         "Arch. Juan Fernandez",
-        "Bahia Mansa",
-        "Chilean Antarctic Territory",
-        "Coliumo",
-        "Corral",
-        "Dona Sebastiana Island",
         "Easter Island",
-        "Nehuentue",
-        "Queule",
-        "Quiriquina Island",
         "San Felix Island"
-      ],
-      "confidence_notes": "High precision extraction based on detailed geographic references"
+      ]
     },
     {
       "id": 17823,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:19.921599",
+      "extracted_at": "2025-07-31T20:21:31.707784",
       "total_locations_found": 4,
       "countries": [
         "El Salvador",
@@ -283,7 +505,7 @@
     {
       "id": 17822,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:20.459669",
+      "extracted_at": "2025-07-31T20:21:32.319833",
       "total_locations_found": 20,
       "countries": [
         "Greece"
@@ -291,13 +513,11 @@
       "states_regions": [
         "Achaea Region",
         "Attica",
-        "Chania",
-        "Crete",
+        "Central and Northern Euboea (Evia)",
+        "Chania (Crete)",
         "Epirus Region",
-        "Evia",
-        "Messinia",
-        "Northern Greece",
-        "Peloponnese"
+        "Messinia (Peloponnese)",
+        "Northern Greece"
       ],
       "cities_towns": [
         "Aetos",
@@ -311,14 +531,16 @@
         "Temenia"
       ],
       "administrative_areas": [
-        "Central and Northern Euboea"
+        "Attica",
+        "Chania",
+        "Messinia"
       ],
-      "confidence_notes": "High confidence in the extraction results"
+      "confidence_notes": "High confidence in the extraction of geographic locations"
     },
     {
       "id": 17821,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:27.416597",
+      "extracted_at": "2025-07-31T20:21:38.555452",
       "total_locations_found": 9,
       "countries": [
         "Angola",
@@ -342,15 +564,12 @@
     {
       "id": 17820,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:27.586253",
-      "total_locations_found": 15,
+      "extracted_at": "2025-07-31T20:21:38.890731",
+      "total_locations_found": 16,
       "countries": [
         "Thailand"
       ],
       "states_regions": [
-        "Laos"
-      ],
-      "cities_towns": [
         "Chiang Mai",
         "Chiang Rai",
         "Lampang",
@@ -363,17 +582,21 @@
         "Tak",
         "Uttaradit"
       ],
+      "cities_towns": [
+        "Mueang",
+        "Tha Wang Pha"
+      ],
       "administrative_areas": [
         "Mueang District",
         "Tha Wang Pha District"
       ],
-      "confidence_notes": "High confidence in the extraction"
+      "confidence_notes": "High confidence in the extraction of geographic locations"
     },
     {
       "id": 17819,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:27.808470",
-      "total_locations_found": 20,
+      "extracted_at": "2025-07-31T20:21:39.314329",
+      "total_locations_found": 27,
       "countries": [
         "Vietnam"
       ],
@@ -400,15 +623,22 @@
         "Vinh Tuong"
       ],
       "administrative_areas": [
-        "National Highway 7"
+        "Chieng So commune",
+        "Muong Luan commune",
+        "National Highway 7",
+        "Nhan Hoa commune",
+        "Song Ma district",
+        "Tan Trung village",
+        "Tia Dinh commune",
+        "Vinh Tuong commune"
       ],
       "confidence_notes": "High confidence in the extraction of geographic locations"
     },
     {
       "id": 17818,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:34.059084",
-      "total_locations_found": 17,
+      "extracted_at": "2025-07-31T20:21:45.588842",
+      "total_locations_found": 18,
       "countries": [
         "Cambodia",
         "Thailand"
@@ -428,18 +658,19 @@
       ],
       "cities_towns": [
         "Buachet",
+        "Chalerm Phrakiat",
         "Na Chaluai",
         "Sangkha"
       ],
       "administrative_areas": [
         "Prasat Ta Muen Thom Temple"
       ],
-      "confidence_notes": "High precision extraction based on detailed location mentions"
+      "confidence_notes": "High confidence in the extraction of geographic locations"
     },
     {
       "id": 17817,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:33.485631",
+      "extracted_at": "2025-07-31T20:21:45.006225",
       "total_locations_found": 4,
       "countries": [
         "Nigeria"
@@ -458,7 +689,7 @@
     {
       "id": 17816,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:33.508628",
+      "extracted_at": "2025-07-31T20:21:44.998921",
       "total_locations_found": 3,
       "countries": [
         "Nepal"
@@ -475,7 +706,7 @@
     {
       "id": 17815,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:40.023236",
+      "extracted_at": "2025-07-31T20:21:51.501249",
       "total_locations_found": 8,
       "countries": [
         "Ecuador"
@@ -498,7 +729,7 @@
     {
       "id": 17814,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:40.131335",
+      "extracted_at": "2025-07-31T20:21:51.624141",
       "total_locations_found": 12,
       "countries": [
         "Ecuador"
@@ -525,20 +756,20 @@
     {
       "id": 17813,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:39.727634",
+      "extracted_at": "2025-07-31T20:21:51.285246",
       "total_locations_found": 1,
-      "countries": [],
-      "states_regions": [
-        "TCD"
+      "countries": [
+        "Chad"
       ],
+      "states_regions": [],
       "cities_towns": [],
       "administrative_areas": [],
-      "confidence_notes": "Low confidence due to limited information"
+      "confidence_notes": "Low confidence as the location is only mentioned in the TCD abbreviation"
     },
     {
       "id": 17812,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:46.591734",
+      "extracted_at": "2025-07-31T20:21:58.242659",
       "total_locations_found": 14,
       "countries": [
         "Mongolia"
@@ -562,12 +793,12 @@
       "administrative_areas": [
         "32nd khoroo"
       ],
-      "confidence_notes": "High precision extraction based on detailed location descriptions"
+      "confidence_notes": "High confidence in extraction"
     },
     {
       "id": 17811,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:46.515145",
+      "extracted_at": "2025-07-31T20:21:58.165305",
       "total_locations_found": 11,
       "countries": [
         "Cambodia",
@@ -588,12 +819,12 @@
         "Phanom Dong Rak",
         "Phanom Dongrak Chalerm Phrakiat"
       ],
-      "confidence_notes": "High confidence in the extraction of geographic locations"
+      "confidence_notes": "High precision extraction"
     },
     {
       "id": 17810,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:46.462575",
+      "extracted_at": "2025-07-31T20:21:57.631761",
       "total_locations_found": 13,
       "countries": [
         "Thailand"
@@ -621,7 +852,7 @@
     {
       "id": 17809,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:52.316244",
+      "extracted_at": "2025-07-31T20:22:03.977762",
       "total_locations_found": 4,
       "countries": [
         "Samoa"
@@ -640,7 +871,7 @@
     {
       "id": 17808,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:52.536898",
+      "extracted_at": "2025-07-31T20:22:04.232848",
       "total_locations_found": 12,
       "countries": [
         "Pakistan"
@@ -662,12 +893,12 @@
         "GB",
         "KP"
       ],
-      "confidence_notes": "High confidence in extraction"
+      "confidence_notes": "High confidence in extracted locations"
     },
     {
       "id": 17807,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:52.386439",
+      "extracted_at": "2025-07-31T20:22:04.072685",
       "total_locations_found": 5,
       "countries": [
         "The Gambia"
@@ -687,7 +918,7 @@
     {
       "id": 17806,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:58.384369",
+      "extracted_at": "2025-07-31T20:22:10.031712",
       "total_locations_found": 7,
       "countries": [
         "Viet Nam"
@@ -703,12 +934,12 @@
       "administrative_areas": [
         "Ca River"
       ],
-      "confidence_notes": "High confidence in the extraction"
+      "confidence_notes": "High confidence in the extraction of geographic locations"
     },
     {
       "id": 17805,
       "success": true,
-      "extracted_at": "2025-07-30T19:26:58.597440",
+      "extracted_at": "2025-07-31T20:22:10.213336",
       "total_locations_found": 12,
       "countries": [
         "Lao PDR"
@@ -731,862 +962,6 @@
         "Ngern district"
       ],
       "confidence_notes": "High confidence in the extraction results"
-    },
-    {
-      "id": 17804,
-      "success": true,
-      "extracted_at": "2025-07-30T19:26:58.286526",
-      "total_locations_found": 5,
-      "countries": [
-        "Bangladesh"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Dhaka",
-        "Kurmitola",
-        "Uttara"
-      ],
-      "administrative_areas": [
-        "Diabari"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17803,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:04.318399",
-      "total_locations_found": 3,
-      "countries": [
-        "Republic of Korea"
-      ],
-      "states_regions": [
-        "15 provinces"
-      ],
-      "cities_towns": [],
-      "administrative_areas": [
-        "special disaster zones"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17802,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:04.566688",
-      "total_locations_found": 12,
-      "countries": [
-        "Pakistan"
-      ],
-      "states_regions": [
-        "AJK",
-        "Balochistan",
-        "Khyber Pakhtunkhwa",
-        "Punjab",
-        "Sindh"
-      ],
-      "cities_towns": [
-        "Kurram",
-        "Shigar",
-        "Swat",
-        "Upper Dir"
-      ],
-      "administrative_areas": [
-        "GB",
-        "KP"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17801,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:04.864347",
-      "total_locations_found": 19,
-      "countries": [
-        "China",
-        "Laos",
-        "Viet Nam"
-      ],
-      "states_regions": [
-        "Ha Tinh",
-        "Leizhou Peninsula",
-        "Nghe An",
-        "Quang Ninh",
-        "Red River Delta",
-        "Thanh Hoa"
-      ],
-      "cities_towns": [
-        "Bach Long Vi",
-        "Cat Hai",
-        "Co To",
-        "Cua Ong",
-        "Hai Phong",
-        "Hai Phong-Quang Ninh",
-        "Hon Dau",
-        "Hon Ngu"
-      ],
-      "administrative_areas": [
-        "Northern Gulf of Tonkin",
-        "Upper Laos region"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17800,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:10.913931",
-      "total_locations_found": 12,
-      "countries": [
-        "Ethiopia"
-      ],
-      "states_regions": [
-        "Afar Region",
-        "Amhara Region"
-      ],
-      "cities_towns": [
-        "Afdera",
-        "Finote Selam",
-        "Sekela"
-      ],
-      "administrative_areas": [
-        "Kilbati Rasu Zone",
-        "North Achefer",
-        "North Gojam",
-        "North Mecha",
-        "South Achefer",
-        "West Gojam"
-      ],
-      "confidence_notes": "High precision extraction"
-    },
-    {
-      "id": 17799,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:10.568731",
-      "total_locations_found": 3,
-      "countries": [
-        "Iraq"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Al-Kut"
-      ],
-      "administrative_areas": [
-        "Corniche"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17798,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:11.647860",
-      "total_locations_found": 34,
-      "countries": [
-        "Japan",
-        "Philippines"
-      ],
-      "states_regions": [
-        "Aparri",
-        "BARMM",
-        "CAR",
-        "CARAGA",
-        "Cagayan",
-        "Calayan",
-        "Ilocos Sur",
-        "La Union",
-        "Luzon",
-        "NCR",
-        "Negros Island Region",
-        "Pangasinan",
-        "Ryukyu Islands"
-      ],
-      "cities_towns": [],
-      "administrative_areas": [
-        "BARMM",
-        "CALABARZON",
-        "CAR",
-        "CARAGA",
-        "MIMAROPA",
-        "NIR",
-        "Region 10",
-        "Region 11",
-        "Region 12",
-        "Region 4A",
-        "Region 4B",
-        "Region 5",
-        "Region 6",
-        "Region 7",
-        "Region 9",
-        "Region12",
-        "Regional 1",
-        "Regional 2",
-        "Regional 3"
-      ],
-      "confidence_notes": "High precision extraction"
-    },
-    {
-      "id": 17797,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:17.627493",
-      "total_locations_found": 11,
-      "countries": [
-        "South Korea"
-      ],
-      "states_regions": [
-        "Gwangju",
-        "Gyeonggi Province",
-        "Honseong",
-        "Seoul",
-        "South Chungcheong"
-      ],
-      "cities_towns": [
-        "Naju"
-      ],
-      "administrative_areas": [
-        "Gwangju",
-        "Gyeonggi Province",
-        "Seoul",
-        "South Chungcheong"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17796,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:17.784918",
-      "total_locations_found": 15,
-      "countries": [
-        "Thailand"
-      ],
-      "states_regions": [
-        "Chanthaburi",
-        "Nan"
-      ],
-      "cities_towns": [
-        "Chalerm Phrakiat",
-        "Khlung",
-        "Laem Sing",
-        "Makham",
-        "Mueang",
-        "Pua",
-        "Song Khwae",
-        "Tha Wang Pha",
-        "Thung Chang"
-      ],
-      "administrative_areas": [
-        "15 sub-districts",
-        "24 villages",
-        "9 districts"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17795,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:17.702710",
-      "total_locations_found": 9,
-      "countries": [
-        "Lao People's Democratic Republic"
-      ],
-      "states_regions": [
-        "Bokeo province",
-        "Khammuan province",
-        "Luang Prabang province"
-      ],
-      "cities_towns": [
-        "Huayxai district",
-        "Pakxaeng district",
-        "Xaybuathong district",
-        "Yai village"
-      ],
-      "administrative_areas": [
-        "Xe Bangfay River"
-      ],
-      "confidence_notes": "High confidence in the extraction results"
-    },
-    {
-      "id": 17794,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:23.647361",
-      "total_locations_found": 7,
-      "countries": [
-        "Bangladesh"
-      ],
-      "states_regions": [
-        "Barisal Division",
-        "Chattogram",
-        "Dhaka",
-        "Rangpur",
-        "Sylhet Division"
-      ],
-      "cities_towns": [],
-      "administrative_areas": [
-        "64 districts"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17793,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:23.784237",
-      "total_locations_found": 13,
-      "countries": [
-        "Pakistan"
-      ],
-      "states_regions": [
-        "AJK",
-        "Balochistan",
-        "Khyber Pakhtunkhwa",
-        "Punjab",
-        "Sindh"
-      ],
-      "cities_towns": [
-        "Chakwal",
-        "Kurram",
-        "Shigar",
-        "Swat",
-        "Upper Dir"
-      ],
-      "administrative_areas": [
-        "GB",
-        "KP"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17792,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:23.619925",
-      "total_locations_found": 6,
-      "countries": [
-        "Syria"
-      ],
-      "states_regions": [
-        "As-Suwayda Governorate",
-        "Daraa Governorate"
-      ],
-      "cities_towns": [
-        "Salkhad"
-      ],
-      "administrative_areas": [
-        "eastern rural areas",
-        "western countryside"
-      ],
-      "confidence_notes": "High precision extraction"
-    },
-    {
-      "id": 17791,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:29.736379",
-      "total_locations_found": 12,
-      "countries": [
-        "Pakistan"
-      ],
-      "states_regions": [
-        "AJK",
-        "Balochistan",
-        "Khyber Pakhtunkhwa",
-        "Punjab",
-        "Sindh"
-      ],
-      "cities_towns": [
-        "Kurram",
-        "Shigar",
-        "Swat",
-        "Upper Dir"
-      ],
-      "administrative_areas": [
-        "GB",
-        "KP"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17790,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:29.765749",
-      "total_locations_found": 10,
-      "countries": [
-        "Ecuador"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Chillogallo",
-        "Guamaní",
-        "La Argelia",
-        "La Ecuatoriana",
-        "La Mica",
-        "Quito Sur",
-        "Quitumbe",
-        "Turubamba"
-      ],
-      "administrative_areas": [
-        "Metropolitan District of Quito"
-      ],
-      "confidence_notes": "High confidence in the extraction"
-    },
-    {
-      "id": 17789,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:29.924355",
-      "total_locations_found": 16,
-      "countries": [
-        "Iraq",
-        "Jordan",
-        "Lebanon",
-        "Qatar",
-        "Syria",
-        "Turkey"
-      ],
-      "states_regions": [
-        "Hama Governorate",
-        "Latakia Governorate",
-        "Tartous Governorate"
-      ],
-      "cities_towns": [
-        "Al-Mazra’a",
-        "Al-Shajara",
-        "Beit Ayoush",
-        "Saboura",
-        "Sheikh Hassan"
-      ],
-      "administrative_areas": [
-        "Latakia",
-        "Tartous"
-      ],
-      "confidence_notes": "High precision extraction based on detailed geographic references"
-    },
-    {
-      "id": 17788,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:35.685497",
-      "total_locations_found": 6,
-      "countries": [
-        "Guatemala"
-      ],
-      "states_regions": [
-        "Escuintla",
-        "Guatemala",
-        "Sacatepéquez"
-      ],
-      "cities_towns": [
-        "capital city"
-      ],
-      "administrative_areas": [
-        "central highlands"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17787,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:35.853757",
-      "total_locations_found": 12,
-      "countries": [
-        "Pakistan"
-      ],
-      "states_regions": [
-        "AJK",
-        "Balochistan",
-        "Khyber Pakhtunkhwa",
-        "Punjab",
-        "Sindh"
-      ],
-      "cities_towns": [
-        "Kurram",
-        "Shigar",
-        "Swat",
-        "Upper Dir"
-      ],
-      "administrative_areas": [
-        "GB",
-        "KP"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17786,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:35.864749",
-      "total_locations_found": 12,
-      "countries": [
-        "Pakistan"
-      ],
-      "states_regions": [
-        "AJK",
-        "Balochistan",
-        "Khyber Pakhtunkhwa",
-        "Punjab",
-        "Sindh"
-      ],
-      "cities_towns": [
-        "Kurram",
-        "Shigar",
-        "Swat",
-        "Upper Dir"
-      ],
-      "administrative_areas": [
-        "GB",
-        "KP"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17785,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:41.745574",
-      "total_locations_found": 6,
-      "countries": [
-        "Guatemala"
-      ],
-      "states_regions": [
-        "Escuintla",
-        "Sacatepéquez"
-      ],
-      "cities_towns": [],
-      "administrative_areas": [
-        "department of Escuintla",
-        "department of Guatemala",
-        "department of Sacatepéquez"
-      ],
-      "confidence_notes": "High confidence in the extraction"
-    },
-    {
-      "id": 17784,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:42.621864",
-      "total_locations_found": 31,
-      "countries": [
-        "Republic of Serbia"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Bogujevac",
-        "Borovac",
-        "Bresnic",
-        "Bublica",
-        "Dankovice",
-        "Donja Bregovina",
-        "Dubovo",
-        "Konjarnik",
-        "Konjuva",
-        "Kursumlija",
-        "Mala Kosanica",
-        "Malo Pupavce",
-        "Mekuljana",
-        "Merovac",
-        "Novo Momcilovo",
-        "Pacoglava",
-        "Perunika",
-        "Prokuplje",
-        "Raca",
-        "Rastelica",
-        "Resinac",
-        "Seliste",
-        "Spance",
-        "Staro Momcilovo",
-        "Tmava",
-        "Tmavsko brdo",
-        "Veliko Pupavce",
-        "Zitni Potok",
-        "Zitoradja"
-      ],
-      "administrative_areas": [
-        "Toplica District"
-      ],
-      "confidence_notes": "High precision extraction"
-    },
-    {
-      "id": 17783,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:41.863222",
-      "total_locations_found": 12,
-      "countries": [
-        "Afghanistan",
-        "Bangladesh",
-        "Egypt",
-        "Greece",
-        "Libya",
-        "Pakistan",
-        "Yemen"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Chania",
-        "Heraklion",
-        "Piraeus",
-        "Rethymno"
-      ],
-      "administrative_areas": [
-        "Gavdos"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17782,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:48.427854",
-      "total_locations_found": 4,
-      "countries": [
-        "Japan"
-      ],
-      "states_regions": [
-        "Kagoshima Prefecture"
-      ],
-      "cities_towns": [
-        "Tokara Islands"
-      ],
-      "administrative_areas": [
-        "-"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17781,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:48.436398",
-      "total_locations_found": 4,
-      "countries": [
-        "Guatemala"
-      ],
-      "states_regions": [
-        "Escuintla",
-        "Sacatepéquez"
-      ],
-      "cities_towns": [],
-      "administrative_areas": [
-        "Guatemala"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17780,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:49.337150",
-      "total_locations_found": 29,
-      "countries": [
-        "Greece"
-      ],
-      "states_regions": [
-        "Attica"
-      ],
-      "cities_towns": [
-        "Achlia",
-        "Agia Kyriaki",
-        "Agios Makarios",
-        "Arionos Street",
-        "Artemida",
-        "Athens",
-        "Chalkios",
-        "Chios",
-        "Crete",
-        "Dafnonas",
-        "Etos Steko",
-        "Ferma",
-        "Ierapetra",
-        "Imeros Pefkos",
-        "Lithi",
-        "Marathonos Avenue",
-        "Pikermi",
-        "Rafina-Pikermi",
-        "Skinokapsala",
-        "Vrontados"
-      ],
-      "administrative_areas": [
-        "Agios Georgios",
-        "Kakia Skala",
-        "Katharades",
-        "Kofinas",
-        "Koutsounari",
-        "Lesvos",
-        "Vessa-Lithi"
-      ],
-      "confidence_notes": "High confidence in the extraction of geographic locations"
-    },
-    {
-      "id": 17779,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:55.326185",
-      "total_locations_found": 8,
-      "countries": [
-        "Lao PDR",
-        "Viet Nam"
-      ],
-      "states_regions": [
-        "Vientiane Province"
-      ],
-      "cities_towns": [
-        "Ban Bouamueang",
-        "Ban Jang",
-        "Muang Kao",
-        "Vang Vieng"
-      ],
-      "administrative_areas": [
-        "Xay District"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17778,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:55.757765",
-      "total_locations_found": 19,
-      "countries": [
-        "Nigeria"
-      ],
-      "states_regions": [
-        "Benue",
-        "Plateau"
-      ],
-      "cities_towns": [
-        "Agatu",
-        "Apa",
-        "Daffo",
-        "Gwande",
-        "Gwer East",
-        "Gwer West",
-        "Hurti",
-        "Katsina-Ala",
-        "Logo",
-        "Manguna",
-        "Ruwi",
-        "Ukum",
-        "Yelwata"
-      ],
-      "administrative_areas": [
-        "167 rural communities in Bassa, Barkin Ladi, Bokkos, Jos East, Jos South, Mangu, Riyom, Wase LGAs",
-        "23 LGAs in Benue State",
-        "5 communities in Bokkos LGA"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17777,
-      "success": true,
-      "extracted_at": "2025-07-30T19:27:55.332274",
-      "total_locations_found": 14,
-      "countries": [
-        "Nigeria"
-      ],
-      "states_regions": [
-        "Akwa Ibom",
-        "Borno",
-        "Cross River",
-        "Delta",
-        "Ekiti",
-        "Kebbi",
-        "Kogi",
-        "Kwara",
-        "Nasarawa",
-        "Niger",
-        "Ogun",
-        "Ondo",
-        "Rivers"
-      ],
-      "cities_towns": [],
-      "administrative_areas": [],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17776,
-      "success": true,
-      "extracted_at": "2025-07-30T19:28:01.465156",
-      "total_locations_found": 2,
-      "countries": [
-        "Colombia"
-      ],
-      "states_regions": [],
-      "cities_towns": [],
-      "administrative_areas": [
-        "National Unit for Disaster Risk Management"
-      ],
-      "confidence_notes": "High confidence in the extraction"
-    },
-    {
-      "id": 17775,
-      "success": true,
-      "extracted_at": "2025-07-30T19:28:02.064658",
-      "total_locations_found": 17,
-      "countries": [
-        "Syria"
-      ],
-      "states_regions": [
-        "Latakia"
-      ],
-      "cities_towns": [
-        "Al-Atirah",
-        "Al-Iman",
-        "Al-Mazra’a",
-        "Al-Rihaniyah",
-        "Beit Al-Qusayr",
-        "Beit Ayman",
-        "Beit Ayoush",
-        "Ghassaniyeh",
-        "Kastal Maaf",
-        "Saboura",
-        "Shalaf",
-        "Zanzouf"
-      ],
-      "administrative_areas": [
-        "Jabal Al-Basit",
-        "Qandil Valley",
-        "Tartous"
-      ],
-      "confidence_notes": "High confidence in the extraction of geographic locations"
-    },
-    {
-      "id": 17774,
-      "success": true,
-      "extracted_at": "2025-07-30T19:28:01.576170",
-      "total_locations_found": 6,
-      "countries": [
-        "Türkiye"
-      ],
-      "states_regions": [
-        "Aegean"
-      ],
-      "cities_towns": [
-        "Balıkesir",
-        "Çanakkale",
-        "İzmir"
-      ],
-      "administrative_areas": [
-        "Seferihisar"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17773,
-      "success": true,
-      "extracted_at": "2025-07-30T19:28:07.786658",
-      "total_locations_found": 5,
-      "countries": [
-        "Nigeria"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Garjang",
-        "Gumsun",
-        "Wovi"
-      ],
-      "administrative_areas": [
-        "Damboa LGA"
-      ],
-      "confidence_notes": "High confidence in extraction"
-    },
-    {
-      "id": 17772,
-      "success": true,
-      "extracted_at": "2025-07-30T19:28:07.735741",
-      "total_locations_found": 3,
-      "countries": [
-        "Kenya"
-      ],
-      "states_regions": [],
-      "cities_towns": [
-        "Mombasa"
-      ],
-      "administrative_areas": [
-        "sub counties"
-      ],
-      "confidence_notes": "High confidence in extraction"
     }
   ]
 }
