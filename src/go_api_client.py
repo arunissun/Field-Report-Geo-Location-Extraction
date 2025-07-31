@@ -1,6 +1,9 @@
+
 import requests
 import logging
 import time
+import os
+import json
 from typing import Dict, List, Optional
 from datetime import datetime
 
@@ -9,10 +12,10 @@ from rate_limiter import RateLimiter
 from data_processor import DataProcessor
 from json_manager import JSONManager
 
-# Add this import after your existing imports
+# Updated imports for integrated workflow
 import asyncio
 from location_manager import LocationManager
-
+from country_manager import CountryManager
 
 class GOAPIClient:
     """Client for fetching field reports from IFRC GO API and saving to JSON"""
@@ -37,52 +40,42 @@ class GOAPIClient:
         # Setup session with authentication
         self.session = requests.Session()
         self.session.headers.update({
-            'Authorization':
-            f'Token {self.auth_token}',
-            'Content-Type':
-            'application/json',
-            'User-Agent':
-            'Field-Reports-Geo-Pipeline/1.0'
+            'Authorization': f'Token {self.auth_token}',
+            'Content-Type': 'application/json',
+            'User-Agent': 'Field-Reports-Geo-Pipeline/1.0'
         })
 
         # Validate configuration
         config.validate_config()
 
     def fetch_field_reports_page(self,
-                                 limit: int = 50,
-                                 offset: int = 0,
-                                 created_at_gte: Optional[str] = None) -> Dict:
+                               limit: int = 50,
+                               offset: int = 0,
+                               created_at_gte: Optional[str] = None) -> Dict:
         """Fetch a single page of field reports"""
-
+        
         # Apply rate limiting
         self.rate_limiter.wait_if_needed()
-
+        
         endpoint = f"{self.base_url}field-report/"
-
         params = {
             'limit': limit,
             'offset': offset,
             'format': 'json',
             'ordering': '-created_at'
         }
-
+        
         # Add date filter if provided
         if created_at_gte:
             params['created_at__gte'] = created_at_gte
 
         try:
-            self.logger.info(
-                f"Fetching field reports: offset={offset}, limit={limit}")
-
-            response = self.session.get(endpoint,
-                                        params=params,
-                                        timeout=config.REQUEST_TIMEOUT)
+            self.logger.info(f"Fetching field reports: offset={offset}, limit={limit}")
+            response = self.session.get(endpoint, params=params, timeout=config.REQUEST_TIMEOUT)
             response.raise_for_status()
-
+            
             data = response.json()
-
-            self.logger.info(
-                f"Successfully fetched {len(data.get('results', []))} reports")
+            self.logger.info(f"Successfully fetched {len(data.get('results', []))} reports")
             return data
 
         except requests.exceptions.RequestException as e:
@@ -93,27 +86,27 @@ class GOAPIClient:
             raise
 
     def fetch_and_save_all_reports(
-        self,
-        max_reports: Optional[int] = None,
-        created_at_gte: Optional[str] = None) -> Dict:
+            self,
+            max_reports: Optional[int] = None,
+            created_at_gte: Optional[str] = None) -> Dict:
+        """Fetch all field reports, save them, extract locations, and create country associations"""
         
-        """Fetch all field reports, save them to JSON files, and extract locations"""
-    
         if created_at_gte is None:
             created_at_gte = config.START_DATE
 
         # Get existing processed report IDs to avoid duplicates
         existing_ids = self.json_manager.get_processed_report_ids()
 
-        # Initialize location manager for automatic extraction
+        # Initialize managers for automatic extraction and country association
         location_manager = LocationManager(config)
+        country_manager = CountryManager(config)
 
         offset = 0
         total_fetched = 0
         total_new = 0
         batch_number = 0
         all_new_reports = []  # Track all new reports for location extraction
-
+        
         processing_log = {
             'start_time': datetime.now().isoformat(),
             'parameters': {
@@ -237,21 +230,30 @@ class GOAPIClient:
                 processing_log['error'] = str(e)
                 break
 
-        # Automatic Location Extraction for New Reports
+        # Automatic Location Extraction and Country Association for New Reports
         location_summary = {}
+        country_association_summary = {}
+        
         if all_new_reports:
             try:
-                self.logger.info(f"[LOCATION] Starting automatic location extraction for {len(all_new_reports)} new reports...")
+                # Step 1: Location extraction
+                self.logger.info(f"Starting automatic location extraction for {len(all_new_reports)} new reports...")
                 location_summary = asyncio.run(location_manager.extract_locations_from_new_reports(all_new_reports))
-                self.logger.info(f"[LOCATION] Location extraction completed: {location_summary.get('total_new_extractions', 0)} successful")
+                self.logger.info(f"Location extraction completed: {location_summary.get('total_new_extractions', 0)} successful")
+
+                # Step 2: Country association (only if location extraction was successful)
+                if location_summary.get('total_new_extractions', 0) > 0:
+                    try:
+                        self.logger.info(f"Starting automatic country association...")
+                        country_association_summary = asyncio.run(country_manager.process_country_associations_for_new_extractions())
+                        self.logger.info(f"Country association completed: {country_association_summary.get('successful', 0)} successful")
+                    except Exception as e:
+                        self.logger.error(f"Country association failed: {e}")
+                        country_association_summary = {'error': str(e)}
+                        
             except Exception as e:
                 self.logger.error(f"Location extraction failed: {e}")
-                location_summary = {
-                    'total_processed': len(all_new_reports),
-                    'total_new_extractions': 0,
-                    'total_locations_extracted': 0,
-                    'error': str(e)
-                }
+                location_summary = {'error': str(e)}
 
         # Complete processing log
         processing_log['end_time'] = datetime.now().isoformat()
@@ -263,7 +265,8 @@ class GOAPIClient:
             'initial_existing_reports': processing_log['parameters']['existing_reports_count'],
             'final_total_reports': processing_log['parameters']['existing_reports_count'] + total_new,
             'existing_reports_count': len(existing_ids),
-            'location_extraction': location_summary  # Add location extraction summary
+            'location_extraction': location_summary,
+            'country_association': country_association_summary
         }
 
         # Save processing log
@@ -272,7 +275,9 @@ class GOAPIClient:
         if total_new > 0:
             self.logger.info(f"Successfully added {total_new} new field reports out of {total_fetched} total fetched")
             if location_summary.get('total_new_extractions', 0) > 0:
-                self.logger.info(f"[LOCATION] Location extraction: {location_summary['total_new_extractions']} successful extractions, {location_summary.get('total_locations_extracted', 0)} total locations found")
+                self.logger.info(f"Location extraction: {location_summary['total_new_extractions']} successful extractions, {location_summary.get('total_locations_extracted', 0)} total locations found")
+            if country_association_summary.get('successful', 0) > 0:
+                self.logger.info(f"Country association: {country_association_summary['successful']} successful associations")
         else:
             self.logger.info(f"No new reports found. All {total_fetched} fetched reports were duplicates")
 
@@ -280,26 +285,22 @@ class GOAPIClient:
 
         return processing_log['summary']
 
-
-    def get_recent_reports(self,
-                           days: int = 7,
-                           max_reports: int = 100) -> List[Dict]:
+    def get_recent_reports(self, days: int = 7, max_reports: int = 100) -> List[Dict]:
         """Get recent field reports and return as list"""
         from datetime import datetime, timedelta
-
+        
         # Calculate date filter
         since_date = datetime.now() - timedelta(days=days)
         created_at_gte = since_date.strftime("%Y-%m-%dT%H:%M:%SZ")
-
-        self.fetch_and_save_all_reports(max_reports=max_reports,
-                                        created_at_gte=created_at_gte)
+        
+        self.fetch_and_save_all_reports(max_reports=max_reports, created_at_gte=created_at_gte)
         return self.json_manager.get_all_processed_reports()
 
     def get_api_stats(self) -> Dict:
         """Get current API usage statistics"""
         rate_stats = self.rate_limiter.get_stats()
         processed_ids = self.json_manager.get_processed_report_ids()
-
+        
         return {
             'rate_limiting': rate_stats,
             'base_url': self.base_url,
@@ -311,3 +312,4 @@ class GOAPIClient:
     def check_data_integrity(self) -> Dict:
         """Check for duplicates and data integrity"""
         return self.json_manager.check_for_duplicates()
+
