@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
 dotenv_path = os.path.join(os.path.dirname(__file__), '..', '.env')
@@ -30,8 +30,12 @@ class Config:
         self.MAX_RETRIES = 3
         self.REQUEST_TIMEOUT = 30
 
-        # Date filtering - reports since January 1st, 2025
-        self.START_DATE = "2025-07-23T00:00:00Z"
+        # Date filtering configuration
+        self.DAYS_LOOKBACK = 7  # Number of days to look back for field reports
+        
+        # Calculate start date dynamically - reports from the last N days
+        lookback_date = datetime.now() - timedelta(days=self.DAYS_LOOKBACK)
+        self.START_DATE = lookback_date.strftime("%Y-%m-%dT%H:%M:%SZ")
 
         # Required fields from API
         self.REQUIRED_FIELDS = [
