@@ -1,0 +1,41 @@
+{
+  "start_time": "2025-08-04T16:52:23.509559",
+  "parameters": {
+    "max_reports": null,
+    "created_at_gte": "2025-07-28T16:51:43Z",
+    "existing_reports_count": 32
+  },
+  "batches": [
+    {
+      "batch_number": 0,
+      "offset": 0,
+      "raw_file": "data/raw\\all_raw_reports.json",
+      "processed_file": "data/processed\\all_processed_reports.json",
+      "total_in_page": 25,
+      "new_reports": 7,
+      "skipped_existing": 18
+    }
+  ],
+  "summary": {
+    "total_fetched": 25,
+    "total_new_reports": 7,
+    "total_skipped": 18,
+    "batches_created": 1,
+    "initial_existing_reports": 32,
+    "final_total_reports": 39,
+    "existing_reports_count": 39,
+    "location_extraction": {
+      "total_processed": 7,
+      "total_new_extractions": 7,
+      "total_locations_extracted": 115,
+      "failed_extractions": 0
+    },
+    "country_association": {
+      "total_processed": 7,
+      "successful": 7,
+      "failed": 0,
+      "skipped_existing": 32
+    }
+  },
+  "end_time": "2025-08-04T16:52:53.408972"
+}

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "total_associations": 31,
-    "successful_associations": 30,
+    "total_associations": 38,
+    "successful_associations": 37,
     "failed_associations": 1,
-    "last_updated": "2025-07-31T20:23:01.144280",
-    "new_associations_added": 31,
+    "last_updated": "2025-08-04T16:52:53.405953",
+    "new_associations_added": 7,
     "model_used": "Azure OpenAI GPT-3.5 Turbo",
     "output_format": "simplified_flat_structure"
   },
@@ -895,6 +895,209 @@
       "unassigned_cities": [],
       "confidence_notes": "Single country (Lao PDR) - all locations assigned automatically",
       "processed_at": "2025-07-31T20:23:01.144280"
+    },
+    {
+      "field_report_id": 17843,
+      "success": true,
+      "countries": [
+        "Lao PDR"
+      ],
+      "laopdr_states": [
+        "Bokeo",
+        "Bolikhamxay",
+        "Huaphan",
+        "Khammouane Province",
+        "Luang Prabang",
+        "Vientiane Province",
+        "Xayaboury",
+        "Xaysomboun",
+        "Xieng Khouang"
+      ],
+      "laopdr_cities": [
+        "Hinboun"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Lao PDR) - all locations assigned automatically",
+      "processed_at": "2025-08-04T16:52:43.576803"
+    },
+    {
+      "field_report_id": 17842,
+      "success": true,
+      "countries": [
+        "Viet Nam"
+      ],
+      "vietnam_states": [
+        "Nghệ An",
+        "Sơn La",
+        "Điện Biên"
+      ],
+      "vietnam_cities": [],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Viet Nam) - all locations assigned automatically",
+      "processed_at": "2025-08-04T16:52:43.576803"
+    },
+    {
+      "field_report_id": 17841,
+      "success": true,
+      "countries": [
+        "Chile"
+      ],
+      "chile_states": [
+        "Araucanía",
+        "Valparaíso"
+      ],
+      "chile_cities": [
+        "Angol",
+        "Los Sauces"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Chile) - all locations assigned automatically",
+      "processed_at": "2025-08-04T16:52:43.576803"
+    },
+    {
+      "field_report_id": 17840,
+      "countries": [
+        "Chile",
+        "Russia"
+      ],
+      "confidence_notes": "Assignments made based on precise geographic knowledge and administrative boundaries.",
+      "chile_states": [
+        "Antofagasta",
+        "Arica and Parinacota",
+        "Atacama",
+        "Biobío",
+        "Coquimbo",
+        "Los Lagos",
+        "Los Ríos",
+        "Maule",
+        "O'Higgins",
+        "Tarapacá",
+        "Valparaiso",
+        "Ñuble",
+        "Aysén"
+      ],
+      "chile_cities": [
+        "Antofagasta",
+        "Arica",
+        "Caldera",
+        "Castro",
+        "Chanaral",
+        "Constitution",
+        "Coquimbo",
+        "Corral",
+        "Huasco",
+        "Iquique",
+        "Lebu",
+        "Patache",
+        "Pichidangui",
+        "Pisagua",
+        "Puerto Montt",
+        "Punta Arenas",
+        "Quintero",
+        "San Antonio",
+        "Talcahuano",
+        "Taltal",
+        "Valparaíso",
+        "Ancud",
+        "Bahía Gregorio",
+        "Bahía Mansa",
+        "Boyeruca",
+        "Caleta Meteoro",
+        "Caleta Paposo",
+        "Coliumo",
+        "Coronel",
+        "Easter Island",
+        "Juan Fernandez",
+        "Nehuentue",
+        "Port Melinka",
+        "Puerto Aguirre",
+        "Puerto Aldea",
+        "Puerto Chacabuco",
+        "Puerto Eden",
+        "Puerto Natales",
+        "Puerto Williams",
+        "Queule",
+        "Quiriquina Island",
+        "San Félix"
+      ],
+      "russia_states": [
+        "Kamchatka"
+      ],
+      "russia_cities": [
+        "Petropavlovsk"
+      ],
+      "unassigned_states": [
+        "Araucanía",
+        "Chilean Antarctic Territory"
+      ],
+      "unassigned_cities": [
+        "Antarctica Base Ohiggins",
+        "Antarctica Base Prat",
+        "Mejillones",
+        "Punta de Choros",
+        "Tocopilla"
+      ],
+      "success": true,
+      "processed_at": "2025-08-04T16:52:50.391768"
+    },
+    {
+      "field_report_id": 17839,
+      "success": true,
+      "countries": [
+        "Guatemala"
+      ],
+      "guatemala_states": [
+        "Escuintla",
+        "Jalapa",
+        "Jutiapa",
+        "Santa Rosa"
+      ],
+      "guatemala_cities": [
+        "Jutiapa"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Guatemala) - all locations assigned automatically",
+      "processed_at": "2025-08-04T16:52:50.392765"
+    },
+    {
+      "field_report_id": 17838,
+      "success": true,
+      "countries": [
+        "Chile"
+      ],
+      "chile_states": [
+        "Antofagasta Region",
+        "Atacama Region"
+      ],
+      "chile_cities": [
+        "Antofagasta"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Chile) - all locations assigned automatically",
+      "processed_at": "2025-08-04T16:52:50.392765"
+    },
+    {
+      "field_report_id": 17837,
+      "success": true,
+      "countries": [
+        "Kyrgyz Republic"
+      ],
+      "kyrgyzrepublic_states": [],
+      "kyrgyzrepublic_cities": [
+        "Issyk-Kul",
+        "Kosh-Kol",
+        "Tamchy",
+        "Toru-Aigyr-Tamchy"
+      ],
+      "unassigned_states": [],
+      "unassigned_cities": [],
+      "confidence_notes": "Single country (Kyrgyz Republic) - all locations assigned automatically",
+      "processed_at": "2025-08-04T16:52:53.405021"
     }
   ]
 }

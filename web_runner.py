@@ -182,5 +182,5 @@ def logs():
 
 if __name__ == '__main__':
     print("Starting Field Reports Pipeline Web Runner...")
-    print("Available at: http://localhost:8080")
-    app.run(host='0.0.0.0', port=8080, debug=False)
+    print("Available at: http://localhost:5000")
+    app.run(host='0.0.0.0', port=5000, debug=False)

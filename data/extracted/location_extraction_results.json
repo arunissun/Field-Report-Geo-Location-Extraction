@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "total_extractions": 32,
-    "successful_extractions": 32,
+    "total_extractions": 39,
+    "successful_extractions": 39,
     "failed_extractions": 0,
-    "total_locations_extracted": 474,
+    "total_locations_extracted": 589,
     "locations_by_category": {
-      "countries": 44,
-      "states_regions": 149,
-      "cities_towns": 225,
-      "administrative_areas": 56
+      "countries": 52,
+      "states_regions": 185,
+      "cities_towns": 282,
+      "administrative_areas": 70
     },
-    "last_updated": "2025-07-31T20:22:10.214773",
-    "new_extractions_added": 32,
+    "last_updated": "2025-08-04T16:52:43.556299",
+    "new_extractions_added": 7,
     "extraction_info": {
       "model_used": "Azure OpenAI GPT-3.5 Turbo",
       "extraction_fields": [
@@ -20,7 +20,7 @@
         "cities_towns",
         "administrative_areas"
       ],
-      "processing_date": "2025-07-31T20:22:10.214773"
+      "processing_date": "2025-08-04T16:52:43.556299"
     }
   },
   "extractions": [
@@ -962,6 +962,223 @@
         "Ngern district"
       ],
       "confidence_notes": "High confidence in the extraction results"
+    },
+    {
+      "id": 17843,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:27.852792",
+      "total_locations_found": 15,
+      "countries": [
+        "Lao PDR"
+      ],
+      "states_regions": [
+        "Bokeo",
+        "Bolikhamxay",
+        "Huaphan",
+        "Khammouane Province",
+        "Luang Prabang",
+        "Vientiane Province",
+        "Xayaboury",
+        "Xaysomboun",
+        "Xieng Khouang"
+      ],
+      "cities_towns": [
+        "Hinboun"
+      ],
+      "administrative_areas": [
+        "46 districts",
+        "571 villages",
+        "Pakse",
+        "Vientiane Capital"
+      ],
+      "confidence_notes": "High confidence in the extraction of geographic locations"
+    },
+    {
+      "id": 17842,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:27.417397",
+      "total_locations_found": 5,
+      "countries": [
+        "Viet Nam"
+      ],
+      "states_regions": [
+        "Nghệ An",
+        "Sơn La",
+        "Điện Biên"
+      ],
+      "cities_towns": [],
+      "administrative_areas": [
+        "remote mountainous communes"
+      ],
+      "confidence_notes": "High confidence in the extraction of geographic locations"
+    },
+    {
+      "id": 17841,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:27.434379",
+      "total_locations_found": 6,
+      "countries": [
+        "Chile"
+      ],
+      "states_regions": [
+        "Araucanía",
+        "Valparaíso"
+      ],
+      "cities_towns": [
+        "Angol",
+        "Los Sauces"
+      ],
+      "administrative_areas": [
+        "Easter Island Province"
+      ],
+      "confidence_notes": "High confidence in the extraction of geographic locations"
+    },
+    {
+      "id": 17840,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:37.065733",
+      "total_locations_found": 66,
+      "countries": [
+        "Chile",
+        "Russia"
+      ],
+      "states_regions": [
+        "Antofagasta",
+        "Araucanía",
+        "Arica and Parinacota",
+        "Atacama",
+        "Aysén",
+        "Biobío",
+        "Chilean Antarctic Territory",
+        "Coquimbo",
+        "Kamchatka",
+        "Los Lagos",
+        "Los Ríos",
+        "Maule",
+        "O'Higgins",
+        "Tarapacá",
+        "Valparaiso",
+        "Ñuble"
+      ],
+      "cities_towns": [
+        "Ancud",
+        "Antarctica Base Ohiggins",
+        "Antarctica Base Prat",
+        "Antofagasta",
+        "Arica",
+        "Bahía Gregorio",
+        "Bahía Mansa",
+        "Boyeruca",
+        "Caldera",
+        "Caleta Meteoro",
+        "Caleta Paposo",
+        "Castro",
+        "Chanaral",
+        "Coliumo",
+        "Constitution",
+        "Coquimbo",
+        "Coronel",
+        "Corral",
+        "Easter Island",
+        "Huasco",
+        "Iquique",
+        "Juan Fernandez",
+        "Lebu",
+        "Mejillones",
+        "Nehuentue",
+        "Patache",
+        "Petropavlovsk",
+        "Pichidangui",
+        "Pisagua",
+        "Port Melinka",
+        "Puerto Aguirre",
+        "Puerto Aldea",
+        "Puerto Chacabuco",
+        "Puerto Eden",
+        "Puerto Montt",
+        "Puerto Natales",
+        "Puerto Williams",
+        "Punta Arenas",
+        "Punta de Choros",
+        "Queule",
+        "Quintero",
+        "Quiriquina Island",
+        "San Antonio",
+        "San Félix",
+        "Talcahuano",
+        "Taltal",
+        "Tocopilla",
+        "Valparaíso"
+      ],
+      "administrative_areas": [],
+      "confidence_notes": "High confidence in the extraction results"
+    },
+    {
+      "id": 17839,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:34.261419",
+      "total_locations_found": 10,
+      "countries": [
+        "Guatemala"
+      ],
+      "states_regions": [
+        "Escuintla",
+        "Jalapa",
+        "Jutiapa",
+        "Santa Rosa"
+      ],
+      "cities_towns": [
+        "Jutiapa"
+      ],
+      "administrative_areas": [
+        "Escuintla",
+        "Jalapa",
+        "Jutiapa",
+        "Santa Rosa"
+      ],
+      "confidence_notes": "High confidence in the extraction"
+    },
+    {
+      "id": 17838,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:34.178897",
+      "total_locations_found": 6,
+      "countries": [
+        "Chile"
+      ],
+      "states_regions": [
+        "Antofagasta Region",
+        "Atacama Region"
+      ],
+      "cities_towns": [
+        "Antofagasta"
+      ],
+      "administrative_areas": [
+        "Antofagasta Region",
+        "Atacama Region"
+      ],
+      "confidence_notes": "High confidence in the extraction of geographic locations"
+    },
+    {
+      "id": 17837,
+      "success": true,
+      "extracted_at": "2025-08-04T16:52:43.552300",
+      "total_locations_found": 7,
+      "countries": [
+        "Kyrgyz Republic"
+      ],
+      "states_regions": [],
+      "cities_towns": [
+        "Issyk-Kul",
+        "Kosh-Kol",
+        "Tamchy",
+        "Toru-Aigyr-Tamchy"
+      ],
+      "administrative_areas": [
+        "Issyk-Kul district",
+        "Toru-Aigyr-Tamchy aiyl aimak"
+      ],
+      "confidence_notes": "High confidence in extraction"
     }
   ]
 }

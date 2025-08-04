@@ -10614,12 +10614,2374 @@
       "title": "Heavy rain from Tropical Storm Wipha",
       "actions_others": "Authorities, Provincial level and district level are putting effort to help all households who are effected by flash flood.",
       "other_sources": "•\tMekong River Commission report https://www.facebook.com/share/p/1EfxtXaFwv/?mibextid=wwXIfr\n•\tLaotian Time report https://www.facebook.com/share/p/1JvKcSWB5L/?mibextid=wwXIfr\n•\tLuang Pha Bang Red Cross Page report https://www.facebook.com/share/p/1BA3BBqajs/?mibextid=wwXIfr\n•\tLaos Red Cross Page report https://www.facebook.com/LaoRedCrossSociety"
+    },
+    {
+      "id": 17843,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": "Requested",
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [
+            27,
+            29,
+            38,
+            39
+          ],
+          "actions_details": [
+            {
+              "id": 27,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Damage/Needs assessment",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 29,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Water & Sanitation",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 38,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Relief/Supply distribution",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 39,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Other",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23986,
+          "summary": "The Lao Red Cross headquarters coordinated nationwide preparedness and response efforts by issuing alerts to provincial branches to monitor weather updates, liaise with local disaster management committees, and prepare for rapid response. \n\nThe LRC leadership tasked its headquarter with continuous coordination, data collection, and reporting from affected areas, while also engaging with national partners, including the National Disaster Management Committee, IFRC, and the Swiss Red Cross.\n\nAt the provincial level, LRC branches mobilized relief supplies from local warehouses and coordinated closely with authorities to support evacuations using Red Cross boats and rescue vehicles. Water treatment units were deployed to provide clean drinking water to displaced communities, including over 600 people in Naphai Village, Nan District.\n\nProvincial branches in Luang Prabang, Xiengkhouang, and Huaphan distributed household essentials, food, and clothing to more than 1,900 people across multiple villages, with total relief assistance valued at over 158 million kip. Provincial teams also maintained regular reporting to headquarters to inform ongoing coordination and response.",
+          "translation_module_original_language": "en"
+        },
+        {
+          "organization": "PNS",
+          "actions": [],
+          "actions_details": [],
+          "id": 23988,
+          "summary": "N/A",
+          "translation_module_original_language": "en"
+        },
+        {
+          "organization": "FDRN",
+          "actions": [
+            39
+          ],
+          "actions_details": [
+            {
+              "id": 39,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Other",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23987,
+          "summary": "IFRC continues to closely monitor the impact of Typhoon Wipha and the evolving needs in the affected provinces, in coordination with the Lao Red Cross and UN agencies in Lao PDR. IFRC remains ready to provide support to the Lao Red Cross as needed and upon request.",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Rommanee Klaeotanong",
+          "title": "Senior Officer Disaster Preparedness and Response",
+          "email": "rommanee.klaeotanong@ifrc.org",
+          "phone": "+66870093553",
+          "id": 56238
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Mr.Bounyong PHOMMACHACK",
+          "title": "Deputy Director of Fundraising and Emergency Relief Department",
+          "email": "yongdmlrc@gmail.com",
+          "phone": "+8562098950641",
+          "id": 56239
+        },
+        {
+          "ctype": "Federation",
+          "name": "Pascal BOURCHER",
+          "title": "Coordinator, Programme",
+          "email": "pascal.bourcher@ifrc.org",
+          "phone": "+66613879480",
+          "id": 56240
+        },
+        {
+          "ctype": "Media",
+          "name": "Kwanta Norkum",
+          "title": "Officer, Communications and Reporting",
+          "email": "kwanta.norkum@ifrc.org",
+          "phone": "+66926362365",
+          "id": 56241
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "LA",
+          "iso3": "LAO",
+          "id": 99,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 2,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DLA001",
+          "average_household_size": null,
+          "society_name": "Lao Red Cross",
+          "name": "Lao People's Democratic Republic",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Bokeo",
+          "code": "LA05",
+          "id": 3813,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Louangphabang",
+          "code": "LA06",
+          "id": 3819,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Houaphan",
+          "code": "LA07",
+          "id": 3816,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Xaignabouli",
+          "code": "LA08",
+          "id": 3827,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Xiangkhouang",
+          "code": "LA09",
+          "id": 3829,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Bolikhamxai",
+          "code": "LA11",
+          "id": 3814,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Khammouan",
+          "code": "LA12",
+          "id": 3817,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Xaisomboon",
+          "code": "LA18",
+          "id": 3828,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 2,
+          "id": 2,
+          "region_name": "Asia Pacific",
+          "label": "Asia Pacific",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 12,
+        "id": 7556,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "LAO: Flood - 07-2025 - Heavy Rains and Flash Floods ",
+        "translation_module_original_language": "en"
+      },
+      "dtype_details": {
+        "id": 12,
+        "summary": "",
+        "name": "Flood",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 1728,
+        "username": "Rommanee",
+        "email": "rommanee.klaeotanong@ifrc.org",
+        "first_name": "Rommanee",
+        "last_name": "Klaeotanong"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 4,
+      "status": 9,
+      "request_assistance": false,
+      "ns_request_assistance": true,
+      "num_injured": null,
+      "num_dead": null,
+      "num_missing": null,
+      "num_affected": null,
+      "num_displaced": null,
+      "num_assisted": null,
+      "num_localstaff": null,
+      "num_volunteers": null,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": null,
+      "gov_num_dead": null,
+      "gov_num_missing": null,
+      "gov_num_affected": null,
+      "gov_num_displaced": null,
+      "gov_num_assisted": null,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": 3,
+      "other_num_missing": 4,
+      "other_num_affected": 58345,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": 1,
+      "dref_amount": 500000,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-24T00:00:00Z",
+      "report_date": "2025-08-04T14:19:09.373158Z",
+      "created_at": "2025-08-04T14:19:09.438587Z",
+      "updated_at": "2025-08-04T14:19:10.612752Z",
+      "previous_update": null,
+      "translation_module_original_language": "en",
+      "translation_module_skip_auto_translation": false,
+      "user": 1728,
+      "dtype": 12,
+      "event": 7556,
+      "regions": [
+        2
+      ],
+      "countries": [
+        99
+      ],
+      "districts": [
+        3813,
+        3819,
+        3816,
+        3827,
+        3829,
+        3814,
+        3817,
+        3828
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Heavy rain from Tropical Storm Wipha",
+      "summary": "LAO: Flood - 07-2025 - Heavy rain from Tropical Storm Wipha #4 (2025-08-04)",
+      "description": "<p>According to local government, intense rainfall from Tropical Depression Wipha caused widespread flooding and landslides across northern and central Lao PDR, affecting 46 districts and over 571 villages, with four people dead, seven missing, and thousands displaced. Khammouane Province was the most affected, with severe flooding in Hinboun District impacting over 335 families and causing extensive damage to homes, farmland, and infrastructure.&nbsp;</p>\n<p class=\"MsoNormal\">A total of 14 provinces across Lao PDR were affected by monsoon floods and landslides, with nine of them&mdash;Vientiane Province, Bolikhamxay, Luang Prabang, Xayaboury, Xieng Khouang, Huaphan, Xaysomboun, Khammouane, and Bokeo&mdash;directly impacted by Tropical Depression Wipha.</p>\n<p class=\"MsoNormal\">Authorities have issued warnings as Mekong River levels continue to rise, particularly in Vientiane Capital and Pakse.</p>",
+      "other_sources": "United Nations Lao PDR: 2025 Lao PDR Monsoon Situation Report 5 (31 July)\nLao Red Cross",
+      "actions_others": "Governments\n•\tThe Central Disaster Management Committee is planning a rapid needs assessment in five northern provinces: Vientiane Province, Luang Prabang, Xayaboury, Xieng Khouang, and Huaphan.\n•\tIn Khammouane Province, local authorities held a coordination meeting to direct emergency assistance and recovery efforts in flood-affected Natan area.\n•\tMilitary personnel and local authorities have been deployed in multiple provinces—including Vientiane, Xayaboury, Xieng Khouang, and Luang Prabang—to support evacuations and assist flood-affected communities.\n•\t In Bokeo Province, police, village authorities, and residents cleaned the Ban Mee Phoukha temple grounds after flooding left debris in the courtyard.\n•\t The Houaphan Provincial Health Office delivered emergency supplies worth over 27 million kip to Kuan District.\n•\tIn Xieng Khouang Province, disaster committees provided initial assistance of 140 million kip and allocated 80 million kip for monitoring efforts in Xieng Nguen and Nan districts.\n•\tThe Central Disaster Management Committee launched a national fundraising campaign on 30 July, calling on all sectors to contribute funds or essential goods to support flood recovery."
+    },
+    {
+      "id": 17842,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [
+            32,
+            36,
+            38,
+            41,
+            27,
+            28
+          ],
+          "actions_details": [
+            {
+              "id": 32,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Shelter",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 36,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Evacuation",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 38,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Relief/Supply distribution",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 41,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "CTP/Basic needs",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 27,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Damage/Needs assessment",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 28,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Search & Rescue",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23984,
+          "summary": "In Nghe An, over 6,000 households (approx. 24,000–26,000 people) have received support through cash assistance, household kits, clean water supplies, food items, and community kitchens. Priority was given to families whose houses were damaged, swept away, or whose livelihoods were heavily impacted.\n\nIn Dien Bien, VNRC supported around 60 households (approx. 250–300 people) affected by landslides and erosion, including families who lost members or whose homes were destroyed. Assistance included funeral support, cash grants, and house repair/reconstruction support.\n\nThe total estimated value of VNRC support to date is approximately VND 5.1 billion ~ CHF 158.100",
+          "translation_module_original_language": "en"
+        },
+        {
+          "organization": "FDRN",
+          "actions": [
+            39
+          ],
+          "actions_details": [
+            {
+              "id": 39,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Other",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23985,
+          "summary": "IFRC CCD Office is working closely with the VNRC and its focal staff to provide any technical assistance if required. Situation is continuously monitored.",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Le Phuong Anh",
+          "title": "Programme Officer",
+          "email": "phuonganh.le@ifrc.org",
+          "phone": "+84379638712",
+          "id": 56234
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Tran Sy Pha",
+          "title": "Head of Disaster Management Department",
+          "email": "tranphavnrc@gmail.com",
+          "phone": "+84936423666",
+          "id": 56235
+        },
+        {
+          "ctype": "Federation",
+          "name": "Pascal.Bourcher",
+          "title": "Programme Coordinator",
+          "email": "pascal.bourcher@ifrc.org",
+          "phone": "+66613879480",
+          "id": 56236
+        },
+        {
+          "ctype": "Media",
+          "name": "Kwanta Norkum",
+          "title": "Communication and Reporting Officer",
+          "email": "kwanta.norkum@ifrc.org",
+          "phone": "+66926362365",
+          "id": 56237
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "VN",
+          "iso3": "VNM",
+          "id": 191,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 2,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DVN001",
+          "average_household_size": null,
+          "society_name": "Vietnam Red Cross Society",
+          "name": "Viet Nam",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Dien Bien",
+          "code": "VN018",
+          "id": 3373,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Nghe An",
+          "code": "VN042",
+          "id": 3397,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Son La",
+          "code": "VN053",
+          "id": 3408,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 2,
+          "id": 2,
+          "region_name": "Asia Pacific",
+          "label": "Asia Pacific",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 27,
+        "id": 7595,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "VNM: Pluvial/Flash Flood - 07-2025 - Viet Nam - Pluvial/Flash Flood - 08/2025 ",
+        "translation_module_original_language": "en"
+      },
+      "dtype_details": {
+        "id": 27,
+        "summary": "",
+        "name": "Pluvial/Flash Flood",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 6457,
+        "username": "PhuongAnh.LE@ifrc.org",
+        "email": "PhuongAnh.LE@ifrc.org",
+        "first_name": "Phuong Anh",
+        "last_name": "Le"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 1,
+      "status": 9,
+      "request_assistance": false,
+      "ns_request_assistance": false,
+      "num_injured": null,
+      "num_dead": null,
+      "num_missing": null,
+      "num_affected": null,
+      "num_displaced": null,
+      "num_assisted": 24300,
+      "num_localstaff": null,
+      "num_volunteers": null,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": 10,
+      "gov_num_dead": 10,
+      "gov_num_missing": null,
+      "gov_num_affected": null,
+      "gov_num_displaced": null,
+      "gov_num_assisted": 1200,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": null,
+      "other_num_missing": null,
+      "other_num_affected": 76000,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-31T00:00:00Z",
+      "report_date": "2025-08-04T09:03:40.880654Z",
+      "created_at": "2025-08-04T09:03:40.902349Z",
+      "updated_at": "2025-08-04T09:03:40.967012Z",
+      "previous_update": null,
+      "translation_module_original_language": "en",
+      "translation_module_skip_auto_translation": false,
+      "user": 6457,
+      "dtype": 27,
+      "event": 7595,
+      "regions": [
+        2
+      ],
+      "countries": [
+        191
+      ],
+      "districts": [
+        3373,
+        3397,
+        3408
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Viet Nam - Pluvial/Flash Flood - 08/2025",
+      "summary": "VNM: Pluvial/Flash Flood - 07-2025 - Viet Nam - Pluvial/Flash Flood - 08/2025 ",
+      "description": "<p data-start=\"281\" data-end=\"900\">Between late July and early August 2025, prolonged heavy rainfall associated with Storm Wipha triggered widespread flooding, flash floods, and landslides across three northern provinces of Viet Nam: Nghệ An, Điện Bi&ecirc;n, and Sơn La. The most severely affected areas are remote mountainous communes where rainfall exceeded seasonal norms and overwhelmed already fragile infrastructure. As a result, at least 19 people have died, one is missing, and over 11 others injured. More than 2,000 houses were either damaged or destroyed, while major roads and bridges were washed away, isolating dozens of communities.</p>\n<p data-start=\"902\" data-end=\"1591\">Approximately <strong data-start=\"916\" data-end=\"943\">76,600 to 85,600 people</strong> have been directly affected, including thousands who lost homes, access to clean water, food sources, and means of livelihood. In Nghệ An alone, over <strong data-start=\"1094\" data-end=\"1111\">58,000 people</strong> across 132 villages in 15 communes have been cut off due to road blockages and rising river levels. In Điện Bi&ecirc;n and Sơn La, many families were forced to evacuate or take shelter in temporary locations as flash floods inundated homes and farmland. Livelihoods have been heavily disrupted, with thousands of hectares of rice, crops, and livestock lost. Immediate humanitarian needs include shelter, food, safe water, and access to healthcare for displaced and isolated households.</p>",
+      "other_sources": "Viet Nam Disaster Management Authority\nViet Nam Red Cross\nVnexpree",
+      "actions_others": "In response, the Prime Minister issued an urgent directive (No. 125/CĐ-TTg) calling for immediate recovery actions. On 2 August, the Government approved an emergency fund of VND 250 billion (USD ~10 million) from the central contingency budget to support the three hardest-hit provinces — Điện Biên (VND 100 billion), Nghệ An (VND 100 billion), and Sơn La (VND 50 billion).\n\nAffected populations continue to face high risks of food insecurity, waterborne diseases, and psychological distress due to the loss of homes, livelihoods, and access to basic services. Priorities remain on life-saving support, restoring access, and stabilizing living conditions for displaced and vulnerable households."
+    },
+    {
+      "id": 17841,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [
+            39
+          ],
+          "actions_details": [
+            {
+              "id": 39,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Other",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23983,
+          "summary": "National Monitoring",
+          "translation_module_original_language": "es"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Javier Lepe",
+          "title": "Coordinador IM",
+          "email": "im@cruzroja.cl",
+          "phone": "+56975818312",
+          "id": 56230
+        },
+        {
+          "ctype": "Federation",
+          "name": "Virginia Laino",
+          "title": "Programme and Operation Coordinator",
+          "email": "virginia.laino@ifrc.org",
+          "phone": "+54 9 11 6624-8470",
+          "id": 56231
+        },
+        {
+          "ctype": "Media",
+          "name": "Felipe Gonzalez",
+          "title": "Director Ejecutivo",
+          "email": "felipe.gonzalez@cruzroja.cl",
+          "phone": "+56950116612",
+          "id": 56232
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Marion Sandoval",
+          "title": "Directora Nacional de Gestión del Riesgo",
+          "email": "gestiondelriesgo@cruzroja.cl",
+          "phone": "+56 9 7704 8252",
+          "id": 56233
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "CL",
+          "iso3": "CHL",
+          "id": 46,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 1,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DCL001",
+          "average_household_size": null,
+          "society_name": "Chilean Red Cross",
+          "name": "Chile",
+          "translation_module_original_language": "es"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Araucanía",
+          "code": "CL002",
+          "id": 574,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Atacama",
+          "code": "CL004",
+          "id": 576,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Libertador",
+          "code": "CL008",
+          "id": 580,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Los Lagos",
+          "code": "CL009",
+          "id": 581,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Los Rios",
+          "code": "CL010",
+          "id": 582,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Maule",
+          "code": "CL012",
+          "id": 584,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Valparaíso",
+          "code": "CL015",
+          "id": 587,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 1,
+          "id": 1,
+          "region_name": "Americas",
+          "label": "Americas",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 13,
+        "id": 7588,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "CHL: Others - 07-2025 - Weather Events South Zone",
+        "translation_module_original_language": "es"
+      },
+      "dtype_details": {
+        "id": 13,
+        "summary": "",
+        "name": "Other",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 8400,
+        "username": "im@cruzroja.cl",
+        "email": "im@cruzroja.cl",
+        "first_name": "Javier",
+        "last_name": "Lepe"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 4,
+      "status": 9,
+      "request_assistance": false,
+      "ns_request_assistance": false,
+      "num_injured": null,
+      "num_dead": null,
+      "num_missing": null,
+      "num_affected": null,
+      "num_displaced": null,
+      "num_assisted": null,
+      "num_localstaff": null,
+      "num_volunteers": null,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": 1,
+      "gov_num_dead": null,
+      "gov_num_missing": null,
+      "gov_num_affected": null,
+      "gov_num_displaced": 48,
+      "gov_num_assisted": null,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": null,
+      "other_num_missing": null,
+      "other_num_affected": null,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-28T00:00:00Z",
+      "report_date": "2025-08-04T02:10:43.376100Z",
+      "created_at": "2025-08-04T02:10:43.399815Z",
+      "updated_at": "2025-08-04T02:10:43.480940Z",
+      "previous_update": null,
+      "translation_module_original_language": "es",
+      "translation_module_skip_auto_translation": false,
+      "user": 8400,
+      "dtype": 13,
+      "event": 7588,
+      "regions": [
+        1
+      ],
+      "countries": [
+        46
+      ],
+      "districts": [
+        574,
+        576,
+        580,
+        581,
+        582,
+        584,
+        587
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Weather Events",
+      "summary": "CHL: Other - 07-2025 - Weather Events #4 (2025-08-04)",
+      "description": "<p><strong>Araucanía:&nbsp;</strong><br>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Araucanía Region.&nbsp;</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th><strong>Alert</strong></th>\n<th><strong>Forecast</strong></th>\n<th><strong>Start</strong></th>\n<th><strong>End</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-4</td>\n<td>Moderate to heavy rainfall with high zero isotherm for the mountain range.</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A288-1</td>\n<td>Normal to moderate wind for the coastal area of the region</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A280-5</td>\n<td>Normal to moderate rainfall with high isotherm in valley, pre-mountain and mountain areas.</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A290-2</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast, coastal mountain range, valley and pre-mountain range.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A290-8</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast, coastal mountain range, valley and pre-mountain range.</td>\n<td>01/08</td>\n<td>01/08</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, according to the DMC's Meteorological Hazard Report, the amounts of precipitation (mm/cm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the next few days in the region, are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">01 August</th>\n<th colspan=\"2\">02 August</th>\n<th colspan=\"2\">03</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>20 - 45</td>\n<td>-</td>\n<td>10 - 20</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>20 – 40<br>≤ 3 cm</td>\n<td>25 - 40<br>Streaks 50</td>\n<td>10 - 25<br>≤ 5 cm</td>\n<td>-</td>\n<td>≤ 3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>5 - 15</td>\n<td>-</td>\n<td>10 - 20</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>15 - 30<br>≤ 3 cm</td>\n<td>-</td>\n<td>5 - 15<br>≤ 3 cm</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>15 – 30 cm</td>\n<td>-</td>\n<td>13 – 30 cm</td>\n<td>40 - 60</td>\n<td>1 - 5 cm</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">1.700 - 1.500</td>\n<td colspan=\"2\">1.500 - 1.000</td>\n<td colspan=\"2\">1.000 - 1.400</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, until today, Friday, August 1 for the coasts of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of La Araucanía, the Regional Directorate of SENAPRED <strong>updates the Regional Preventive Early Warning for meteorological event</strong>, which has been in force since July 26 and until conditions warrant it.</p>\n<p><strong>Los Sauces:</strong> According to what was reported by the General Directorate of Water (DGA), through its online reporting system of the stations of the Fluviometric Network, it is indicated that the station \"Río Rahue in Quebrada Culén\" has increased its red alert threshold,  which, if the flow continues to increase, could affect people and damage the commune's infrastructure.</p>\n<p>In consideration of this background, which implies an increase in the risk associated with this variable, the Regional Directorate of SENAPRED La Araucanía, in coordination with the Regional Presidential Delegation, declares a Red Alert for the communes of Los Sauces and Angol due to overflow and cancels the Yellow Alert due to flooding.  effective from today and until the conditions of the event warrant it.</p>\n<p><strong>Valparaiso:</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Valparaíso Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th><strong>Alert</strong></th>\n<th><strong>Forecast</strong></th>\n<th><strong>Start</strong></th>\n<th><strong>End</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA73</td>\n<td>Thunderstorms with a probability of heavy rainfall in a short period of time in the coastal and dry southern coastal sectors of the region.</td>\n<td>01/08</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Alert AA69</td>\n<td>Moderate to strong wind in Easter Island Province</td>\n<td>01/08</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A283-4</td>\n<td>Normal to moderate wind in coastal sectors, coastal mountain range and mountain range of the region.</td>\n<td>30/07</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A287-10</td>\n<td>Normal to moderate rainfall in sectors of the foothills and pre-Andean valleys of the region.</td>\n<td>01/08</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A291</td>\n<td>Normal to moderate wind in Easter Island Province.</td>\n<td>01/08</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A290-9</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time, on the coast and coastal mountain range.</td>\n<td>01/08</td>\n<td>01/08</td>\n</tr>\n</tbody>\n</table>\n<p>On the other hand, according to the information provided by the Navy Meteorological Center, Storm Surge Warnings No. 31 for normal swells are in force for Easter Island, in force until August 4; and Warning No. 30 for normal swells from the Corona Lighthouse to Arica and Juan Fernández Archipelago, in force until August 1.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through the update of its Technical Minute for the Danger of Mass Removals, issued today, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is <strong>high</strong> on the coast and coastal mountain range.  <strong>moderate</strong> in the foothills and pre-mountain valleys, and <strong>low</strong> in the mountain range.</p>\n<p>In consideration of this background and in coordination with the Regional Presidential Delegation of Valparaíso, the Regional Directorate of SENAPRED <strong>updates the regional Preventive Early Warning for meteorological event</strong>, which has been in force since July 29 and until conditions warrant it.</p>\n<p><strong>Los Lagos: </strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), due to the weakening of the meteorological conditions that caused it, the following alert has been canceled for the Los Lagos Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th><strong>Warning</strong></th>\n<th><strong>Prognosis</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Notice A297</td>\n<td>Probable snowfall in the valley, foothills, Chiloé and inland coast.</td>\n</tr>\n</tbody>\n</table>\n<p>Finally, according to today's Meteorological Hazard Report and the current alert, the amounts of precipitation (mm) and isotherm 0°C (m.a.s.l.) forecast for the following days in the region are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Zone</th>\n<th>August 03</th>\n<th>August 04 August</th>\n<th>05</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>Less than 2</td>\n<td>&nbsp;</td>\n<td>2-8</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>&nbsp;</td>\n<td>10-20</td>\n<td>2-8</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>2-8<br>(≤2 a.m.)</td>\n<td>10-20</td>\n<td>5-15</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>2-5 cm morning</td>\n<td>15-25</td>\n<td>15-25</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>2-5 cm</td>\n<td>5-10</td>\n<td>5-15</td>\n</tr>\n<tr>\n<td>Chiloé</td>\n<td>2-8</td>\n<td>10-20</td>\n<td>2-8</td>\n</tr>\n<tr>\n<td>Inland coastline</td>\n<td>1-3 cm morning</td>\n<td>10-20</td>\n<td>10-20</td>\n</tr>\n<tr>\n<td>Southern mountain range</td>\n<td>&nbsp;</td>\n<td>10-20<br>Less than 2 cm</td>\n<td>5-15</td>\n</tr>\n<tr>\n<td>Sub-Andean Patagonia</td>\n<td>&nbsp;</td>\n<td>5-15</td>\n<td>2-8</td>\n</tr>\n<tr>\n<td>Isothermal 0°C<br>Puerto Montt to the north</td>\n<td>900-1300</td>\n<td>1300-2400</td>\n<td>2400-2200</td>\n</tr>\n<tr>\n<td>Isotherm 0°C from Puerto Montt to the south</td>\n<td>570-1000-250</td>\n<td>250-1000</td>\n<td>1900-2200-1800</td>\n</tr>\n</tbody>\n</table>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Los Lagos, the Regional Directorate of SENAPRED <strong>modifies the Regional Preventive Early Warning variable for rainfall</strong>, which has been in force since July 21 and until conditions warrant it.</p>\n<p>The modification of this alert is constituted as a state of reinforcement of surveillance, through the precise and rigorous monitoring of risk conditions and the respective vulnerabilities associated with the threat, coordinating and activating the National System for Disaster Prevention and Response (SINAPRED) in order to act in a timely manner in the event of emergency situations.</p>\n<p><strong>Ñuble:</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Ñuble Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th><strong>Alert</strong></th>\n<th><strong>Forecast</strong></th>\n<th><strong>Start</strong></th>\n<th><strong>End</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-7</td>\n<td>Moderate to heavy rainfall with high zero isotherm on the coast, coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30-07</td>\n<td>30-07</td>\n</tr>\n<tr>\n<td>Notice A283-3</td>\n<td>Normal to moderate wind on the coast, coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30-07</td>\n<td>31-07</td>\n</tr>\n<tr>\n<td>Notice A287-5</td>\n<td>Normal to moderate rainfall on the coast, coastal mountain range and valley.</td>\n<td>30-07</td>\n<td>31-07</td>\n</tr>\n</tbody>\n</table>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Ñuble, the Regional Directorate of SENAPRED <strong>updates the Regional Preventive Early Warning for meteorological event</strong>, which has been in force since July 28, 2025.</p>\n<p>&nbsp;</p>\n<p><strong>Basic Sums:</strong></p>\n<p>&nbsp;</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Drinking</th>\n<th>Water Supply</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"2\"><strong>Commune of Coelemu:</strong> rural drinking water service interrupted in the SSR Meipo affecting 80 customers.<br><strong>Ránquil Commune:</strong> rural drinking water service interrupted in SSR San Ignacio de Palomares, affecting 223 customers.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Power supply</th><th></th>\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"2\"><strong>Antofagasta:</strong> 86 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Atacama:</strong> 125 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Coquimbo:</strong> 1107 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Valparaíso:</strong> 4455 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Metropolitan:</strong> 2587 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>O'Higgins:</strong> 286 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Maule:</strong> 237 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Ñuble:</strong> 57 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Biobío:</strong> 1006 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>La Araucanía:</strong> 1241 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Los Lagos:</strong> 270 customers without supply</td>\n</tr>\n<tr>\n<td colspan=\"2\"><strong>Los Lagos:</strong> 333 customers without supply</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Data</strong></p>\n<table border=\"1\">\n<tbody>\n<tr>\n<th>Housing</th>\n<td>1 house destroyed.<br>1706 homes with minor damage.<br>10 homes with major damage.<br>786 homes with damage under evaluation.</td>\n</tr>\n<tr>\n<th>Hostels</th>\n<td><strong>Commune of Canela:</strong> Municipal Residence.<br><strong>Mulchén:</strong> Blanco Encalada School.<br><strong>Renaico:</strong> Contingency High School<br><strong>Theodore Schmidt:</strong> Boarding school at the Nueva Alborada School.<br><strong>Purranque:</strong> Cruise Headquarters</td>\n</tr>\n</tbody>\n</table>",
+      "other_sources": "SENAPRED\nChilean Meteorological Directorate (DMC)",
+      "actions_others": "The Regional Directorates of SENAPRED maintain continuous monitoring in each of the communes in coordination with the National System for Disaster Prevention and Response (SINAPRED), based on their coordination procedures at the regional level. \n\nAs a result of this meteorological event, 2 technical tables were held at the national level and various technical tables and COGRID at the Regional, Provincial and Communal level"
+    },
+    {
+      "id": 17840,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [],
+          "actions_details": [],
+          "id": 23982,
+          "summary": "Monitoring and community support in safe areas.\nDissemination of recommendations for safe evacuation.\nRCF Delivery Services in Iquique\nHealth: PPAA and MHPSS\nWASH: Promotional messages for the safe purification of water, delivered by the DNS.\n\nMain actions taken \n\nCommunications: More than 50 Affiliates have shared prevention material on social media.\n\nNorth Zone: The Reestablishment of Links between Family Members program is present at the Tierra de Campeones stadium in Iquique, providing cell phone battery charging services, internet connection and calls, as well as other services to prevent the loss of family contact. In total, 157 services were provided to the community.\n\nAtacama - Coquimbo Region: First aid post in a safe area, blood pressure measurement, psychological first aid and snack for people decompensated by fatigue.\n\nValparaiso: \nYesterday night, the statement was sent to the Costa, Almendral and Viña del Mar area subsidiaries, those that are within the flood zone that remained closed.\nThe other subsidiaries will be attentive to any changes. The Valparaiso Playa Area Subsidiaries\nAncha, Yungay, Placeres and Cordillera were called upon to be present, because it was coordinated that in the security zones of the city of Valparaíso there should be a PPAA, APS and RCF post of the Red Cross.\nThe Playa Ancha, Yungay and Placeres subsidiaries will be located with their position within the security zone that corresponds to them and the Cordillera subsidiary will not be able to be present with their position due to not having volunteers available.\nThe regional committee has been working since last night, since the emergency began and continues with its coordination and monitoring work until the moment this report is sent.\nThe RCF focal points of the Regional Committee, Villa Alemana, Limache, Concón and Quilpué are\ncontinue to spread information on social networks, regarding the prevention of separation\nof relatives in case of disasters.\nThe branches that remain present and attending COGRID are Limache, Quillota, San Antonio,\nVilla Alemana and Regional Committee.\nSan Antonio Branch, remains present in the security zone performing first aid,\nmainly APS and Blood Pressure Control. It should be noted that 4 volunteers from the branch had to\nevacuate their homes as a precaution.\nConcón Branch, at 5:34 p.m., they continue to work in temporary shelter with work\nwith children, whose families have arrived as a precaution, with 6 volunteers.\nLimache Branch, at 5:46 p.m., withdraws from the security zone for civil protection,\nmaking his retirement to the subsidiary.\nThe Playa Ancha Branch withdrew from the security zone.\n\nLibertador General O'Higgins\nRed Cross Pichilemu Branch, working with the Hospital that was evacuated to another place, to safeguard the Safety of the Community\n\nAraucanía: In a meeting with Saavedra, moving to the safe areas at 1:00 p.m. with the entire community that is in risk areas. Firefighters, carabineros, navy, ambulances, public officials and support from other communes were deployed. The most important thing is the people, which is why we deploy.\n\nThe Chilean Red Cross, through the teams on the ground, has identified needs for RCF, first aid, SMAP, dissemination of information and support in the evacuation of the elderly.\n\nThat is why local, regional and national authorities have communicated at different levels to manage and support prioritized sectors in shelters or safe zones established within the territory.",
+          "translation_module_original_language": "es"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Pablo Flores Torres",
+          "title": "Coordinador Nacional IM",
+          "email": "im.dref@cruzroja.cl",
+          "phone": "+56982690099",
+          "id": 56224
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Marion Sandoval Bequer",
+          "title": "Directora Nacional Gestión del Riesgo",
+          "email": "gestiondelriesgo@cruzroja.cl",
+          "phone": "+56977048252",
+          "id": 56225
+        },
+        {
+          "ctype": "Federation",
+          "name": "Virginia Laino",
+          "title": "Programme and Operation Coordinator",
+          "email": "virginia.laino@ifrc.org",
+          "phone": "+54 9 11 6624-8470",
+          "id": 56226
+        },
+        {
+          "ctype": "Media",
+          "name": "Felipe Gonzalez",
+          "title": "Director Ejecutivo",
+          "email": "felipe.gonzalez@cruzroja.cl",
+          "phone": "+56950116612",
+          "id": 56227
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "CL",
+          "iso3": "CHL",
+          "id": 46,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 1,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DCL001",
+          "average_household_size": null,
+          "society_name": "Chilean Red Cross",
+          "name": "Chile",
+          "translation_module_original_language": "es"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Antofagasta",
+          "code": "CL001",
+          "id": 573,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Araucanía",
+          "code": "CL002",
+          "id": 574,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Arica y Parinacota",
+          "code": "CL003",
+          "id": 575,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Atacama",
+          "code": "CL004",
+          "id": 576,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Aysen Del Sen.d.c.",
+          "code": "CL005",
+          "id": 577,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Biobio",
+          "code": "CL006",
+          "id": 578,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Coquimbo",
+          "code": "CL007",
+          "id": 579,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Libertador",
+          "code": "CL008",
+          "id": 580,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Los Lagos",
+          "code": "CL009",
+          "id": 581,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Los Rios",
+          "code": "CL010",
+          "id": 582,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Magallanes",
+          "code": "CL011",
+          "id": 583,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Maule",
+          "code": "CL012",
+          "id": 584,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Metropolitana",
+          "code": "CL013",
+          "id": 585,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Tarapacá",
+          "code": "CL014",
+          "id": 586,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Valparaíso",
+          "code": "CL015",
+          "id": 587,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 1,
+          "id": 1,
+          "region_name": "Americas",
+          "label": "Americas",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 11,
+        "id": 7584,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "CHL: Tsunami - 07-2025 - Tsunami Warning for Earthquake in Russia",
+        "translation_module_original_language": "es"
+      },
+      "dtype_details": {
+        "id": 11,
+        "summary": "",
+        "name": "Tsunami",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 4761,
+        "username": "pabloflorestorres",
+        "email": "pflorestorres9@gmail.com",
+        "first_name": "Pablo",
+        "last_name": "Flores"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 4,
+      "status": 9,
+      "request_assistance": false,
+      "ns_request_assistance": false,
+      "num_injured": null,
+      "num_dead": null,
+      "num_missing": null,
+      "num_affected": null,
+      "num_displaced": null,
+      "num_assisted": null,
+      "num_localstaff": null,
+      "num_volunteers": null,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": null,
+      "gov_num_dead": null,
+      "gov_num_missing": null,
+      "gov_num_affected": null,
+      "gov_num_displaced": 1500000,
+      "gov_num_assisted": null,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": null,
+      "other_num_missing": null,
+      "other_num_affected": null,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-29T00:00:00Z",
+      "report_date": "2025-08-01T20:08:02.973935Z",
+      "created_at": "2025-08-01T20:08:02.998177Z",
+      "updated_at": "2025-08-01T20:08:03.086882Z",
+      "previous_update": null,
+      "translation_module_original_language": "es",
+      "translation_module_skip_auto_translation": false,
+      "user": 4761,
+      "dtype": 11,
+      "event": 7584,
+      "regions": [
+        1
+      ],
+      "countries": [
+        46
+      ],
+      "districts": [
+        573,
+        574,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583,
+        584,
+        585,
+        586,
+        587
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Tsunami Alert for Earthquake in Russia",
+      "summary": "CHL: Tsunami - 07-2025 - Tsunami Alert for Earthquake in Russia #4 (2025-08-01)",
+      "description": "<p dir=\"ltr\">The Hydrographic and Oceanographic Service of the Chilean Navy (SHOA) reported that at 7:25 p.m. on July 29, an earthquake of magnitude 8.8 occurred in the Pacific Basin, with an epicenter 134 kilometers southeast of Petropavlovsk from Kamchatka, Russia. Information corroborated by the Pacific Tsunami Warning Center (PTWC).</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Estimated arrival times:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Easter Island 07-30-2025 11:25 AM (H.C.) 07-30-2025 09:25 AM (H.I.) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">San Félix 30-07-2025 14:14 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Arica 30-07-2025 14:51 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Iquique 30-07-2025 14:55 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Pisagua 30-07-2025 14:57 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Patache 30-07-2025 15:04 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Mejillones 30-07-2025 15:05 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Juan Fernandez 30-07-2025 15:06 arrived</p>\n</li>\n</ul>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Tocopilla 30-07-2025 15:06 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Antofagasta 30-07-2025 15:09 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Caleta Paposo 30-07-2025 15:16 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Taltal 30-07-2025 15:18 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Chanaral 30-07-2025 15:21 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Caldera 30-07-2025 15:22 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Huasco 30-07-2025 15:27 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Aldea 30-07-2025 15:31 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Punta de Choros 30-07-2025 15:31 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Coquimbo 30-07-2025 15:34 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Pichidangui 30-07-2025 15:48 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Valparaíso 30-07-2025 15:50 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Quintero 30-07-2025 15:54 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">San Antonio 30-07-2025 15:56 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Boyeruca 30-07-2025 15:57 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Constitution 30-07-2025 16:03 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Lebu 30-07-2025 16:03 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Quiriquina Island 2025-07-30 4:11 PM arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Talcahuano 30-07-2025 16:11 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Coronel 30-07-2025 16:20 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Coliumo 30-07-2025 16:22 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Nehuentue 30-07-2025 16:33 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Bahía Mansa 30-07-2025 16:33 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Corral 30-07-2025 16:38 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Queule 30-07-2025 16:48 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Ancud 30-07-2025 17:01 arrived&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Port Melinka 2025-07-30 17:49 (H.C.) 2025-07-30 18:49 (H.UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Montt 30-07-2025 17:56 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Antarctica Base Prat 2025-07-30 18:08 (H.C.) 2025-07-30 19:08 (H.UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Castro 30-07-2025 18:37 arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Antarctica Base Ohiggins 2025-07-30 18:38 (H.C.) 2025-07-30 19:38 (H.UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Caleta Meteoro 2025-07-30 19:00 (H.C.) 2025-07-30 20:00 (H.UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Williams 2025-07-30 21:46 (H.C.) 2025-07-30 22:46 (H.UTC-3) arrived&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Natales 31-07-2025 01:06 (H.C.) 31-07-2025 02:06 (H.UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Chacabuco 2025-07-31 01:23 (H.C.) 2025-07-31 02:23 (H.UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Eden 2025-07-31 02:17 (H.C.) 2025-07-31 03:17 (UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Aguirre 31-07-2025 04:12 (H.C.) 31-07-2025 05:12 (H.UTC-3) arrived&nbsp;</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Punta Arenas 2025-07-31 09:20 (H.C.) 2025-07-31 10:20 (UTC-3) arrived</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Bahía Gregorio 2025-07-31 09:21 (H.C.) 2025-07-31 10:21 (H.UTC-3) arrived</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">H.I. = Western Insular Chile Time</p>\n<p dir=\"ltr\">H.C. = continental chili time</p>\n<p dir=\"ltr\">H.UTC-3 = time of the Aysén region and the Magallanes and Chilean Antarctic region</p>\n<p dir=\"ltr\">The cities are delivered in order of shortest to longest time of arrival of the tsunami.</p>\n<p dir=\"ltr\">Evacuation Process Start Times</p>\n<p dir=\"ltr\">BASED ON INFORMATION COLLECTED BY SEA LEVEL STATIONS, TSUNAMI WAVE PROPAGATION EVOLUTION, FIELD INFORMATION, AND MODELING, TSUNAMI THREAT STATES ARE COMPLETELY CANCELED.</p>\n<p dir=\"ltr\">&nbsp;</p>\n<div dir=\"ltr\" align=\"left\">\n<table><colgroup><col width=\"154\"></colgroup>\n<tbody>\n<tr>\n<td>\n<p dir=\"ltr\">Sector</p>\n</td>\n<td>\n<p dir=\"ltr\">State</p>\n</td>\n<td>\n<p dir=\"ltr\">Continental Date</p>\n</td>\n<td>\n<p dir=\"ltr\">Continental Time</p>\n</td>\n<td>\n<p dir=\"ltr\">Local Date</p>\n</td>\n<td>\n<p dir=\"ltr\">Local time</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Easter Island</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">18:58</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Arica and Parinacota Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">02:54</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Tarapacá Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">05:16</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">San Felix Island</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">18:58</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Antofagasta Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">05:18</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Atacama Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">00:28</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Coquimbo Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">02:35</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Valparaiso Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">05:21</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Juan Fernández Archipelago</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">18:59</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">O'Higgins Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">05:40</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Maule Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">06:38</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Ñuble Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">02:56</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Biobío Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">02:58</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Araucanía Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">05:23</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Los Ríos Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">06:40</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Los Lagos Region&nbsp;</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">31-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">05:25</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Aysén Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">20:21</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Chilean Antarctic Territory</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-07-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">16:50</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n<tr>\n<td>\n<p dir=\"ltr\">Magallanes Region</p>\n</td>\n<td>\n<p dir=\"ltr\">Canceled</p>\n</td>\n<td>\n<p dir=\"ltr\">30-0-2025</p>\n</td>\n<td>\n<p dir=\"ltr\">16:50</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n<td>\n<p dir=\"ltr\">-</p>\n</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p dir=\"ltr\">Tsunami amplitudes recorded by sea level stations:</p>\n<p dir=\"ltr\">The tsunami threat level indicated in bulletin 28 issued by SHOA is maintained. The amplitudes recorded by the sea level stations are as follows:</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Arica 0.7 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Pisagua 0.2 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Iquique 0.4 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Patache 0.4 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Tocopilla 0.4 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Mussels 0.9 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Antofagasta 0.5 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Caleta Paposo 0.5 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Taltal 0.7 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Chañaral 0.8 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Caldera 0.9 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Huasco 0.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Punta De Choros 1.1 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Coquimbo 1.4 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Puerto Aldea 0.9 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Pichidangui 0.5 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Quintero 1.3 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Valparaiso 0.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">San Antonio 0.7 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Boyeruca 2.5 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Constitution 0.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Coliumo 1.4 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Quiriquina Island 0.5 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Talcahuano 1.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Coronel 0.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Lebu 0.8 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Corral 0.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Mansa Bay 0.6 [m]</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Ancud &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.4 &nbsp; [m]</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">SENAPRED at 07:25 a.m. on July 30, declared a Red Alert for tsunami for the communes of the continental coastal border between the regions of Arica and Parinacota and Magallanes, including the Insular and Antarctic territory, in force since July 29, 2025.</p>\n<p dir=\"ltr\">Meanwhile, at 10:30 p.m. yesterday, the National Disaster Risk Management Committee (COGRID) was convened, and at 7:00 a.m. today an Evaluation Meeting, in order to establish the coordinations and courses of action. In the same way, the Regional Directorates convened their respective Regional COGRIDs.</p>\n<p dir=\"ltr\">The evacuation processes have been carried out in an orderly manner. Additionally, shelters have been set up in some communes if necessary. On the other hand, the Ministry of Education suspended classes for all educational establishments, located on the coastal edge between the regions of Arica and Parinacota and Los Lagos, for today, Wednesday, July 30.</p>\n<p dir=\"ltr\">The Chilean Navy instructed that all vessels present at sea must remain in a 200-meter-deep shelter zone. Meanwhile, smaller vessels that cannot go out into deep waters must remain moored and anchored to the port.</p>\n<p dir=\"ltr\">The evacuation process will be supported by public security from Municipalities, Armed Forces, Firefighters, Carabineros and PDI distributing their personnel at strategic and required points.</p>\n<p dir=\"ltr\">Likewise, the evacuation process will be reinforced with the sending of SAE messaging for Tsunami Warning, Precautionary Status or Cancellation, as appropriate.</p>\n<p dir=\"ltr\">Finally, the response teams of the Disaster Prevention and Response System (SINAPRED) are deployed on the ground and evaluating the emergency situations derived from this event.</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Evacuation processes</p>\n<p dir=\"ltr\">Concepción: Due to the threat of tsunami flooding in the area, authorities began the preventive evacuation of the local jail, transferring inmates to prisons in Concepción. At the same time, the hospital – also located in a flood zone – is evaluating alternatives for the transfer of patients and the protection of essential equipment and supplies.</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Critical Infrastructure</p>\n<p dir=\"ltr\">Between the regions of Arica and Parinacota and Los Lagos, 5 prisons are reported to be below level 30, which are being evacuated. 33 health facilities in the regions of Tarapacá, Antofagasta, Coquimbo, Valparaíso, O'Higgins, Maule, Biobío, La Araucanía, Los Ríos and Los Lagos that are in the flood zone were evacuated (308 patients in total). Similarly, the immunobiological deposits (vaccines and immunoglobulin) of the communes of Lebu and Talcahuano in the Biobío Region were transferred to a safe zone.&nbsp;</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Operations are paralyzed in all ports from the Arica Region to the San Antonio Region; and without ships in Talcahuano.</p>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Shelters or refuge areas</p>\n<p dir=\"ltr\">Valparaiso Region</p>\n<p dir=\"ltr\">Viña del Mar</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Sausalito Stadium Available for Evacuees</p>\n</li>\n</ul>\n<p dir=\"ltr\">Biobío Region</p>\n<p dir=\"ltr\">Conception</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Avda. The Presidents 1602</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Calle 2 con Avda. The Presidents</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Baltazar with Father Feijoo</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Colonel</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Santa Elena Headquarters</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Cerro Obligado Headquarters</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">V Pocuro Squadron Center</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Lebu</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Arnoldo Ebensperger School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Chapel of the Santa Rosa sector (13 older adults from the San Francisco de Asís home)</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Headquarters of the La Unión Sports Club (13 boys and girls from a residence)</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Burbot</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Bello Horizonte School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Centennial School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Liceo A-45</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">A-46 Industrial High School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Thompson Matthews High School</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">San Pedro de la Paz</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Municipal Amphitheater</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">CENDYR Nautical</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Boca Sur Civic Center</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Galvarino School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Juan Bosco School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Cultural Corporation</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">CFT of San Pedro</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Costa Delegation</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Darío Salas School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Enrique Soro School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Miguel Zañartu School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Gymnasium Auditorium Villa San Pedro (hostel)</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">CEAT High School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Mauricio Hochschild High School of the CEAT</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">San Pedro High School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Plaza de la Victoria</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Headquarters, JJVV La Foresta V</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Talcahuano</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Cabrales Bugle (Cerros Sector)</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">School D-505 Las Higueras (Higueras Sector)</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">A-23 Industrial High School (Higueras Sector)</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Villa Caletas (Cerros Sector)</p>\n</li>\n</ul>\n<p dir=\"ltr\">&nbsp;</p>\n<p dir=\"ltr\">Take</p>\n<ul>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Republic of Panama Artistic School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Carlos Mahns School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Gabriela Mistral School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Lisa Peter Teubner School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Cerro Estanque School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Punta de Parra School</p>\n</li>\n<li dir=\"ltr\" aria-level=\"1\">\n<p dir=\"ltr\" role=\"presentation\">Arturo Prat School</p>\n</li>\n</ul>\n<p>&nbsp;</p>",
+      "other_sources": "SENAPRED",
+      "actions_others": "According to the information provided by the national authorities, 1.5 million people have evacuated from the coastal zone, which is estimated to be 70% of the population in the flood zone due to tsunami risk, with preliminary information an evacuation in large numbers of people from the coastal zone is expected at quota 30 as established in the safety and evacuation zones,  the information required for safe evacuation has been reinforced through the SAE communication and messaging channels. \n\nThrough the Regional Risk Management Directors, relevant information has been collected for a safe evacuation by the population, and the needs to keep the population informed regarding the arrival times of the waves to the coastal sector. \n\nMaritime authorities have been deployed in the coastal sectors in addition to intensifying the support of the police in the territory, together with the activation of the regional COGRIDs that are providing information to the institutions that are part of the civil protection system."
+    },
+    {
+      "id": 17839,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [
+            34,
+            37,
+            27,
+            29,
+            31
+          ],
+          "actions_details": [
+            {
+              "id": 34,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Psychosocial support services",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 37,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "First Aid",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 27,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Damage/Needs assessment",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 29,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Water & Sanitation",
+              "translation_module_original_language": "en"
+            },
+            {
+              "id": 31,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Health",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23981,
+          "summary": "En cumplimiento con los Principios Fundamentales que la rigen, su misión humanitaria y \r\nel rol de auxiliaridad, la Cruz Roja Guatemalteca ha realizado acciones de respuesta ante \r\neste evento, para lo cual se mantiene un monitoreo constante de la situación, así como la \r\ncoordinación con las autoridades de país. \r\nPara ello, se movilizó a un equipo de intervención en respuesta hacia el departamento de \r\nJutiapa, conformado por 13 personas e integrado por médicos, psicólogos, técnicos de \r\nsalud y agua y saneamiento, enfermería y coordinación, a fin de brindar atención a la \r\npoblación más afectada en los municipios de ese departamento.\n\nEn redes sociales, la CRG promociona las medidas de prevención enfocadas en la \r\nelaboración del plan familiar de emergencia y la mochila de las 72 horas. \r\nSe establece una coordinación directa y permanente con el Centro de Operaciones de \r\nEmergencia de Conred y el Ministerio de Salud Pública, para coordinar los requerimientos \r\nde las instituciones gubernamentales y la implementación del rol auxiliar. \r\nEnlace para fotografías y videos de la operación de Cruz Roja Guatemalteca, disponible \r\nen: https://x.com/CruzRojaGT_",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Teresa Marroquín",
+          "title": "Directora de Gestión de Riesgos a Desastres",
+          "email": "teresa.marroquin@cruzroja.gt",
+          "phone": "56995239",
+          "id": 56221
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Virna Villeda",
+          "title": "Directora General",
+          "email": "virna.villeda@cruzroja.gt",
+          "phone": "42145384",
+          "id": 56222
+        },
+        {
+          "ctype": "Federation",
+          "name": "Diana Oviedo",
+          "title": "Cluster Centroamérica",
+          "email": "diana.oviedo@ifrc.org",
+          "phone": "+505 8323 2600",
+          "id": 56223
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "GT",
+          "iso3": "GTM",
+          "id": 76,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 1,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DGT001",
+          "average_household_size": null,
+          "society_name": "Guatemalan Red Cross",
+          "name": "Guatemala",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Jalapa",
+          "code": "GT010",
+          "id": 1104,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Jutiapa",
+          "code": "GT011",
+          "id": 1105,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Santa Rosa",
+          "code": "GT018",
+          "id": 1112,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 1,
+          "id": 1,
+          "region_name": "Americas",
+          "label": "Americas",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 2,
+        "id": 7583,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "GTM: Earthquake - 07-2025 - Sensitive Earthquakes in Guatemala ",
+        "translation_module_original_language": "es"
+      },
+      "dtype_details": {
+        "id": 2,
+        "summary": "",
+        "name": "Earthquake",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 2688,
+        "username": "Teresa Marroquin",
+        "email": "teresa.marroquin@cruzroja.gt",
+        "first_name": "Teresa",
+        "last_name": "Marroquin"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 2,
+      "status": 9,
+      "request_assistance": null,
+      "ns_request_assistance": null,
+      "num_injured": null,
+      "num_dead": null,
+      "num_missing": null,
+      "num_affected": null,
+      "num_displaced": null,
+      "num_assisted": null,
+      "num_localstaff": null,
+      "num_volunteers": 23,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": 26,
+      "gov_num_dead": 2,
+      "gov_num_missing": null,
+      "gov_num_affected": 2038,
+      "gov_num_displaced": null,
+      "gov_num_assisted": null,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": null,
+      "other_num_missing": null,
+      "other_num_affected": null,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-29T00:00:00Z",
+      "report_date": "2025-08-01T18:37:12.698876Z",
+      "created_at": "2025-08-01T18:37:12.709279Z",
+      "updated_at": "2025-08-01T18:37:12.773321Z",
+      "previous_update": null,
+      "translation_module_original_language": "en",
+      "translation_module_skip_auto_translation": false,
+      "user": 2688,
+      "dtype": 2,
+      "event": 7583,
+      "regions": [
+        1
+      ],
+      "countries": [
+        76
+      ],
+      "districts": [
+        1104,
+        1105,
+        1112
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Actividad Sísmica Jutiapa Guatemala 2025",
+      "summary": "GTM: Earthquake - 07-2025 - Actividad Sísmica Jutiapa Guatemala 2025 #2 (2025-08-01)",
+      "description": "<p>A partir de las 15:21 horas del 29 de julio del 2025 se inici&oacute; la secuencia s&iacute;smica localizada</p>\n<p>en Jutiapa con dos sismos de magnitud local de 5.8 y 5.7, registr&aacute;ndose, hasta la fecha de</p>\n<p>la emisi&oacute;n de este informe, 482 eventos s&iacute;smicos, los cuales son pertenecientes a esta</p>\n<p>secuencia s&iacute;smica; de estos, 52 han sido reportados sensibles por la poblaci&oacute;n, de acuerdo</p>\n<p>a la informaci&oacute;n proporcionada por Instituto Nacional de Sismolog&iacute;a, Vulcanolog&iacute;a,</p>\n<p>Meteorolog&iacute;a e Hidrolog&iacute;a de Guatemala &ndash; Insivumeh1</p>\n<p>.</p>\n<p>De acuerdo a la Conred, los eventos se registraron tambi&eacute;n en los departamentos de</p>\n<p>Escuintla, Jutiapa, Jalapa y Santa Rosa2</p>\n<p>.</p>\n<p>Hasta la fecha, como consecuencia de estos sismos, se ha realizado la evacuaci&oacute;n de m&aacute;s</p>\n<p>de 1,000 personas, de las cuales 739 se encuentran albergadas en los centros habilitados</p>\n<p>por el Sistema CONRED 3</p>\n<p>.</p>\n<p>Las estad&iacute;sticas preliminares indican que hay m&aacute;s de 77 emergencias reportadas, 2,038</p>\n<p>personas afectadas por este evento, 1,998 evacuadas, 1,262 albergadas y al menos, 26</p>\n<p>personas heridas que se encuentran hospitalizadas. Tambi&eacute;n, 2 personas fallecieron como</p>\n<p>consecuencia directa de estos sismos.</p>\n<p>En cuanto a da&ntilde;os de infraestructura, hay reportes de 2 escuelas afectadas. En cuanto a</p>\n<p>viviendas, 99 se registran con da&ntilde;o leve, 249 con da&ntilde;o moderado y 161 con da&ntilde;o severo.</p>",
+      "other_sources": "Sismicede Conred",
+      "actions_others": "En respuesta a este evento, la Secretaría Ejecutiva de la CONRED ha desplegado equipos \r\nde respuesta y personal técnico hacia el departamento de Jutiapa para realizar \r\nEvaluaciones Rápidas de Daños en Vivienda (ERDV) en comunidades donde se reportó \r\nsensibilidad sísmica o posibles afectaciones. \r\nLas instituciones de socorro realizaron el traslado de personas heridas hacia el Hospital \r\nNacional de Jutiapa, donde están siendo atendidas. \r\nSe han habilitado al menos, 6 albergues en el área para brindar atención a las personas \r\nafectadas4\r\n. \r\nA través de los diferentes medios de comunicación, las autoridades han emitido \r\nrecomendaciones dirigidas a la población para indicar las acciones a realizar ante la \r\ncontinuidad de sismos, a fin de preservar la vida y la salud. Estos mensajes se enfocan en \r\nla elaboración del plan familiar de respuesta, la mochila de las 72 horas y los números de \r\nemergencia de los cuerpos de socorro."
+    },
+    {
+      "id": 17838,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [
+        {
+          "organization": "NTLS",
+          "actions": [
+            39
+          ],
+          "actions_details": [
+            {
+              "id": 39,
+              "organizations": [
+                "NTLS",
+                "PNS",
+                "FDRN"
+              ],
+              "field_report_types": [
+                "EVT"
+              ],
+              "category": "General",
+              "tooltip_text": null,
+              "name": "Other",
+              "translation_module_original_language": "en"
+            }
+          ],
+          "id": 23980,
+          "summary": "National Monitoring",
+          "translation_module_original_language": "es"
+        }
+      ],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Javier Lepe",
+          "title": "Coordinador IM",
+          "email": "im@cruzroja.cl",
+          "phone": "+56975818312",
+          "id": 56217
+        },
+        {
+          "ctype": "Federation",
+          "name": "Virginia Laino",
+          "title": "Programme and Operation Coordinator",
+          "email": "virginia.laino@ifrc.org",
+          "phone": "+54 9 11 6624-8470",
+          "id": 56218
+        },
+        {
+          "ctype": "Media",
+          "name": "Felipe Gonzalez",
+          "title": "Director Ejecutivo",
+          "email": "felipe.gonzalez@cruzroja.cl",
+          "phone": "+56950116612",
+          "id": 56219
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Marion Sandoval",
+          "title": "Directora Nacional de Gestión del Riesgo",
+          "email": "gestiondelriesgo@cruzroja.cl",
+          "phone": "+56 9 7704 8252",
+          "id": 56220
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "CL",
+          "iso3": "CHL",
+          "id": 46,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 1,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DCL001",
+          "average_household_size": null,
+          "society_name": "Chilean Red Cross",
+          "name": "Chile",
+          "translation_module_original_language": "es"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Antofagasta",
+          "code": "CL001",
+          "id": 573,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Araucanía",
+          "code": "CL002",
+          "id": 574,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Atacama",
+          "code": "CL004",
+          "id": 576,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Biobio",
+          "code": "CL006",
+          "id": 578,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Coquimbo",
+          "code": "CL007",
+          "id": 579,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Libertador",
+          "code": "CL008",
+          "id": 580,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Los Lagos",
+          "code": "CL009",
+          "id": 581,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Los Rios",
+          "code": "CL010",
+          "id": 582,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Maule",
+          "code": "CL012",
+          "id": 584,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Metropolitana",
+          "code": "CL013",
+          "id": 585,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Tarapacá",
+          "code": "CL014",
+          "id": 586,
+          "is_enclave": false,
+          "is_deprecated": false
+        },
+        {
+          "name": "Valparaíso",
+          "code": "CL015",
+          "id": 587,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 1,
+          "id": 1,
+          "region_name": "Americas",
+          "label": "Americas",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 13,
+        "id": 7588,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "CHL: Others - 07-2025 - Weather Events South Zone",
+        "translation_module_original_language": "es"
+      },
+      "dtype_details": {
+        "id": 13,
+        "summary": "",
+        "name": "Other",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 8400,
+        "username": "im@cruzroja.cl",
+        "email": "im@cruzroja.cl",
+        "first_name": "Javier",
+        "last_name": "Lepe"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 3,
+      "status": 9,
+      "request_assistance": false,
+      "ns_request_assistance": false,
+      "num_injured": null,
+      "num_dead": null,
+      "num_missing": null,
+      "num_affected": null,
+      "num_displaced": null,
+      "num_assisted": null,
+      "num_localstaff": null,
+      "num_volunteers": null,
+      "num_expats_delegates": null,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": null,
+      "gov_num_dead": null,
+      "gov_num_missing": null,
+      "gov_num_affected": 4768,
+      "gov_num_displaced": 6,
+      "gov_num_assisted": null,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": null,
+      "other_num_dead": null,
+      "other_num_missing": null,
+      "other_num_affected": null,
+      "other_num_displaced": null,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-31T00:00:00Z",
+      "report_date": "2025-08-01T16:36:59.579234Z",
+      "created_at": "2025-08-01T16:36:59.604115Z",
+      "updated_at": "2025-08-01T16:36:59.674891Z",
+      "previous_update": null,
+      "translation_module_original_language": "es",
+      "translation_module_skip_auto_translation": false,
+      "user": 8400,
+      "dtype": 13,
+      "event": 7588,
+      "regions": [
+        1
+      ],
+      "countries": [
+        46
+      ],
+      "districts": [
+        573,
+        574,
+        576,
+        578,
+        579,
+        580,
+        581,
+        582,
+        584,
+        585,
+        586,
+        587
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Weather Events",
+      "summary": "CHL: Other - 07-2025 - Weather Events #3 (2025-08-01)",
+      "description": "<p><strong>Antofagasta</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following&nbsp;weather warnings are in force for the Antofagasta Region.</p>\n<p>&nbsp;</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA66-1</td>\n<td>Moderate to strong wind with white wind development in the coastal mountain range, pre-mountain range, salt flats and mountain range.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A285-1</td>\n<td>Normal to moderate wind in the foothills with a probability of sandstorms in the pampas and foothills.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A289-3</td>\n<td>Normal to moderate snowfall with a probability of blizzard in the mountain range.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, as indicated in the current alert and in the DMC's Meteorological Threat Report, the amounts of precipitation (mm/cm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the next few days in the region, are as follows</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">July 30</th>\n<th colspan=\"2\">July 31 August</th>\n<th colspan=\"2\">01</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>0,5 - 1</td>\n<td>-</td>\n<td>0,5 - 1</td>\n<td>-</td>\n<td>-</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>1 - 2</td>\n<td>40 - 60</td>\n<td>0,5 - 1</td>\n<td>80 - 100</td>\n<td>-</td>\n<td>80 - 100</td>\n</tr>\n<tr>\n<td>Pampa</td>\n<td>1 - 2</td>\n<td>-</td>\n<td>0,5 - 1</td>\n<td>40 - 60</td>\n<td>-</td>\n<td>40 - 60</td>\n</tr>\n<tr>\n<td>Western foothills</td>\n<td>-</td>\n<td>40 - 60</td>\n<td>-</td>\n<td>70 bursts</td>\n<td>-</td>\n<td>60 - 80<br>90 bursts</td>\n</tr>\n<tr>\n<td>Salt marshes</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>60 - 80</td>\n<td>-</td>\n<td>60 - 80</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>3 - 5 cm</td>\n<td>40 - 60</td>\n<td>8 - 18 cm</td>\n<td>80 - 100</td>\n<td>8 - 18 cm</td>\n<td>80 - 100</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">4.100 - 4.300</td>\n<td colspan=\"2\">4.000 - 3.900</td>\n<td colspan=\"2\">3.800 - 4.000</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Saturday, August 2 for the coasts of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Antofagasta, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 28, 2025.</p>\n<p><strong>Atacama</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Atacama Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert A293-1</td>\n<td>Probable storms, associated with isolated showers</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Alert A287-8</td>\n<td>Normal to moderate rainfall in the mountain range of the region.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice AA67</td>\n<td>Moderate to heavy snowfall with blizzard development.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A285-1</td>\n<td>Normal to moderate wind with a probability of sandstorms in the foothills.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice 285</td>\n<td>Normal to moderate wind</td>\n<td>31/08</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A68</td>\n<td>Moderate to heavy rainfall</td>\n<td>01/08</td>\n<td>01/08</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, according to the current meteorological background, the amounts of precipitation (mm/cm) and wind (km/h) forecast for the region are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">July 31</th>\n<th colspan=\"2\">August 1 August</th>\n<th colspan=\"2\">2</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>2 - 5<br>(northern section)<br>10 - 20<br>(southern section)</td>\n<td>25 - 40<br>(southern section)</td>\n<td>1 - 3<br>(northern section)<br>5 - 10<br>(southern section)</td>\n<td>&nbsp;</td>\n<td>-</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Coastal Mountain Range and Transverse Valleys</td>\n<td>2 - 5<br>(northern section)<br>15 - 25<br>(southern section)</td>\n<td>&nbsp;</td>\n<td>3 - 5<br>(northern section)<br>5 - 10<br>(southern section)</td>\n<td>&nbsp;</td>\n<td>-</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>Pampa</td>\n<td>2 - 5<br>(northern section)<br>15 - 25<br>(southern section)</td>\n<td>&nbsp;</td>\n<td>5 - 10</td>\n<td>&nbsp;</td>\n<td>-</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>Pre-Andean and pre-Andean valleys</td>\n<td>2 - 5<br>(northern section)<br>15 - 35<br>(southern section)</td>\n<td>40 - 60</td>\n<td>2 - 5<br>(northern section)<br>5 - 10<br>(southern section)</td>\n<td>40 - 60</td>\n<td>-</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>10 - 20 cm</td>\n<td>90 - 110</td>\n<td>20 - 30 cm</td>\n<td>100 - 120</td>\n<td>30 - 50 cm</td>\n<td>50 - 70</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">3.600 - 2.800</td>\n<td colspan=\"2\">2.200 - 3.100</td>\n<td colspan=\"2\">3.500 - 3.900</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the previous table include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Saturday, August 2 for the coasts of the region.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through its Technical Minute for the Danger of Mass Removals, updated today, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is high in the southern section of the foothills and pre-Andean valleys.  moderate in the mountain range and in the southern section of the litoral, coastal mountain range, transversal valleys and pampa sectors, and low in the rest of the region.</p>\n<p>In consideration of this background and in coordination with the Regional Presidential Delegation of Atacama, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 28 and until conditions warrant it.</p>\n<p><strong>Araucanía</strong></p>\n<p>&nbsp;</p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Araucanía Region.</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-4</td>\n<td>Moderate to heavy rainfall with high zero isotherm for the mountain range.</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A288-1</td>\n<td>Normal to moderate wind for the coastal area of the region</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A280-5</td>\n<td>Normal to moderate rainfall with high isotherm in valley, pre-mountain and mountain areas.</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A290-2</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast, coastal mountain range, valley and pre-mountain range.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, according to the DMC's Meteorological Hazard Report, the amounts of precipitation (mm/cm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the next few days in the region, are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Tuesday, July 29</th>\n<th colspan=\"2\">Wednesday, July 30</th>\n<th colspan=\"2\">Thursday, July 31</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>10 - 25</td>\n<td>-</td>\n<td>15 - 30</td>\n<td>40 - 60</td>\n<td>5 - 15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>-</td>\n<td>-</td>\n<td>30 - 35</td>\n<td>25 - 40 with 50 streaks</td>\n<td>5 - 10</td>\n<td>25 - 40, 50 Streaks</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>5 - 15</td>\n<td>-</td>\n<td>-</td>\n<td>40 - 60</td>\n<td>5 - 15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>20 - 40</td>\n<td>-</td>\n<td>50 - 70</td>\n<td>-</td>\n<td>15 - 25</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>10 - 20</td>\n<td>-</td>\n<td>60 - 90</td>\n<td>40 - 60</td>\n<td>5 - 15</td>\n<td>40 - 60</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">3.000 - 3.100 - 3.000</td>\n<td colspan=\"2\">3.000 - 1.900</td>\n<td colspan=\"2\">1.900 - 1.700</td>\n</tr>\n</tbody>\n</table>\n<p>For its part, the National Geology and Mining Service (SERNAGEOMIN), through its Technical Minute for the Danger of Mass Removals, updated today, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is high throughout the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of La Araucanía, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 26 and until conditions warrant it.</p>\n<p><strong>Pucón</strong></p>\n<p>According to what was reported by the General Directorate of Water (DGA), through its online reporting system of the stations of the Fluviometric Network, it is indicated that the station of the \"Trancura River before the Llafenco River\", is at the yellow alert threshold,  which, if the flow continues to increase, could affect people and damage the commune's infrastructure.</p>\n<p>In consideration of this background, which implies an increase in the risk associated with this variable, the Regional Directorate of SENAPRED La Araucanía, in coordination with the Regional Presidential Delegation, declares a Yellow Alert for the commune of Pucón due to flooding, effective as of today and until the conditions of the event warrant it.</p>\n<p><strong>Collipulli</strong></p>\n<p>According to what was reported by the General Directorate of Water (DGA), through its online reporting system of the stations of the Fluviometric Network, it is indicated that the station of the \"Trancura River before the Llafenco River\", is at the yellow alert threshold,  which, if the flow continues to increase, could affect people and damage the commune's infrastructure.</p>\n<p>In consideration of this background, which implies an increase in the risk associated with this variable, the Regional Directorate of SENAPRED La Araucanía, in coordination with the Regional Presidential Delegation, declares a Yellow Alert for the commune of Pucón due to flooding, effective as of today and until the conditions of the event warrant it.</p>\n<p><strong>Los Ríos</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Los Ríos Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Notice A288-1</td>\n<td>Normal to moderate wind on the coast</td>\n<td>29/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A290-5</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast, coastal mountain range, valley and foothills of the region</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, according to the current meteorological background, the amounts of precipitation (mm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the region, are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Thursday, July 31</th>\n<th colspan=\"2\">Friday, August 01</th>\n<th colspan=\"2\">Saturday, August 02</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>25–50</td>\n<td>40–60, streaks of 70</td>\n<td>20–40</td>\n<td>-</td>\n<td>3–10</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>25–55</td>\n<td>40–60</td>\n<td>20–40/≤3 cm</td>\n<td>-</td>\n<td>3–10/≤3 cm</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>20–45</td>\n<td>25–40, 50 Streaks</td>\n<td>10–20</td>\n<td>-</td>\n<td>3–10</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>15–35</td>\n<td>40–60</td>\n<td>15–35</td>\n<td>25–40, 50 Streaks</td>\n<td>3–10/≤3 cm</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>10–20/≤5 cm</td>\n<td>40–60</td>\n<td>5–15/≤15 cm</td>\n<td>-</td>\n<td>10–20/≤10 cm</td>\n<td>40–60</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">1.800</td>\n<td colspan=\"2\">1,800–1,300</td>\n<td colspan=\"2\">1,300–800</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the previous table include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through the update of its Technical Minute for Danger of Mass Removals, issued yesterday, indicates that the possibility of occurrence of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is moderate on the coast.  Coastal mountain range and longitudinal and high valley in the pre-mountain range and mountain range of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Los Ríos, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 26 and until conditions warrant it.</p>\n<p><strong>Puerto Montt</strong></p>\n<p>According to the information provided by the General Directorate of Water (DGA), it is indicated that the hydrometric network station \"Río Chico Ante Río Chamiza\" is below the yellow alert threshold, with a downward trend in its flow.</p>\n<p>In consideration of this background and in coordination with the Regional Presidential Delegation of Los Lagos, the Regional Directorate of SENAPRED cancels the Yellow Alert for flooding for the commune of Puerto Montt, which had been in force since July 29.</p>\n<p><strong>O'Higgins Region</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the O'Higgins Region</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-9</td>\n<td>Moderate to heavy rainfall with high zero isotherm on the coast, coastal mountain range, valley and foothills in the region.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A287-8</td>\n<td>Normal to moderate rainfall in the mountain range of the region.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A290-5</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast and mountain range of the coast of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice 283-4</td>\n<td>Normal to moderate wind on the coast, coastal mountain range, pre-mountain range and mountain range of the region.</td>\n<td>30/07</td>\n<td>02/08</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, according to the current meteorological history, the amounts of precipitation (mm) and wind speed (km/h) are as follows:</p>\n<table style=\"width: 127.074%;\" border=\"1\">\n<thead>\n<tr>\n<th style=\"width: 15.1518%;\" rowspan=\"2\">Zone</th>\n<th style=\"width: 28.2239%;\" colspan=\"2\">Thursday, July 31</th>\n<th style=\"width: 28.2239%;\" colspan=\"2\">Friday, August 01</th>\n<th style=\"width: 28.2239%;\" colspan=\"2\">Saturday, August 02</th>\n</tr>\n<tr>\n<th style=\"width: 18.8655%;\">Precipitation</th><th style=\"width: 9.35846%;\">Wind</th><th style=\"width: 18.8655%;\">Precipitation</th><th style=\"width: 9.35846%;\">Wind Precipitation</th><th style=\"width: 18.8655%;\"></th><th style=\"width: 9.35846%;\">Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 15.1518%;\">Littoral</td>\n<td style=\"width: 18.8655%;\">40 – 50</td>\n<td style=\"width: 9.35846%;\">25 – 40, 60 Streaks</td>\n<td style=\"width: 18.8655%;\">20 – 25</td>\n<td style=\"width: 9.35846%;\">-</td>\n<td style=\"width: 18.8655%;\">-</td>\n<td style=\"width: 9.35846%;\">-</td>\n</tr>\n<tr>\n<td style=\"width: 15.1518%;\">Coastal mountain range</td>\n<td style=\"width: 18.8655%;\">25 – 40</td>\n<td style=\"width: 9.35846%;\">25 – 40, 50 Streaks</td>\n<td style=\"width: 18.8655%;\">20 – 30</td>\n<td style=\"width: 9.35846%;\">25 – 40</td>\n<td style=\"width: 18.8655%;\">1 – 3</td>\n<td style=\"width: 9.35846%;\">-</td>\n</tr>\n<tr>\n<td style=\"width: 15.1518%;\">Longitudinal valley</td>\n<td style=\"width: 18.8655%;\">40 – 60</td>\n<td style=\"width: 9.35846%;\">25 – 40</td>\n<td style=\"width: 18.8655%;\">20 – 25</td>\n<td style=\"width: 9.35846%;\">-</td>\n<td style=\"width: 18.8655%;\">-</td>\n<td style=\"width: 9.35846%;\">-</td>\n</tr>\n<tr>\n<td style=\"width: 15.1518%;\">Foothills</td>\n<td style=\"width: 18.8655%;\">25 – 40</td>\n<td style=\"width: 9.35846%;\">25 – 40, 50 Streaks</td>\n<td style=\"width: 18.8655%;\">20 – 30</td>\n<td style=\"width: 9.35846%;\">-</td>\n<td style=\"width: 18.8655%;\">2 – 5</td>\n<td style=\"width: 9.35846%;\">25 – 40</td>\n</tr>\n<tr>\n<td style=\"width: 15.1518%;\">Mountain range</td>\n<td style=\"width: 18.8655%;\">40 – 60 cm</td>\n<td style=\"width: 9.35846%;\">25 – 40, 70 Streaks</td>\n<td style=\"width: 18.8655%;\">35 – 45 cm</td>\n<td style=\"width: 9.35846%;\">25 – 40, 60 Streaks</td>\n<td style=\"width: 18.8655%;\">3 – 7 cm</td>\n<td style=\"width: 9.35846%;\">25 – 40, 60 Streaks</td>\n</tr>\n<tr>\n<td style=\"width: 15.1518%;\">Isotherm 0°C (m.a.s.l.)</td>\n<td style=\"width: 28.2239%;\" colspan=\"2\">2,400 – 1,900</td>\n<td style=\"width: 28.2239%;\" colspan=\"2\">1,900 – 1,500</td>\n<td style=\"width: 28.2239%;\" colspan=\"2\">1,500 – 2,600</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the previous table include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through its Technical Minute for the Danger of Mass Removals, updated today, indicates that the possibility of the occurrence of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is high in the coastal mountain range.  longitudinal valley and precordillera, moderate on the coast and low in the mountain range of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of O'Higgins, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 28 and until conditions warrant it.</p>\n<p><strong>Maule</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Maule Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-7</td>\n<td>Moderate to heavy rainfall with high zero isotherm on the coast, coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A287-3</td>\n<td>Normal to moderate rainfall on the coast, coastal mountain range and valley.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A283-3</td>\n<td>Normal to moderate wind on the coast, coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, according to the current meteorological background, the amounts of precipitation (mm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the region, are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Wednesday, July 30</th>\n<th colspan=\"2\">Thursday, July 31</th>\n<th colspan=\"2\">Friday, August 01</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>40 - 60</td>\n<td>25 - 40<br>Streaks 60</td>\n<td>30 - 40</td>\n<td>Streaks 60</td>\n<td>20 - 25</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>45 - 60</td>\n<td>25 - 40<br>Streaks 60</td>\n<td>30 - 40</td>\n<td>Streaks 60</td>\n<td>20 - 30</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>45 - 60</td>\n<td>25 - 40<br>Streaks 50</td>\n<td>30 - 40</td>\n<td>Streaks 50</td>\n<td>20 - 30</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>50 - 60</td>\n<td>25 - 40<br>Streaks 50</td>\n<td>30 - 40</td>\n<td>Streaks 50</td>\n<td>25 - 35</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>50 - 60<br>30 - 40 cm</td>\n<td>25 - 40<br>Streaks 70</td>\n<td>35 - 45 cm</td>\n<td>Streaks 70</td>\n<td>35 - 45 cm</td>\n<td>25 - 40<br>Streaks 50</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">3.500 - 2.300</td>\n<td colspan=\"2\">2.300 - 2.000</td>\n<td colspan=\"2\">2.000 - 1.300</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through its Technical Minute for the Danger of Mass Removals, updated today, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is high on the coast.  coastal mountain range and pre-mountain range and moderate in longitudinal valley and mountain range of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Maule, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 28, 2025.</p>\n<p><strong>Coquimbo</strong></p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-9</td>\n<td>Moderate to heavy rainfall with high zero isotherm on the coast, coastal mountain range, foothills and pre-Andean valleys of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Alert AA67</td>\n<td>Moderate to heavy snowfall with blizzard development in the mountain range.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A283-4</td>\n<td>Normal to moderate wind in the mountain range.</td>\n<td>30/07</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice 290-5</td>\n<td>Probable thunderstorms on the coast and mountain range of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, as indicated in the current alert and in the DMC's Meteorological Threat Report, the amounts of precipitation (mm/cm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the next few days in the region, are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Thursday, July 31</th>\n<th colspan=\"2\">Friday, August 01</th>\n<th colspan=\"2\">Saturday, August 02</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n<td>10 - 14</td>\n<td>25 - 40</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>30 - 40</td>\n<td>25 - 40</td>\n<td>10 - 19</td>\n<td>&nbsp;</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Pre-Andean valleys and pre-mountain range</td>\n<td>30 - 50</td>\n<td>&nbsp;</td>\n<td>15 - 24</td>\n<td>&nbsp;</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>30 – 50 cm</td>\n<td>25 - 40<br>80 Streaks</td>\n<td>20 - 40 cm</td>\n<td>50<br>Streaks 70</td>\n<td>-</td>\n<td>25 - 40<br>Streaks 70</td>\n</tr>\n<tr>\n<td>Isothermal 0°C</td>\n<td colspan=\"2\">3.400 - 2.000</td>\n<td colspan=\"2\">2.000 - 1.800 - 2.600</td>\n<td colspan=\"2\">2.600 - 3.600</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through its Technical Minute for the Danger of Mass Removals, updated today, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is high on the coast.  coastal mountain range, pre-Andean valleys and pre-mountain range, and moderate in the mountain range of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Coquimbo, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 27, 2025.</p>\n<p><strong>Valparaiso</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Valparaíso Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-9</td>\n<td>Moderate to heavy rainfall with high zero isotherm on the coast and coastal mountain range of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Alert AA69</td>\n<td>Moderate to strong wind in Easter Island Province</td>\n<td>01/08</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A283-4</td>\n<td>Normal to moderate wind in coastal sectors, coastal mountain range and mountain range of the region.</td>\n<td>30/07</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A287-9</td>\n<td>Normal to moderate rainfall in sectors of the foothills and pre-Andean valleys of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A286-1</td>\n<td>Normal to moderate wind in the commune of Juan Fernández.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A291</td>\n<td>Normal to moderate wind in Easter Island Province.</td>\n<td>01/08</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A292-1</td>\n<td>Probable thunderstorms in the commune of Juan Fernández.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A290-5</td>\n<td>Probable thunderstorms on the coast, coastal mountain range and mountain range.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>On the other hand, according to the information provided by the Navy Meteorological Center, Swell Warning No. 31 for normal swells for Easter Island, in force until August 4; and Warning No. 30 for normal swells from the Corona Lighthouse to Arica and Juan Fernández Archipelago, in force until August 1.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through the update of its Technical Minute for the Danger of Mass Removals, issued yesterday, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is high in the coastal mountain range.  moderate in the coast, foothills and pre-mountain valleys, and low in the mountain range.</p>\n<p>In consideration of this background and in coordination with the Regional Presidential Delegation of Valparaíso, the Regional Directorate of SENAPRED updates the regional Preventive Early Warning for meteorological event, which has been in force since July 29 and until conditions warrant it.</p>\n<p><strong>Biobío</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Biobío Region</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA71</td>\n<td>Thunderstorms on the coast and coastal mountain range in the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A283-4</td>\n<td>Normal to moderate wind on the coast, coastal mountain range, valley, foothills and mountain range of the region.</td>\n<td>30/07</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A290-5</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast, coastal mountain range and valley of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice 294</td>\n<td>Probable development of convective clouds with tornadic characteristics with a probability of intense local gusty winds and tornadoes on the coast and mountain range of the coast of the region.</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>Similarly, Notice A284/2025 has been canceled, which forecast normal to moderate rainfall with high zero isotherm on the coast, coastal mountain range, valley, pre-mountain range and mountain range of the region. This is due to the weakening of the conditions that originated it.</p>\n<p>On the other hand, as indicated in the Meteorological Hazard Report issued today, the amounts of precipitation (mm/cm), wind (km/h), and isotherm (m.a.s.l.) forecast for the next few days in the region are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Thursday, July 31</th>\n<th colspan=\"2\">Friday, August 01</th>\n<th colspan=\"2\">Saturday, August 02</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>20 – 25</td>\n<td>&nbsp;</td>\n<td>20 – 25</td>\n<td>&nbsp;</td>\n<td>5 – 10</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>&nbsp;</td>\n<td>25 – 40, 60 Streaks</td>\n<td>20 – 30</td>\n<td>25 – 40</td>\n<td>5 – 15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>20 – 30</td>\n<td>&nbsp;</td>\n<td>10 – 20</td>\n<td>&nbsp;</td>\n<td>3 – 7</td>\n<td>&nbsp;</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n<td>20 – 30</td>\n<td>&nbsp;</td>\n<td>5 – 15</td>\n<td>25 – 40</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>20 – 30 cm</td>\n<td>25 – 40, 70 Streaks</td>\n<td>20 – 30 cm</td>\n<td>25 – 40, 60 Streaks</td>\n<td>5 – 15 cm</td>\n<td>25 – 40, 60 Streaks</td>\n</tr>\n<tr>\n<td>Isotherm 0°C (m.a.s.l.)</td>\n<td colspan=\"2\">2,000 – 1,800</td>\n<td colspan=\"2\">1,800 – 1,300</td>\n<td colspan=\"2\">1,300 – 1,700</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through its Technical Minute for Danger of Mass Removals, updated today, indicates that the possibility of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is moderate throughout the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Biobío, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 22 and until conditions warrant it.</p>\n<p><strong>Los Angeles</strong></p>\n<p>According to the technical information provided by the General Directorate of Water (DGA), in its hydrometric stations monitored online, it is indicated that the Estero Paillihue station on the Ex. Long. Sur, a commune of Los Angeles, has reached the yellow alert level.</p>\n<p>Additionally, it is indicated that considering the historical behavior of the Paillihue Estuary on the Ex. Long route. South during previous weather events, could mean an increase in the risk associated with floods or consequent overflows.</p>\n<p>In consideration of this background and in coordination with the Regional Presidential Delegation of Biobío, the Regional Directorate of SENAPRED cancels Red Alert due to overflow and declares Yellow Alert for the commune of Los Angeles due to flooding, effective as of today and until conditions warrant it.</p>\n<p><strong>Conception</strong></p>\n<p>According to the technical information provided by the Regional Directorate of SENAPRED Biobío, it is indicated that as a result of the overflow of the Andalién River in the commune of Concepción, the Santa Rita and former Chaimavida Toll sectors were evacuated, which was reinforced by SAE messaging at 1:50 p.m. and 1:52 p.m. today.</p>\n<p>In consideration of this background and in coordination with the Regional Presidential Delegation of Biobío, the Regional Directorate of SENAPRED maintains the Red Alert for the commune of Concepción due to overflow, in force as of today and until conditions warrant it.</p>\n<p><strong>The Lakes</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Los Lagos Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Notice A280-5</td>\n<td>Normal to moderate rainfall with high zero isotherm on the coast, coastal mountain range, pre-mountain range and southern mountain range.</td>\n<td>29/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A288-1</td>\n<td>Normal to moderate wind on the coast, Chiloé and inland coast.</td>\n<td>29/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A290-4</td>\n<td>Probable thunderstorms with a probability of heavy rainfall in a short period of time on the coast, coastal mountain range, valley, pre-mountain range, Chiloé and interior coast.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>Likewise, as indicated in the current alert and in the DMC's Meteorological Threat Report, the amounts of precipitation (mm/cm), wind (km/h) and isotherm 0°C (m.a.s.l.) forecast for the next few days in the region, are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Wednesday, July 30</th>\n<th colspan=\"2\">Thursday, July 31</th>\n<th colspan=\"2\">Friday, August 1</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Winds Precipitation</th><th>Winds</th><th></th><th>Precipitation Winds</th><th></th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Littoral</td>\n<td>30 - 45</td>\n<td>40 - 60<br>Streaks 70</td>\n<td>15 - 25</td>\n<td>60 - 80</td>\n<td>15 - 10</td>\n<td>25 - 40</td>\n</tr>\n<tr>\n<td>Coastal mountain range</td>\n<td>35 - 50</td>\n<td>40 - 60</td>\n<td>15 - 25</td>\n<td>-</td>\n<td>15 - 10</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>25 - 40</td>\n<td>40 - 60</td>\n<td>15 - 25</td>\n<td>-</td>\n<td>15 - 12</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>30 - 60</td>\n<td>-</td>\n<td>15 - 30</td>\n<td>-</td>\n<td>10 - 20</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>25 - 40</td>\n<td>40 - 60</td>\n<td>5 - 10</td>\n<td>-</td>\n<td>5 - 10<br>≤ 3 cm</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Chiloé</td>\n<td>20 - 45</td>\n<td>40 - 60<br>Streaks 70</td>\n<td>15 - 30</td>\n<td>40 - 60</td>\n<td>≤ 4</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Inland coastline</td>\n<td>30 - 60</td>\n<td>40 - 60<br>Streaks 70</td>\n<td>20 - 35</td>\n<td>40 - 60</td>\n<td>5 - 10</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Southern mountain range</td>\n<td>30 - 50</td>\n<td>-</td>\n<td>10 - 20</td>\n<td>-</td>\n<td>5 - 10</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Sub-Andean Patagonia</td>\n<td>15 - 25</td>\n<td>-</td>\n<td>5 - 15</td>\n<td>-</td>\n<td>≤ 4</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Isothermal 0°C<br>Puerto Montt to the north</td>\n<td colspan=\"2\">2700 - 1800</td>\n<td colspan=\"2\">1800 - 1700</td>\n<td colspan=\"2\">1700 - 1900 - 1500</td>\n</tr>\n<tr>\n<td>Isothermal 0°C<br>South of Puerto Montt</td>\n<td colspan=\"2\">2700 - 1800</td>\n<td colspan=\"2\">1700 - 1500</td>\n<td colspan=\"2\">1500 - 1400</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>For its part, the National Geology and Mining Service (SERNAGEOMIN), through the update of its Technical Minute for the Danger of Mass Removals issued today, indicates that the possibility of mass removals, such as debris flow, alluvium, landslides and/or rockfalls (landslides) is low throughout the region.</p>\n<p><strong>Metropolitan</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following meteorological alerts are in force for the Metropolitan Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-9</td>\n<td>Moderate to heavy rainfall with high zero isotherm in the coastal mountain range.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A283-4</td>\n<td>Normal to moderate wind in the coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30/07</td>\n<td>02/08</td>\n</tr>\n<tr>\n<td>Notice A287-9</td>\n<td>Normal to moderate rainfall in the valley and foothills.</td>\n<td>31/07</td>\n<td>01/08</td>\n</tr>\n<tr>\n<td>Notice A290-5</td>\n<td>Probable thunderstorms in the coastal mountain range and mountain range.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>On the other hand, as indicated in the update of the Meteorological Threat Report issued today, the amounts of precipitation (mm/cm), wind (km/h), and isotherm (m.a.s.l.) forecast for the next few days in the region are as follows:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th rowspan=\"2\">Zone</th>\n<th colspan=\"2\">Thursday, July 31</th>\n<th colspan=\"2\">Friday, August 01</th>\n<th colspan=\"2\">Saturday, August 02</th>\n</tr>\n<tr>\n<th>Precipitation</th><th>Wind</th><th>Precipitation</th><th>Wind Precipitation</th><th></th><th>Wind</th>\n\n\n\n\n\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Coastal mountain range</td>\n<td>30 - 50</td>\n<td>-</td>\n<td>15 - 20</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Longitudinal valley</td>\n<td>30 - 39</td>\n<td>25 - 40</td>\n<td>15 - 25</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Foothills</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>1 - 3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Mountain range</td>\n<td>20 - 30 cm</td>\n<td>25 - 40<br>Streaks 70</td>\n<td>30 - 40 cm</td>\n<td>25 - 40<br>Streaks 60</td>\n<td>2 - 5 cm</td>\n<td>25 - 40<br>Streaks 60</td>\n</tr>\n<tr>\n<td>Isotherm 0°C (m.a.s.l.)</td>\n<td colspan=\"2\">2,900 – 2,000</td>\n<td colspan=\"2\">2,000 – 1,600</td>\n<td colspan=\"2\">1,600 – 3,000</td>\n</tr>\n</tbody>\n</table>\n<p>It should be noted that the rainfall amounts in the table above include the period between 09:00 hours on the indicated day and 09:00 hours the following day.</p>\n<p>Finally, the National Geology and Mining Service (SERNAGEOMIN), through the update of its Technical Minute for Danger of Mass Removals, issued yesterday, indicates that the possibility of occurrence of mass removals such as debris flow, alluvium, landslides and/or rockfalls (landslides) is moderate in the coastal mountain range and pre-mountain range.  and low in the valley and mountain range of the region.</p>\n<p>In consideration of this background, and in coordination with the Metropolitan Regional Presidential Delegation, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which remains in force from July 30 and until conditions warrant it.</p>\n<p><strong>Ñuble</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather warnings are in force for the Ñuble Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA65-7</td>\n<td>Moderate to heavy rainfall with high zero isotherm on the coast, coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30/07</td>\n<td>30/07</td>\n</tr>\n<tr>\n<td>Notice A283-3</td>\n<td>Normal to moderate wind on the coast, coastal mountain range, valley, pre-mountain range and mountain range.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n<tr>\n<td>Notice A287-5</td>\n<td>Normal to moderate rainfall on the coast, coastal mountain range and valley.</td>\n<td>30/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>On the other hand, the Meteorological Service of the Chilean Navy maintains its Warning No. 30 for normal swells in force, between Thursday, July 31 and Friday, August 1 for the coasts of the region.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of Ñuble, the Regional Directorate of SENAPRED updates the Regional Preventive Early Warning for meteorological event, which has been in force since July 28, 2025.</p>\n<p><strong>Province of Osorno</strong></p>\n<p>According to the technical information provided by the General Directorate of Water (DGA), in its hydrometric stations monitored online, it is indicated that the Rahue River stations formerly join Rio Negro, Río Negro in Chahuilco and Rahue River in Forrahue,  located in the communes of Río Negro and Osorno, are on Yellow Technical Alert.</p>\n<p>In consideration of this background, which implies an increase in the risk associated with this variable, and in coordination with the Regional Presidential Delegation of Los Lagos, the Regional Directorate of SENAPRED declares a Yellow Alert for the Province of Osorno due to flooding, effective from today and until conditions warrant it.</p>\n<p><strong>Curarrehue</strong></p>\n<p>According to the technical information provided by the General Directorate of Water (DGA), in relation to the online monitoring of its hydrometric stations, it is indicated that the Rio Trancura station in Curarrehue, Curarrehue commune, has reached the blue alert threshold.  with a downward trend in its flow, which means a decrease in the risk associated with this variable.</p>\n<p>In consideration of this background, and in coordination with the Regional Presidential Delegation of La Araucanía, the Regional Directorate of SENAPRED cancels the Yellow Alert for the commune of Curarrehue due to the threat of overflow, which remained in force since July 30, 2025.</p>\n<p><strong>Iquique and Huara</strong></p>\n<p>According to the information provided by the Chilean Meteorological Directorate (DMC), the following weather alert is in force for the Tarapacá Region:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alert</th>\n<th>Forecast</th>\n<th>Start</th>\n<th>End</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alert AA72</td>\n<td>Moderate to strong wind on the coast (25 to 40 with gusts of 50 km/h).</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>En consideraci&oacute;n a estos antecedentes y en coordinaci&oacute;n con la Delegaci&oacute;n Presidencial Regional de Tarapac&aacute;, la Direcci&oacute;n Regional del SENAPRED declara Alerta Temprana Preventiva para las comunas de Iquique y Huara por viento,vigente a contar de hoy y hasta que las condiciones del evento as&iacute; lo ameriten</p>\n<p><strong>Tarapac&aacute;</strong></p>\n<p>De acuerdo con la informaci&oacute;n proporcionada por la Direcci&oacute;n Meteorol&oacute;gica de Chile (DMC), se encuentra vigente el siguiente alertamiento meteorol&oacute;gico para la Regi&oacute;n de Tarapac&aacute;:</p>\n<table border=\"1\">\n<thead>\n<tr>\n<th>Alertamiento</th>\n<th>Pron&oacute;stico</th>\n<th>Inicio</th>\n<th>Fin</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alerta AA72-2</td>\n<td>Viento moderado a fuerte con desarrollo de tormentas de arena en sectores de cordillera de la costa y pampa de la regi&oacute;n (entre 40 y 60 km/h).</td>\n<td>31/07</td>\n<td>31/07</td>\n</tr>\n</tbody>\n</table>\n<p>En consideraci&oacute;n a estos antecedentes y en coordinaci&oacute;n con la Delegaci&oacute;n Presidencial Regional de Tarapac&aacute;, la Direcci&oacute;n Regional del SENAPRED modifica la cobertura de la Alerta Temprana Preventiva por viento a Regional, vigente a contar de hoy y hasta que las condiciones del evento as&iacute; lo ameriten.</p>",
+      "other_sources": "SENAPRED\nChilean Meteorological Directorate",
+      "actions_others": "The Regional Directorates of SENAPRED maintain continuous monitoring in each of the communes in coordination with the National System for Disaster Prevention and Response (SINAPRED), based on their coordination procedures at the regional level.\n\nAt the moment, 2 technical tables have been held at the national level and various technical tables and COGRID at the Regional, Provincial and Communal levels."
+    },
+    {
+      "id": 17837,
+      "epi_figures_source_display": null,
+      "visibility_display": "Public",
+      "bulletin_display": "No",
+      "dref_display": null,
+      "appeal_display": null,
+      "imminent_dref_display": "No",
+      "forecast_based_action_display": null,
+      "rdrt_display": "No",
+      "fact_display": null,
+      "ifrc_staff_display": null,
+      "eru_base_camp_display": "No",
+      "eru_basic_health_care_display": "No",
+      "eru_it_telecom_display": "No",
+      "eru_logistics_display": "No",
+      "eru_deployment_hospital_display": "No",
+      "eru_referral_hospital_display": "No",
+      "eru_relief_display": "No",
+      "eru_water_sanitation_15_display": "No",
+      "eru_water_sanitation_40_display": "No",
+      "eru_water_sanitation_20_display": "No",
+      "actions_taken": [],
+      "contacts": [
+        {
+          "ctype": "Originator",
+          "name": "Adilet Azamatov",
+          "title": "DM officer",
+          "email": "a.azamatov@redcrescent.kg",
+          "phone": "996 556 020 097",
+          "id": 56207
+        },
+        {
+          "ctype": "NationalSociety",
+          "name": "Guldar Kasymova",
+          "title": "Head of DM",
+          "email": "g.kasymova@redcrescent.kg",
+          "phone": "996 556 759 378",
+          "id": 56208
+        },
+        {
+          "ctype": "Federation",
+          "name": "Seval Guzelkilinc",
+          "title": "Head of mission",
+          "email": "Seval.GUZELKILINC@ifrc.org",
+          "phone": "996 700 558 803",
+          "id": 56209
+        },
+        {
+          "ctype": "Media",
+          "name": "Aidai Satybaldieva",
+          "title": "PR specialist",
+          "email": "a.satybaldieva@redcrescent.kg",
+          "phone": "996 550 224 425",
+          "id": 56210
+        }
+      ],
+      "sources": [],
+      "countries_details": [
+        {
+          "iso": "KG",
+          "iso3": "KGZ",
+          "id": 98,
+          "record_type": 1,
+          "record_type_display": "Country",
+          "region": 3,
+          "independent": true,
+          "is_deprecated": false,
+          "fdrs": "DKG001",
+          "average_household_size": null,
+          "society_name": "Red Crescent Society of Kyrgyzstan",
+          "name": "Kyrgyzstan",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "districts_details": [
+        {
+          "name": "Ysyk-Köl",
+          "code": "KG008",
+          "id": 1479,
+          "is_enclave": false,
+          "is_deprecated": false
+        }
+      ],
+      "regions_details": [
+        {
+          "name": 3,
+          "id": 3,
+          "region_name": "Europe",
+          "label": "Europe",
+          "translation_module_original_language": "en"
+        }
+      ],
+      "event_details": {
+        "dtype": 27,
+        "id": 7594,
+        "slug": null,
+        "parent_event": null,
+        "emergency_response_contact_email": null,
+        "countries_for_preview": [],
+        "start_date": null,
+        "name": "KGZ: Pluvial/Flash Flood - 07-2025 - Issyk-Kul ",
+        "translation_module_original_language": "en"
+      },
+      "dtype_details": {
+        "id": 27,
+        "summary": "",
+        "name": "Pluvial/Flash Flood",
+        "translation_module_original_language": "en"
+      },
+      "external_partners_details": [],
+      "supported_activities_details": [],
+      "user_details": {
+        "id": 7067,
+        "username": "a.azamatov@redcrescent.kg",
+        "email": "a.azamatov@redcrescent.kg",
+        "first_name": "Adilet",
+        "last_name": "Azamatov"
+      },
+      "is_covid_report": false,
+      "visibility": 3,
+      "rid": null,
+      "fr_num": 1,
+      "status": 9,
+      "request_assistance": false,
+      "ns_request_assistance": false,
+      "num_injured": 0,
+      "num_dead": 0,
+      "num_missing": 0,
+      "num_affected": 0,
+      "num_displaced": 0,
+      "num_assisted": 0,
+      "num_localstaff": 0,
+      "num_volunteers": 0,
+      "num_expats_delegates": 0,
+      "num_potentially_affected": null,
+      "num_highest_risk": null,
+      "affected_pop_centres": null,
+      "gov_num_injured": 0,
+      "gov_num_dead": 0,
+      "gov_num_missing": 0,
+      "gov_num_affected": 0,
+      "gov_num_displaced": 0,
+      "gov_num_assisted": 25,
+      "epi_cases": null,
+      "epi_suspected_cases": null,
+      "epi_probable_cases": null,
+      "epi_confirmed_cases": null,
+      "epi_num_dead": null,
+      "epi_figures_source": null,
+      "epi_cases_since_last_fr": null,
+      "epi_deaths_since_last_fr": null,
+      "epi_notes_since_last_fr": null,
+      "who_num_assisted": null,
+      "health_min_num_assisted": null,
+      "gov_num_potentially_affected": null,
+      "gov_num_highest_risk": null,
+      "gov_affected_pop_centres": null,
+      "other_num_injured": 0,
+      "other_num_dead": 0,
+      "other_num_missing": 0,
+      "other_num_affected": 0,
+      "other_num_displaced": 70,
+      "other_num_assisted": null,
+      "other_num_potentially_affected": null,
+      "other_num_highest_risk": null,
+      "other_affected_pop_centres": null,
+      "sit_fields_date": null,
+      "bulletin": 0,
+      "dref": null,
+      "dref_amount": null,
+      "appeal": null,
+      "appeal_amount": null,
+      "imminent_dref": 0,
+      "imminent_dref_amount": null,
+      "forecast_based_action": null,
+      "forecast_based_action_amount": null,
+      "rdrt": 0,
+      "num_rdrt": null,
+      "fact": null,
+      "num_fact": null,
+      "ifrc_staff": null,
+      "num_ifrc_staff": null,
+      "eru_base_camp": 0,
+      "eru_base_camp_units": null,
+      "eru_basic_health_care": 0,
+      "eru_basic_health_care_units": null,
+      "eru_it_telecom": 0,
+      "eru_it_telecom_units": null,
+      "eru_logistics": 0,
+      "eru_logistics_units": null,
+      "eru_deployment_hospital": 0,
+      "eru_deployment_hospital_units": null,
+      "eru_referral_hospital": 0,
+      "eru_referral_hospital_units": null,
+      "eru_relief": 0,
+      "eru_relief_units": null,
+      "eru_water_sanitation_15": 0,
+      "eru_water_sanitation_15_units": null,
+      "eru_water_sanitation_40": 0,
+      "eru_water_sanitation_40_units": null,
+      "eru_water_sanitation_20": 0,
+      "eru_water_sanitation_20_units": null,
+      "notes_health": null,
+      "notes_ns": null,
+      "notes_socioeco": null,
+      "recent_affected": 1,
+      "start_date": "2025-07-31T00:00:00Z",
+      "report_date": "2025-08-01T02:45:39.709851Z",
+      "created_at": "2025-08-01T02:45:39.739184Z",
+      "updated_at": "2025-08-01T02:45:39.808590Z",
+      "previous_update": null,
+      "translation_module_original_language": "en",
+      "translation_module_skip_auto_translation": false,
+      "user": 7067,
+      "dtype": 27,
+      "event": 7594,
+      "regions": [
+        3
+      ],
+      "countries": [
+        98
+      ],
+      "districts": [
+        1479
+      ],
+      "external_partners": [],
+      "supported_activities": [],
+      "title": "Issyk-Kul",
+      "summary": "KGZ: Pluvial/Flash Flood - 07-2025 - Issyk-Kul ",
+      "description": "<p style=\"margin: 5.0pt 35.5pt 5.0pt 1.0cm;\"><span style=\"font-size: 11.0pt;\">According to the storm warning of Kyrgyzhydromet under the Ministry of Emergency Situations of the Kyrgyz Republic, in the period from July 28 to 31, 2025 in the regions of the country were expected </span><span lang=\"EN-US\" style=\"font-size: 11.0pt; mso-ansi-language: EN-US;\">floods</span><span style=\"font-size: 11.0pt;\"> caused by heavy rains, so on July 30, 2025 at about 23:00 in the village of Tamchy Toru-Aigyr-Tamchy village of Toru-Aigyr-Tamchy aiyl aimak of Issyk-Kul district, as a result of heavy rains there were mudflows.</span><span lang=\"EN-US\" style=\"font-size: 11.0pt; mso-ansi-language: EN-US;\"><br><br></span><span style=\"font-size: 11.0pt;\">The neighboring village of Kosh-Kol also experienced intense precipitation leading to localized floods</span></p>",
+      "other_sources": "https://vesti.kg/proisshestviya/item/141665-na-issyk-kule-soshli-seli-razmyty-dorogi-zatopleny-doma-video.html",
+      "actions_others": null
     }
   ],
   "metadata": {
-    "total_count": 32,
-    "last_updated": "2025-07-31T20:21:01.281557",
-    "api_total_count": 32,
-    "new_reports_added": 32
+    "total_count": 39,
+    "last_updated": "2025-08-04T16:52:24.923235",
+    "api_total_count": 25,
+    "new_reports_added": 7
   }
 }
