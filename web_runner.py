@@ -362,6 +362,6 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     
     print(f"Server starting on port {port}")
-    print("🚀 Replit Web Service Ready!")
+    print("Replit Web Service Ready!")
     
     app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
