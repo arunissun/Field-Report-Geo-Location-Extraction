@@ -1,0 +1,37 @@
+name: Daily Field Reports Pipeline
+
+on:
+  schedule:
+    # Run daily at 10:00 AM UTC
+    - cron: '0 10 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  trigger-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wake up Replit and run pipeline
+        run: |
+          echo "=== Field Reports Pipeline Daily Execution ==="
+          echo "Time: $(date)"
+          
+          # Your actual Replit URL
+          REPLIT_URL="https://field-report-geo-location-extraction.arungandhi3.repl.co"
+          
+          echo "Step 1: Waking up Replit service..."
+          curl -f "$REPLIT_URL/status" --max-time 30 || echo "Service wake-up failed, but continuing..."
+          
+          echo "Step 2: Waiting 10 seconds for service to be ready..."
+          sleep 10
+          
+          echo "Step 3: Triggering pipeline execution..."
+          response=$(curl -f "$REPLIT_URL/run-both" --max-time 1800 -w "HTTP_CODE:%{http_code}")
+          
+          if [[ $response == *"HTTP_CODE:200"* ]]; then
+            echo "✅ Pipeline execution completed successfully"
+            echo "Response: $response"
+          else
+            echo "❌ Pipeline execution may have failed"
+            echo "Response: $response"
+            exit 1
+          fi

@@ -69,13 +69,25 @@ def home():
     """Home page with available endpoints"""
     return """
     <h1>Field Reports Pipeline Runner</h1>
+    <h2>🤖 Automated Daily Execution via GitHub Actions</h2>
+    <p><strong>Schedule:</strong> Daily at 10:00 AM UTC</p>
+    
     <h2>Available Endpoints:</h2>
     <ul>
         <li><a href="/run-main">/run-main</a> - Run main.py (field reports processing)</li>
         <li><a href="/run-final">/run-final</a> - Run final_run.py (GeoNames enrichment)</li>
         <li><a href="/run-both">/run-both</a> - Run both scripts sequentially</li>
         <li><a href="/status">/status</a> - Check service status</li>
+        <li><a href="/logs">/logs</a> - View recent execution logs</li>
     </ul>
+    
+    <h2>Setup Instructions:</h2>
+    <ol>
+        <li>Push this code to your GitHub repository</li>
+        <li>GitHub Actions will automatically run daily at 10 AM UTC</li>
+        <li>No manual intervention required</li>
+    </ol>
+    
     <p><strong>Note:</strong> Scripts run automatically without user input (AUTO_MODE=true)</p>
     """
 
@@ -128,8 +140,45 @@ def status():
         'status': 'running',
         'timestamp': datetime.now().isoformat(),
         'auto_mode': os.environ.get('AUTO_MODE', 'false'),
-        'available_scripts': ['main.py', 'final_run.py']
+        'available_scripts': ['main.py', 'final_run.py'],
+        'automation': 'GitHub Actions - Daily at 10:00 AM UTC',
+        'replit_status': 'Active (Free Tier)',
+        'last_activity': datetime.now().isoformat()
     })
+
+@app.route('/logs')
+def logs():
+    """Get recent execution logs"""
+    try:
+        logs_dir = 'data/logs'
+        if not os.path.exists(logs_dir):
+            return jsonify({'error': 'No logs directory found'})
+        
+        # Get the most recent log files
+        log_files = []
+        for file in os.listdir(logs_dir):
+            if file.endswith('.json'):
+                file_path = os.path.join(logs_dir, file)
+                log_files.append({
+                    'filename': file,
+                    'modified': datetime.fromtimestamp(os.path.getmtime(file_path)).isoformat(),
+                    'size': os.path.getsize(file_path)
+                })
+        
+        # Sort by modification time, most recent first
+        log_files.sort(key=lambda x: x['modified'], reverse=True)
+        
+        return jsonify({
+            'timestamp': datetime.now().isoformat(),
+            'recent_logs': log_files[:5],  # Last 5 log files
+            'logs_directory': logs_dir
+        })
+        
+    except Exception as e:
+        return jsonify({
+            'error': str(e),
+            'timestamp': datetime.now().isoformat()
+        })
 
 if __name__ == '__main__':
     print("Starting Field Reports Pipeline Web Runner...")
