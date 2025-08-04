@@ -163,6 +163,3 @@ cython_debug/
 pyproject.toml
 uv.lock
 generated-icon.png
-run_main.bat
-simple_test.py
-test_minimal.py
