@@ -5,3 +5,16 @@ run = ["/home/runner/workspace/.pythonlibs/bin/python3", "web_runner.py"]
 
 [env]
 AUTO_MODE = "true"
+
+[web]
+run = "/home/runner/workspace/.pythonlibs/bin/python3 web_runner.py"
+
+[languages.python3]
+pattern = "**/*.py"
+
+[languages.python3.languageServer]
+start = "pylsp"
+
+[[ports]]
+localPort = 5000
+externalPort = 80

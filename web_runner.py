@@ -236,6 +236,16 @@ Triggered by: GitHub Actions via Replit automation"""
             'timestamp': datetime.now().isoformat()
         }
 
+@app.route('/health')
+def health_check():
+    """Health check endpoint for Replit"""
+    return jsonify({
+        'status': 'healthy',
+        'service': 'Field Reports Pipeline Web Runner',
+        'timestamp': datetime.now().isoformat(),
+        'port': int(os.environ.get('PORT', 5000))
+    })
+
 @app.route('/status')
 def status():
     """Check service status"""
@@ -347,4 +357,11 @@ def serve_log_file(filename):
 if __name__ == '__main__':
     print("Starting Field Reports Pipeline Web Runner...")
     print("Available at: http://localhost:5000")
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    
+    # Get port from environment (Replit compatibility)
+    port = int(os.environ.get('PORT', 5000))
+    
+    print(f"Server starting on port {port}")
+    print("🚀 Replit Web Service Ready!")
+    
+    app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
