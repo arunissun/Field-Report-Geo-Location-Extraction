@@ -24,7 +24,7 @@ class Config:
         self.REQUEST_TIMEOUT = 30
 
         # Date filtering configuration
-        self.DAYS_LOOKBACK = 7  # Number of days to look back for field reports
+        self.DAYS_LOOKBACK = 15  # Number of days to look back for field reports
         
         # Calculate start date dynamically - reports from the last N days
         lookback_date = datetime.now() - timedelta(days=self.DAYS_LOOKBACK)
