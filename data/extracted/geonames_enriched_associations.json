@@ -2,8 +2,8 @@
   "metadata": {
     "total_field_reports": 38,
     "enriched_reports": 98,
-    "geonames_api_calls": 86,
-    "last_updated": "2025-08-04T17:00:27.208693",
+    "geonames_api_calls": 0,
+    "last_updated": "2025-08-04T17:14:37.675252",
     "api_username": "user1",
     "data_source": "GeoNames API",
     "format_version": "1.0"
