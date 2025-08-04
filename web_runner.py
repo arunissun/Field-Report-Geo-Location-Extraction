@@ -88,6 +88,9 @@ def home():
         <li><a href="/logs">/logs</a> - View recent execution logs</li>
         <li><a href="/data/raw/all_raw_reports.json">/data/raw/all_raw_reports.json</a> - Download raw data</li>
         <li><a href="/data/processed/all_processed_reports.json">/data/processed/all_processed_reports.json</a> - Download processed data</li>
+        <li><a href="/data/extracted/location_extraction_results.json">/data/extracted/location_extraction_results.json</a> - Download location extractions</li>
+        <li><a href="/data/extracted/geonames_enriched_associations.json">/data/extracted/geonames_enriched_associations.json</a> - Download GeoNames enriched data</li>
+        <li><a href="/data/extracted/country_associations.json">/health</a> - Health check endpoint</li>
     </ul>
     
     <h2>Setup Instructions:</h2>
@@ -343,6 +346,18 @@ def serve_processed_data():
             return send_file(file_path, mimetype='application/json')
         else:
             return jsonify({'error': 'Processed data file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+    
+@app.route('/data/extracted/country_associations.json')
+def serve_country_associations():
+    """Serve country associations data file"""
+    try:
+        file_path = 'data/extracted/country_associations.json'
+        if os.path.exists(file_path):
+            return send_file(file_path, mimetype='application/json')
+        else:
+            return jsonify({'error': 'Country associations file not found'}), 404
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
