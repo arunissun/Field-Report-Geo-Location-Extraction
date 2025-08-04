@@ -135,9 +135,24 @@ LOGIN_TEMPLATE = """
     <style>
         body { font-family: Arial, sans-serif; max-width: 400px; margin: 50px auto; padding: 20px; }
         .header { text-align: center; margin-bottom: 30px; }
-        .form-group { margin-bottom: 15px; }
+        .form-group { margin-bottom: 15px; position: relative; }
         label { display: block; margin-bottom: 5px; font-weight: bold; }
-        input[type="text"], input[type="password"] { width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; }
+        input[type="text"], input[type="password"] { 
+            width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px; 
+            padding-right: 40px; /* Space for eye icon */
+        }
+        .password-container { position: relative; }
+        .toggle-password { 
+            position: absolute; 
+            right: 10px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            cursor: pointer; 
+            color: #666;
+            user-select: none;
+            font-size: 16px;
+        }
+        .toggle-password:hover { color: #333; }
         button { width: 100%; padding: 10px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
         button:hover { background: #0056b3; }
         .error { color: red; margin-bottom: 15px; text-align: center; }
@@ -162,7 +177,10 @@ LOGIN_TEMPLATE = """
         
         <div class="form-group">
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+            <div class="password-container">
+                <input type="password" id="password" name="password" required>
+                <span class="toggle-password" onclick="togglePassword()">👁️</span>
+            </div>
         </div>
         
         <button type="submit">Login</button>
@@ -172,6 +190,21 @@ LOGIN_TEMPLATE = """
         <p>Access restricted to authorized IFRC personnel only.</p>
         <p>Contact system administrator for credentials.</p>
     </div>
+
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const toggleIcon = document.querySelector('.toggle-password');
+            
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                toggleIcon.textContent = '🙈'; // Eye with line through it
+            } else {
+                passwordField.type = 'password';
+                toggleIcon.textContent = '👁️'; // Regular eye
+            }
+        }
+    </script>
 </body>
 </html>
 """
