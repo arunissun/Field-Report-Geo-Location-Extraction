@@ -3,7 +3,7 @@ Web-based runner for Field Reports Pipeline (Free Replit Compatible)
 Provides HTTP endpoints to run main.py and final_run.py remotely
 """
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_file
 import subprocess
 import os
 import sys
@@ -77,8 +77,11 @@ def home():
         <li><a href="/run-main">/run-main</a> - Run main.py (field reports processing)</li>
         <li><a href="/run-final">/run-final</a> - Run final_run.py (GeoNames enrichment)</li>
         <li><a href="/run-both">/run-both</a> - Run both scripts sequentially</li>
+        <li><a href="/run-both-and-commit">/run-both-and-commit</a> - Run pipeline and auto-commit to git</li>
         <li><a href="/status">/status</a> - Check service status</li>
         <li><a href="/logs">/logs</a> - View recent execution logs</li>
+        <li><a href="/data/raw/all_raw_reports.json">/data/raw/all_raw_reports.json</a> - Download raw data</li>
+        <li><a href="/data/processed/all_processed_reports.json">/data/processed/all_processed_reports.json</a> - Download processed data</li>
     </ul>
     
     <h2>Setup Instructions:</h2>
@@ -103,9 +106,9 @@ def run_final():
     result = run_script('final_run.py')
     return jsonify(result)
 
-@app.route('/run-both')
-def run_both():
-    """Run both scripts sequentially"""
+@app.route('/run-both-and-commit')
+def run_both_and_commit():
+    """Run both scripts sequentially and commit results to git"""
     results = []
     
     # Run main.py first
@@ -127,11 +130,111 @@ def run_both():
             'error': 'Skipped due to main.py failure'
         })
     
+    # If both scripts succeeded, commit changes to git
+    commit_result = {'success': False, 'message': 'Skipped - pipeline failed'}
+    
+    if all(r['success'] for r in results):
+        logger.info("Pipeline succeeded, committing changes to git...")
+        commit_result = commit_data_to_git()
+    
     return jsonify({
         'timestamp': datetime.now().isoformat(),
-        'overall_success': all(r['success'] for r in results),
-        'results': results
+        'overall_success': all(r['success'] for r in results) and commit_result['success'],
+        'pipeline_results': results,
+        'git_commit': commit_result
     })
+
+def commit_data_to_git():
+    """Commit updated data files to git repository"""
+    try:
+        import subprocess
+        import json
+        from datetime import datetime
+        
+        # Check if there are changes
+        result = subprocess.run(['git', 'status', '--porcelain'], 
+                              capture_output=True, text=True, cwd='.')
+        
+        if not result.stdout.strip():
+            return {
+                'success': True,
+                'message': 'No changes to commit',
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        # Get data counts for commit message
+        raw_count = 0
+        processed_count = 0
+        
+        try:
+            with open('data/raw/all_raw_reports.json', 'r') as f:
+                raw_data = json.load(f)
+                raw_count = len(raw_data)
+        except:
+            pass
+            
+        try:
+            with open('data/processed/all_processed_reports.json', 'r') as f:
+                processed_data = json.load(f)
+                processed_count = len(processed_data)
+        except:
+            pass
+        
+        # Configure git
+        subprocess.run(['git', 'config', 'user.email', 'replit-automation@ifrc.org'], cwd='.')
+        subprocess.run(['git', 'config', 'user.name', 'Replit Automation'], cwd='.')
+        
+        # Add all data files
+        subprocess.run(['git', 'add', 'data/'], cwd='.')
+        
+        # Create commit message
+        date_time = datetime.now().strftime('%Y-%m-%d %H:%M UTC')
+        commit_msg = f"""Automated data update - {date_time}
+
+Pipeline execution summary:
+- Raw reports: {raw_count}
+- Processed reports: {processed_count}
+- Updated: raw, processed, extracted data and logs
+
+Triggered by: GitHub Actions via Replit automation"""
+        
+        # Commit changes
+        commit_result = subprocess.run(['git', 'commit', '-m', commit_msg], 
+                                     capture_output=True, text=True, cwd='.')
+        
+        if commit_result.returncode != 0:
+            return {
+                'success': False,
+                'message': f'Git commit failed: {commit_result.stderr}',
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        # Push to repository
+        push_result = subprocess.run(['git', 'push'], 
+                                   capture_output=True, text=True, cwd='.')
+        
+        if push_result.returncode != 0:
+            return {
+                'success': False,
+                'message': f'Git push failed: {push_result.stderr}',
+                'timestamp': datetime.now().isoformat()
+            }
+        
+        return {
+            'success': True,
+            'message': f'Successfully committed and pushed data update',
+            'commit_message': commit_msg,
+            'raw_count': raw_count,
+            'processed_count': processed_count,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+    except Exception as e:
+        return {
+            'success': False,
+            'message': f'Git operation failed: {str(e)}',
+            'timestamp': datetime.now().isoformat()
+        }
 
 @app.route('/status')
 def status():
@@ -179,6 +282,67 @@ def logs():
             'error': str(e),
             'timestamp': datetime.now().isoformat()
         })
+
+# Data file serving endpoints for GitHub Actions
+@app.route('/data/raw/all_raw_reports.json')
+def serve_raw_data():
+    """Serve raw reports data file"""
+    try:
+        file_path = 'data/raw/all_raw_reports.json'
+        if os.path.exists(file_path):
+            return send_file(file_path, mimetype='application/json')
+        else:
+            return jsonify({'error': 'Raw data file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/data/processed/all_processed_reports.json')  
+def serve_processed_data():
+    """Serve processed reports data file"""
+    try:
+        file_path = 'data/processed/all_processed_reports.json'
+        if os.path.exists(file_path):
+            return send_file(file_path, mimetype='application/json')
+        else:
+            return jsonify({'error': 'Processed data file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/data/extracted/location_extraction_results.json')
+def serve_location_data():
+    """Serve location extraction results file"""
+    try:
+        file_path = 'data/extracted/location_extraction_results.json'
+        if os.path.exists(file_path):
+            return send_file(file_path, mimetype='application/json')
+        else:
+            return jsonify({'error': 'Location data file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/data/extracted/geonames_enriched_associations.json')
+def serve_geonames_data():
+    """Serve GeoNames enriched data file"""
+    try:
+        file_path = 'data/extracted/geonames_enriched_associations.json'
+        if os.path.exists(file_path):
+            return send_file(file_path, mimetype='application/json')
+        else:
+            return jsonify({'error': 'GeoNames data file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/data/logs/<filename>')
+def serve_log_file(filename):
+    """Serve specific log file"""
+    try:
+        file_path = f'data/logs/{filename}'
+        if os.path.exists(file_path) and filename.endswith('.json'):
+            return send_file(file_path, mimetype='application/json')
+        else:
+            return jsonify({'error': 'Log file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     print("Starting Field Reports Pipeline Web Runner...")

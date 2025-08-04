@@ -10,7 +10,7 @@ jobs:
   trigger-pipeline:
     runs-on: ubuntu-latest
     steps:
-      - name: Wake up Replit and run pipeline
+      - name: Execute pipeline and auto-commit from Replit
         run: |
           echo "=== Field Reports Pipeline Daily Execution ==="
           echo "Time: $(date)"
@@ -24,11 +24,11 @@ jobs:
           echo "Step 2: Waiting 10 seconds for service to be ready..."
           sleep 10
           
-          echo "Step 3: Triggering pipeline execution..."
-          response=$(curl -f "$REPLIT_URL/run-both" --max-time 1800 -w "HTTP_CODE:%{http_code}")
+          echo "Step 3: Triggering pipeline execution with auto-commit..."
+          response=$(curl -f "$REPLIT_URL/run-both-and-commit" --max-time 1800 -w "HTTP_CODE:%{http_code}")
           
           if [[ $response == *"HTTP_CODE:200"* ]]; then
-            echo "✅ Pipeline execution completed successfully"
+            echo "✅ Pipeline execution and git commit completed successfully"
             echo "Response: $response"
           else
             echo "❌ Pipeline execution may have failed"
