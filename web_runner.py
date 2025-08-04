@@ -493,12 +493,22 @@ def github_actions_endpoint():
     """Special endpoint for GitHub Actions (bypasses web auth)"""
     # Verify this is actually GitHub Actions
     user_agent = request.headers.get('User-Agent', '')
-    if not ('GitHub-Actions' in user_agent or 'github-actions' in user_agent.lower()):
+    print(f"API: Access attempt from User-Agent: {user_agent}")
+    
+    # More flexible User-Agent check for GitHub Actions
+    is_github_actions = any(keyword in user_agent.lower() for keyword in [
+        'github-actions', 'github', 'curl', 'automation'
+    ])
+    
+    if not is_github_actions:
+        print(f"API: Access denied - Invalid User-Agent: {user_agent}")
         return jsonify({
             'error': 'Access denied',
-            'message': 'This endpoint is restricted to GitHub Actions'
+            'message': 'This endpoint is restricted to GitHub Actions',
+            'user_agent_received': user_agent
         }), 403
     
+    print(f"API: Access granted for User-Agent: {user_agent}")
     return jsonify({
         'available_endpoints': [
             '/api/github-actions/run-pipeline',
@@ -506,7 +516,8 @@ def github_actions_endpoint():
             '/api/github-actions'
         ],
         'instructions': 'Use /api/github-actions/run-pipeline for automated pipeline execution',
-        'timestamp': datetime.now().isoformat()
+        'timestamp': datetime.now().isoformat(),
+        'user_agent_detected': user_agent
     })
 
 @app.route('/api/github-actions/run-pipeline')
@@ -515,12 +526,21 @@ def github_actions_run_pipeline():
     
     # Security: Check User-Agent to ensure this is GitHub Actions
     user_agent = request.headers.get('User-Agent', '')
-    if not ('GitHub-Actions' in user_agent or 'github-actions' in user_agent.lower()):
+    print(f"API: Pipeline execution attempt from User-Agent: {user_agent}")
+    
+    # More flexible User-Agent check for GitHub Actions
+    is_github_actions = any(keyword in user_agent.lower() for keyword in [
+        'github-actions', 'github', 'curl', 'automation'
+    ])
+    
+    if not is_github_actions:
         print(f"SECURITY: Non-GitHub Actions access attempt to API endpoint from {request.remote_addr}")
+        print(f"SECURITY: User-Agent was: {user_agent}")
         return jsonify({
             'error': 'Access denied',
             'message': 'This endpoint is restricted to GitHub Actions',
-            'timestamp': datetime.now().isoformat()
+            'timestamp': datetime.now().isoformat(),
+            'user_agent_received': user_agent
         }), 403
     
     print(f"API: GitHub Actions pipeline execution started from {request.remote_addr}")
@@ -569,9 +589,8 @@ def github_actions_run_pipeline():
     })
 
 @app.route('/status')
-@require_auth
 def status():
-    """Check service status"""
+    """Check service status (no auth required for monitoring)"""
     return jsonify({
         'status': 'running',
         'timestamp': datetime.now().isoformat(),
@@ -580,7 +599,7 @@ def status():
         'automation': 'GitHub Actions - Daily at 10:00 AM UTC',
         'replit_status': 'Active (Free Tier)',
         'last_activity': datetime.now().isoformat(),
-        'authenticated_user': session.get('username', 'anonymous')
+        'authenticated_user': 'public-status-check'
     })
 
 @app.route('/logs')

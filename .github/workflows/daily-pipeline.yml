@@ -19,7 +19,7 @@ jobs:
           REPLIT_URL="https://a1bf29b1-e0c7-4497-be02-3a0e5d7f681e-00-3e1832oiqv2xk.janeway.replit.dev"
           
           echo "Step 1: Waking up Replit service..."
-          curl -f "$REPLIT_URL/status" --max-time 30 || echo "Service wake-up failed, but continuing..."
+          curl -f "$REPLIT_URL/health" --max-time 30 || echo "Service wake-up failed, but continuing..."
           
           echo "Step 2: Waiting 10 seconds for service to be ready..."
           sleep 10
