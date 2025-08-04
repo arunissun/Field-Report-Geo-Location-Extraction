@@ -58,8 +58,17 @@ def run_script(script_name, timeout=1800):
         env = os.environ.copy()
         env['AUTO_MODE'] = 'true'
         
+        # Use appropriate Python executable based on environment
+        python_executable = 'python3'
+        if os.path.exists('/home/runner/workspace/.pythonlibs/bin/python3'):
+            # Replit environment
+            python_executable = '/home/runner/workspace/.pythonlibs/bin/python3'
+        elif os.path.exists('/usr/bin/python3'):
+            # Railway/Linux environment
+            python_executable = '/usr/bin/python3'
+        
         result = subprocess.run(
-            ['/home/runner/workspace/.pythonlibs/bin/python3', script_name], 
+            [python_executable, script_name], 
             capture_output=True, 
             text=True, 
             timeout=timeout,
