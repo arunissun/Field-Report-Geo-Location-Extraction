@@ -1,0 +1,16 @@
+run = "python web_runner.py"
+
+[deployment]
+run = ["python", "web_runner.py"]
+
+[env]
+AUTO_MODE = "true"
+
+[packager]
+language = "python3"
+requiredPackages = ["flask"]
+
+[packager.features]
+enabledForHosting = false
+packageSearch = true
+guessImports = true
