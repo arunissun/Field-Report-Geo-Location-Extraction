@@ -422,8 +422,8 @@ def commit_data_to_git():
         print(f"GIT: Data summary - Raw reports: {raw_count}, Processed reports: {processed_count}")
         
         # Configure git
-        subprocess.run(['git', 'config', 'user.email', 'replit-automation@ifrc.org'], cwd='.')
-        subprocess.run(['git', 'config', 'user.name', 'Replit Automation'], cwd='.')
+        subprocess.run(['git', 'config', 'user.email', 'railway-automation@ifrc.org'], cwd='.')
+        subprocess.run(['git', 'config', 'user.name', 'Railway Automation'], cwd='.')
         
         # Add all data files
         subprocess.run(['git', 'add', 'data/'], cwd='.')
@@ -437,7 +437,7 @@ Pipeline execution summary:
 - Processed reports: {processed_count}
 - Updated: raw, processed, extracted data and logs
 
-Triggered by: GitHub Actions via Replit automation"""
+Triggered by: GitHub Actions via Railway automation"""
         
         print("GIT: Committing changes")
         
@@ -488,12 +488,13 @@ Triggered by: GitHub Actions via Replit automation"""
 
 @app.route('/health')
 def health_check():
-    """Health check endpoint for Replit (no auth required)"""
+    """Health check endpoint for Railway (no auth required)"""
     return jsonify({
         'status': 'healthy',
         'service': 'Field Reports Pipeline Web Runner',
         'timestamp': datetime.now().isoformat(),
         'port': int(os.environ.get('PORT', 5000)),
+        'platform': 'Railway',
         'security': 'Authentication enabled'
     })
 

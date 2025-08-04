@@ -239,7 +239,7 @@ python final_run.py
 
 ## 🌐 Web Access
 
-**Deployment URL:** https://a1bf29b1-e0c7-4497-be02-3a0e5d7f681e-00-3e1832oiqv2xk.janeway.replit.dev/
+**Deployment URL:** https://web-production-c0c92.up.railway.app
 
 To run the program and access the data, go to the deployment URL and sign in with username and password.
 

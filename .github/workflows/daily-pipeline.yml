@@ -10,22 +10,22 @@ jobs:
   trigger-pipeline:
     runs-on: ubuntu-latest
     steps:
-      - name: Execute pipeline and auto-commit from Replit
+      - name: Execute pipeline and auto-commit from Railway
         run: |
           echo "=== Field Reports Pipeline Daily Execution ==="
           echo "Time: $(date)"
           
-          # Your actual Replit URL
-          REPLIT_URL="https://a1bf29b1-e0c7-4497-be02-3a0e5d7f681e-00-3e1832oiqv2xk.janeway.replit.dev"
+          # Your Railway deployment URL
+          RAILWAY_URL="https://web-production-c0c92.up.railway.app"
           
-          echo "Step 1: Waking up Replit service..."
-          curl -f "$REPLIT_URL/health" --max-time 30 || echo "Service wake-up failed, but continuing..."
+          echo "Step 1: Checking Railway service health..."
+          curl -f "$RAILWAY_URL/health" --max-time 30 || echo "Service health check failed, but continuing..."
           
-          echo "Step 2: Waiting 10 seconds for service to be ready..."
-          sleep 10
+          echo "Step 2: Waiting 5 seconds for Railway service to be ready..."
+          sleep 5
           
           echo "Step 3: Triggering pipeline execution with auto-commit..."
-          response=$(curl -f "$REPLIT_URL/api/github-actions/run-pipeline" --max-time 1800 -w "HTTP_CODE:%{http_code}")
+          response=$(curl -f "$RAILWAY_URL/api/github-actions/run-pipeline" --max-time 1800 -w "HTTP_CODE:%{http_code}")
           
           if [[ $response == *"HTTP_CODE:200"* ]]; then
             echo "✅ Pipeline execution and git commit completed successfully"
