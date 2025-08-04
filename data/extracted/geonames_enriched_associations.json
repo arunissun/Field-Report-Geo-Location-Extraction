@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_field_reports": 31,
-    "enriched_reports": 91,
-    "geonames_api_calls": 350,
-    "last_updated": "2025-07-31T20:30:19.725443",
+    "total_field_reports": 38,
+    "enriched_reports": 98,
+    "geonames_api_calls": 86,
+    "last_updated": "2025-08-04T17:00:27.208693",
     "api_username": "user1",
     "data_source": "GeoNames API",
     "format_version": "1.0"
@@ -15268,6 +15268,1115 @@
         "api_calls_made": 10,
         "locations_enriched": 7,
         "processed_at": "2025-07-31T20:30:19.725443"
+      }
+    },
+    {
+      "field_report_id": 17843,
+      "countries": [
+        {
+          "country_name": "Lao PDR",
+          "country_code": "LA",
+          "states_regions": [
+            {
+              "original_name": "Bokeo",
+              "geonames_data": {
+                "geoname_id": 1904616,
+                "official_name": "Bokeo",
+                "population": 203468,
+                "coordinates": {
+                  "latitude": 20.5,
+                  "longitude": 100.5
+                }
+              }
+            },
+            {
+              "original_name": "Bolikhamxay",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Huaphan",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Khammouane Province",
+              "geonames_data": {
+                "geoname_id": 1656538,
+                "official_name": "Khammouane Province",
+                "population": 433570,
+                "coordinates": {
+                  "latitude": 17.5,
+                  "longitude": 105.33333
+                }
+              }
+            },
+            {
+              "original_name": "Luang Prabang",
+              "geonames_data": {
+                "geoname_id": 1655558,
+                "official_name": "Luang Prabang Province",
+                "population": 467157,
+                "coordinates": {
+                  "latitude": 20.25,
+                  "longitude": 102.66667
+                }
+              }
+            },
+            {
+              "original_name": "Vientiane Province",
+              "geonames_data": {
+                "geoname_id": 1652238,
+                "official_name": "Vientiane",
+                "population": 462142,
+                "coordinates": {
+                  "latitude": 18.75,
+                  "longitude": 102.41667
+                }
+              }
+            },
+            {
+              "original_name": "Xayaboury",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Xaysomboun",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Xieng Khouang",
+              "geonames_data": {
+                "geoname_id": 1652077,
+                "official_name": "Xiangkhouang",
+                "population": 267172,
+                "coordinates": {
+                  "latitude": 19.46667,
+                  "longitude": 103.5
+                }
+              }
+            }
+          ],
+          "cities_towns": [
+            {
+              "original_name": "Hinboun",
+              "geonames_data": {
+                "geoname_id": 1655212,
+                "official_name": "Muang Hinboun",
+                "population": 0,
+                "coordinates": {
+                  "latitude": 17.591,
+                  "longitude": 104.60388
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [],
+        "cities_towns": []
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 10,
+        "locations_enriched": 6,
+        "processed_at": "2025-08-04T16:58:53.205209"
+      }
+    },
+    {
+      "field_report_id": 17842,
+      "countries": [
+        {
+          "country_name": "Viet Nam",
+          "country_code": "VN",
+          "states_regions": [
+            {
+              "original_name": "Nghệ An",
+              "geonames_data": {
+                "geoname_id": 1559969,
+                "official_name": "Nghệ An Province",
+                "population": 4477700,
+                "coordinates": {
+                  "latitude": 19.25,
+                  "longitude": 104.91667
+                }
+              }
+            },
+            {
+              "original_name": "Sơn La",
+              "geonames_data": {
+                "geoname_id": 1567643,
+                "official_name": "Sơn La Province",
+                "population": 1313300,
+                "coordinates": {
+                  "latitude": 21.16667,
+                  "longitude": 104.0
+                }
+              }
+            },
+            {
+              "original_name": "Điện Biên",
+              "geonames_data": null
+            }
+          ],
+          "cities_towns": []
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [],
+        "cities_towns": []
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 3,
+        "locations_enriched": 2,
+        "processed_at": "2025-08-04T16:58:57.030477"
+      }
+    },
+    {
+      "field_report_id": 17841,
+      "countries": [
+        {
+          "country_name": "Chile",
+          "country_code": "CL",
+          "states_regions": [
+            {
+              "original_name": "Araucanía",
+              "geonames_data": {
+                "geoname_id": 3899463,
+                "official_name": "Región de la Araucanía",
+                "population": 889942,
+                "coordinates": {
+                  "latitude": -38.5,
+                  "longitude": -72.0
+                }
+              }
+            },
+            {
+              "original_name": "Valparaíso",
+              "geonames_data": {
+                "geoname_id": 3868621,
+                "official_name": "Región de Valparaíso",
+                "population": 1790219,
+                "coordinates": {
+                  "latitude": -32.75,
+                  "longitude": -71.33333
+                }
+              }
+            }
+          ],
+          "cities_towns": [
+            {
+              "original_name": "Angol",
+              "geonames_data": {
+                "geoname_id": 3899629,
+                "official_name": "Angol",
+                "population": 44856,
+                "coordinates": {
+                  "latitude": -37.79519,
+                  "longitude": -72.71636
+                }
+              }
+            },
+            {
+              "original_name": "Los Sauces",
+              "geonames_data": {
+                "geoname_id": 3881357,
+                "official_name": "Los Sauces",
+                "population": 7169,
+                "coordinates": {
+                  "latitude": -37.98119,
+                  "longitude": -72.83393
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [],
+        "cities_towns": []
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 4,
+        "locations_enriched": 4,
+        "processed_at": "2025-08-04T16:59:02.241829"
+      }
+    },
+    {
+      "field_report_id": 17840,
+      "countries": [
+        {
+          "country_name": "Chile",
+          "country_code": "CL",
+          "states_regions": [
+            {
+              "original_name": "Antofagasta",
+              "geonames_data": {
+                "geoname_id": 3899537,
+                "official_name": "Antofagasta",
+                "population": 530879,
+                "coordinates": {
+                  "latitude": -23.5,
+                  "longitude": -69.0
+                }
+              }
+            },
+            {
+              "original_name": "Arica and Parinacota",
+              "geonames_data": {
+                "geoname_id": 6693562,
+                "official_name": "Arica y Parinacota Region",
+                "population": 213595,
+                "coordinates": {
+                  "latitude": -18.57336,
+                  "longitude": -69.46106
+                }
+              }
+            },
+            {
+              "original_name": "Atacama",
+              "geonames_data": {
+                "geoname_id": 3899191,
+                "official_name": "Atacama",
+                "population": 284992,
+                "coordinates": {
+                  "latitude": -27.5,
+                  "longitude": -70.0
+                }
+              }
+            },
+            {
+              "original_name": "Biobío",
+              "geonames_data": {
+                "geoname_id": 3898380,
+                "official_name": "Región del Biobío",
+                "population": 2100494,
+                "coordinates": {
+                  "latitude": -37.375,
+                  "longitude": -72.45
+                }
+              }
+            },
+            {
+              "original_name": "Coquimbo",
+              "geonames_data": {
+                "geoname_id": 3893623,
+                "official_name": "Coquimbo Region",
+                "population": 687806,
+                "coordinates": {
+                  "latitude": -30.75,
+                  "longitude": -71.0
+                }
+              }
+            },
+            {
+              "original_name": "Los Lagos",
+              "geonames_data": {
+                "geoname_id": 3881974,
+                "official_name": "Los Lagos Region",
+                "population": 767714,
+                "coordinates": {
+                  "latitude": -42.59889,
+                  "longitude": -73.96048
+                }
+              }
+            },
+            {
+              "original_name": "Los Ríos",
+              "geonames_data": {
+                "geoname_id": 6693563,
+                "official_name": "Los Ríos Region",
+                "population": 364183,
+                "coordinates": {
+                  "latitude": -40.01499,
+                  "longitude": -72.51526
+                }
+              }
+            },
+            {
+              "original_name": "Maule",
+              "geonames_data": {
+                "geoname_id": 3880306,
+                "official_name": "Maule Region",
+                "population": 955048,
+                "coordinates": {
+                  "latitude": -35.5,
+                  "longitude": -71.5
+                }
+              }
+            },
+            {
+              "original_name": "O'Higgins",
+              "geonames_data": {
+                "geoname_id": 3883281,
+                "official_name": "O'Higgins Region",
+                "population": 851406,
+                "coordinates": {
+                  "latitude": -34.5,
+                  "longitude": -71.0
+                }
+              }
+            },
+            {
+              "original_name": "Tarapacá",
+              "geonames_data": {
+                "geoname_id": 3870116,
+                "official_name": "Tarapacá",
+                "population": 238950,
+                "coordinates": {
+                  "latitude": -20.0,
+                  "longitude": -69.33333
+                }
+              }
+            },
+            {
+              "original_name": "Valparaiso",
+              "geonames_data": {
+                "geoname_id": 3868621,
+                "official_name": "Región de Valparaíso",
+                "population": 1790219,
+                "coordinates": {
+                  "latitude": -32.75,
+                  "longitude": -71.33333
+                }
+              }
+            },
+            {
+              "original_name": "Ñuble",
+              "geonames_data": {
+                "geoname_id": 11979367,
+                "official_name": "Ñuble",
+                "population": 480609,
+                "coordinates": {
+                  "latitude": -36.62291,
+                  "longitude": -72.21643
+                }
+              }
+            },
+            {
+              "original_name": "Aysén",
+              "geonames_data": {
+                "geoname_id": 3900333,
+                "official_name": "Aysén",
+                "population": 94271,
+                "coordinates": {
+                  "latitude": -46.5,
+                  "longitude": -73.5
+                }
+              }
+            }
+          ],
+          "cities_towns": [
+            {
+              "original_name": "Antofagasta",
+              "geonames_data": {
+                "geoname_id": 3899539,
+                "official_name": "Antofagasta",
+                "population": 401096,
+                "coordinates": {
+                  "latitude": -23.65094,
+                  "longitude": -70.39752
+                }
+              }
+            },
+            {
+              "original_name": "Arica",
+              "geonames_data": {
+                "geoname_id": 3899361,
+                "official_name": "Arica",
+                "population": 241653,
+                "coordinates": {
+                  "latitude": -18.47552,
+                  "longitude": -70.30058
+                }
+              }
+            },
+            {
+              "original_name": "Caldera",
+              "geonames_data": {
+                "geoname_id": 3897322,
+                "official_name": "Caldera",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -27.06812,
+                  "longitude": -70.81921
+                }
+              }
+            },
+            {
+              "original_name": "Castro",
+              "geonames_data": {
+                "geoname_id": 3896218,
+                "official_name": "Castro",
+                "population": 29926,
+                "coordinates": {
+                  "latitude": -42.4721,
+                  "longitude": -73.77319
+                }
+              }
+            },
+            {
+              "original_name": "Chanaral",
+              "geonames_data": {
+                "geoname_id": 3895554,
+                "official_name": "Chañaral",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -26.34298,
+                  "longitude": -70.61648
+                }
+              }
+            },
+            {
+              "original_name": "Constitution",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Coquimbo",
+              "geonames_data": {
+                "geoname_id": 3884373,
+                "official_name": "La Serena",
+                "population": 154521,
+                "coordinates": {
+                  "latitude": -29.90591,
+                  "longitude": -71.25014
+                }
+              }
+            },
+            {
+              "original_name": "Corral",
+              "geonames_data": {
+                "geoname_id": 3893516,
+                "official_name": "Corral",
+                "population": 3500,
+                "coordinates": {
+                  "latitude": -39.8873,
+                  "longitude": -73.43101
+                }
+              }
+            },
+            {
+              "original_name": "Huasco",
+              "geonames_data": {
+                "geoname_id": 3887758,
+                "official_name": "Huasco",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -28.46599,
+                  "longitude": -71.22276
+                }
+              }
+            },
+            {
+              "original_name": "Iquique",
+              "geonames_data": {
+                "geoname_id": 3887127,
+                "official_name": "Iquique",
+                "population": 199587,
+                "coordinates": {
+                  "latitude": -20.21326,
+                  "longitude": -70.15027
+                }
+              }
+            },
+            {
+              "original_name": "Lebu",
+              "geonames_data": {
+                "geoname_id": 3883457,
+                "official_name": "Lebu",
+                "population": 22345,
+                "coordinates": {
+                  "latitude": -37.60825,
+                  "longitude": -73.65356
+                }
+              }
+            },
+            {
+              "original_name": "Patache",
+              "geonames_data": {
+                "geoname_id": 11145147,
+                "official_name": "Guaneros Punta Patache",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -20.80911,
+                  "longitude": -70.19895
+                }
+              }
+            },
+            {
+              "original_name": "Pichidangui",
+              "geonames_data": {
+                "geoname_id": 3876274,
+                "official_name": "Pichidangui",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -32.14008,
+                  "longitude": -71.52944
+                }
+              }
+            },
+            {
+              "original_name": "Pisagua",
+              "geonames_data": {
+                "geoname_id": 3875795,
+                "official_name": "Pisagua",
+                "population": 443,
+                "coordinates": {
+                  "latitude": -19.59704,
+                  "longitude": -70.21235
+                }
+              }
+            },
+            {
+              "original_name": "Puerto Montt",
+              "geonames_data": {
+                "geoname_id": 3874960,
+                "official_name": "Port Montt",
+                "population": 245902,
+                "coordinates": {
+                  "latitude": -41.4693,
+                  "longitude": -72.94237
+                }
+              }
+            },
+            {
+              "original_name": "Punta Arenas",
+              "geonames_data": {
+                "geoname_id": 3874787,
+                "official_name": "Punta Arenas",
+                "population": 117430,
+                "coordinates": {
+                  "latitude": -53.16282,
+                  "longitude": -70.90922
+                }
+              }
+            },
+            {
+              "original_name": "Quintero",
+              "geonames_data": {
+                "geoname_id": 3873983,
+                "official_name": "Quintero",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -32.78588,
+                  "longitude": -71.53222
+                }
+              }
+            },
+            {
+              "original_name": "San Antonio",
+              "geonames_data": {
+                "geoname_id": 3872395,
+                "official_name": "San Antonio",
+                "population": 85651,
+                "coordinates": {
+                  "latitude": -33.59473,
+                  "longitude": -71.60746
+                }
+              }
+            },
+            {
+              "original_name": "Talcahuano",
+              "geonames_data": {
+                "geoname_id": 3870282,
+                "official_name": "Talcahuano",
+                "population": 252968,
+                "coordinates": {
+                  "latitude": -36.72494,
+                  "longitude": -73.11684
+                }
+              }
+            },
+            {
+              "original_name": "Taltal",
+              "geonames_data": {
+                "geoname_id": 3870243,
+                "official_name": "Taltal",
+                "population": 10018,
+                "coordinates": {
+                  "latitude": -25.40713,
+                  "longitude": -70.48554
+                }
+              }
+            },
+            {
+              "original_name": "Valparaíso",
+              "geonames_data": {
+                "geoname_id": 3868626,
+                "official_name": "Valparaíso",
+                "population": 282448,
+                "coordinates": {
+                  "latitude": -33.036,
+                  "longitude": -71.62963
+                }
+              }
+            },
+            {
+              "original_name": "Ancud",
+              "geonames_data": {
+                "geoname_id": 3899695,
+                "official_name": "Ancud",
+                "population": 28020,
+                "coordinates": {
+                  "latitude": -41.8707,
+                  "longitude": -73.81622
+                }
+              }
+            },
+            {
+              "original_name": "Bahía Gregorio",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Bahía Mansa",
+              "geonames_data": {
+                "geoname_id": 3898982,
+                "official_name": "Bahía Mansa",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -40.58442,
+                  "longitude": -73.73254
+                }
+              }
+            },
+            {
+              "original_name": "Boyeruca",
+              "geonames_data": {
+                "geoname_id": 3897979,
+                "official_name": "Boyeruca",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -34.68901,
+                  "longitude": -72.05451
+                }
+              }
+            },
+            {
+              "original_name": "Caleta Meteoro",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Caleta Paposo",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Coliumo",
+              "geonames_data": {
+                "geoname_id": 11965981,
+                "official_name": "Coliumo",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -36.55221,
+                  "longitude": -72.95844
+                }
+              }
+            },
+            {
+              "original_name": "Coronel",
+              "geonames_data": {
+                "geoname_id": 3893532,
+                "official_name": "Coronel",
+                "population": 92940,
+                "coordinates": {
+                  "latitude": -37.03386,
+                  "longitude": -73.14019
+                }
+              }
+            },
+            {
+              "original_name": "Easter Island",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Juan Fernandez",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Nehuentue",
+              "geonames_data": {
+                "geoname_id": 3879086,
+                "official_name": "Nehuentué",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -38.74336,
+                  "longitude": -73.41274
+                }
+              }
+            },
+            {
+              "original_name": "Port Melinka",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Puerto Aguirre",
+              "geonames_data": {
+                "geoname_id": 3874998,
+                "official_name": "Puerto Aguirre",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -45.16388,
+                  "longitude": -73.52459
+                }
+              }
+            },
+            {
+              "original_name": "Puerto Aldea",
+              "geonames_data": {
+                "geoname_id": 3874996,
+                "official_name": "Puerto Aldea",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -30.2928,
+                  "longitude": -71.60869
+                }
+              }
+            },
+            {
+              "original_name": "Puerto Chacabuco",
+              "geonames_data": {
+                "geoname_id": 3950166,
+                "official_name": "Puerto Chacabuco",
+                "population": 1243,
+                "coordinates": {
+                  "latitude": -45.46667,
+                  "longitude": -72.81667
+                }
+              }
+            },
+            {
+              "original_name": "Puerto Eden",
+              "geonames_data": null
+            },
+            {
+              "original_name": "Puerto Natales",
+              "geonames_data": {
+                "geoname_id": 3874958,
+                "official_name": "Puerto Natales",
+                "population": 20000,
+                "coordinates": {
+                  "latitude": -51.72987,
+                  "longitude": -72.50603
+                }
+              }
+            },
+            {
+              "original_name": "Puerto Williams",
+              "geonames_data": {
+                "geoname_id": 3874926,
+                "official_name": "Puerto Williams",
+                "population": 2000,
+                "coordinates": {
+                  "latitude": -54.93355,
+                  "longitude": -67.60963
+                }
+              }
+            },
+            {
+              "original_name": "Queule",
+              "geonames_data": {
+                "geoname_id": 3874320,
+                "official_name": "Queule",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -39.39853,
+                  "longitude": -73.21392
+                }
+              }
+            },
+            {
+              "original_name": "Quiriquina Island",
+              "geonames_data": null
+            },
+            {
+              "original_name": "San Félix",
+              "geonames_data": {
+                "geoname_id": 3872248,
+                "official_name": "San Félix",
+                "population": 0,
+                "coordinates": {
+                  "latitude": -28.93828,
+                  "longitude": -70.46065
+                }
+              }
+            }
+          ]
+        },
+        {
+          "country_name": "Russia",
+          "country_code": "RU",
+          "states_regions": [
+            {
+              "original_name": "Kamchatka",
+              "geonames_data": {
+                "geoname_id": 2125072,
+                "official_name": "Kamchatka",
+                "population": 315557,
+                "coordinates": {
+                  "latitude": 55.0,
+                  "longitude": 159.0
+                }
+              }
+            }
+          ],
+          "cities_towns": [
+            {
+              "original_name": "Petropavlovsk",
+              "geonames_data": {
+                "geoname_id": 2122104,
+                "official_name": "Petropavlovsk-Kamchatskiy",
+                "population": 181216,
+                "coordinates": {
+                  "latitude": 53.06393,
+                  "longitude": 158.62751
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [
+          {
+            "original_name": "Araucanía",
+            "geonames_data": null
+          },
+          {
+            "original_name": "Chilean Antarctic Territory",
+            "geonames_data": null
+          }
+        ],
+        "cities_towns": [
+          {
+            "original_name": "Antarctica Base Ohiggins",
+            "geonames_data": null
+          },
+          {
+            "original_name": "Antarctica Base Prat",
+            "geonames_data": null
+          },
+          {
+            "original_name": "Mejillones",
+            "geonames_data": null
+          },
+          {
+            "original_name": "Punta de Choros",
+            "geonames_data": null
+          },
+          {
+            "original_name": "Tocopilla",
+            "geonames_data": null
+          }
+        ]
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 57,
+        "locations_enriched": 48,
+        "processed_at": "2025-08-04T17:00:12.317072"
+      }
+    },
+    {
+      "field_report_id": 17839,
+      "countries": [
+        {
+          "country_name": "Guatemala",
+          "country_code": "GT",
+          "states_regions": [
+            {
+              "original_name": "Escuintla",
+              "geonames_data": {
+                "geoname_id": 3595802,
+                "official_name": "Departamento de Escuintla",
+                "population": 733181,
+                "coordinates": {
+                  "latitude": 14.16667,
+                  "longitude": -91.0
+                }
+              }
+            },
+            {
+              "original_name": "Jalapa",
+              "geonames_data": {
+                "geoname_id": 3595236,
+                "official_name": "Jalapa",
+                "population": 390500,
+                "coordinates": {
+                  "latitude": 14.58333,
+                  "longitude": -89.91667
+                }
+              }
+            },
+            {
+              "original_name": "Jutiapa",
+              "geonames_data": {
+                "geoname_id": 3595067,
+                "official_name": "Departamento de Jutiapa",
+                "population": 6398,
+                "coordinates": {
+                  "latitude": 14.16667,
+                  "longitude": -89.83333
+                }
+              }
+            },
+            {
+              "original_name": "Santa Rosa",
+              "geonames_data": {
+                "geoname_id": 3589172,
+                "official_name": "Santa Rosa Department",
+                "population": 301370,
+                "coordinates": {
+                  "latitude": 14.16667,
+                  "longitude": -90.3
+                }
+              }
+            }
+          ],
+          "cities_towns": [
+            {
+              "original_name": "Jutiapa",
+              "geonames_data": {
+                "geoname_id": 3595069,
+                "official_name": "Jutiapa",
+                "population": 145880,
+                "coordinates": {
+                  "latitude": 14.28491,
+                  "longitude": -89.88798
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [],
+        "cities_towns": []
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 5,
+        "locations_enriched": 5,
+        "processed_at": "2025-08-04T17:00:18.450254"
+      }
+    },
+    {
+      "field_report_id": 17838,
+      "countries": [
+        {
+          "country_name": "Chile",
+          "country_code": "CL",
+          "states_regions": [
+            {
+              "original_name": "Antofagasta Region",
+              "geonames_data": {
+                "geoname_id": 3899537,
+                "official_name": "Antofagasta",
+                "population": 530879,
+                "coordinates": {
+                  "latitude": -23.5,
+                  "longitude": -69.0
+                }
+              }
+            },
+            {
+              "original_name": "Atacama Region",
+              "geonames_data": {
+                "geoname_id": 3899191,
+                "official_name": "Atacama",
+                "population": 284992,
+                "coordinates": {
+                  "latitude": -27.5,
+                  "longitude": -70.0
+                }
+              }
+            }
+          ],
+          "cities_towns": [
+            {
+              "original_name": "Antofagasta",
+              "geonames_data": {
+                "geoname_id": 3899539,
+                "official_name": "Antofagasta",
+                "population": 401096,
+                "coordinates": {
+                  "latitude": -23.65094,
+                  "longitude": -70.39752
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [],
+        "cities_towns": []
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 3,
+        "locations_enriched": 3,
+        "processed_at": "2025-08-04T17:00:22.102282"
+      }
+    },
+    {
+      "field_report_id": 17837,
+      "countries": [
+        {
+          "country_name": "Kyrgyz Republic",
+          "country_code": "KG",
+          "states_regions": [],
+          "cities_towns": [
+            {
+              "original_name": "Issyk-Kul",
+              "geonames_data": {
+                "geoname_id": 1528121,
+                "official_name": "Karakol",
+                "population": 84351,
+                "coordinates": {
+                  "latitude": 42.49068,
+                  "longitude": 78.39362
+                }
+              }
+            },
+            {
+              "original_name": "Kosh-Kol",
+              "geonames_data": {
+                "geoname_id": 1527835,
+                "official_name": "Kosh-Köl",
+                "population": 0,
+                "coordinates": {
+                  "latitude": 42.54047,
+                  "longitude": 76.61388
+                }
+              }
+            },
+            {
+              "original_name": "Tamchy",
+              "geonames_data": {
+                "geoname_id": 1527274,
+                "official_name": "Tamchy",
+                "population": 0,
+                "coordinates": {
+                  "latitude": 42.5637,
+                  "longitude": 76.65932
+                }
+              }
+            },
+            {
+              "original_name": "Toru-Aigyr-Tamchy",
+              "geonames_data": null
+            }
+          ]
+        }
+      ],
+      "unassigned_locations": {
+        "states_regions": [],
+        "cities_towns": []
+      },
+      "processing_status": {
+        "success": true,
+        "api_calls_made": 4,
+        "locations_enriched": 3,
+        "processed_at": "2025-08-04T17:00:27.208545"
       }
     }
   ]
