@@ -31,7 +31,7 @@ def run_script(script_name, timeout=1800):
         env['AUTO_MODE'] = 'true'
         
         result = subprocess.run(
-            ['python', script_name], 
+            ['/home/runner/workspace/.pythonlibs/bin/python3', script_name], 
             capture_output=True, 
             text=True, 
             timeout=timeout,
