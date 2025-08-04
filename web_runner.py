@@ -90,7 +90,7 @@ def home():
         <li><a href="/data/processed/all_processed_reports.json">/data/processed/all_processed_reports.json</a> - Download processed data</li>
         <li><a href="/data/extracted/location_extraction_results.json">/data/extracted/location_extraction_results.json</a> - Download location extractions</li>
         <li><a href="/data/extracted/geonames_enriched_associations.json">/data/extracted/geonames_enriched_associations.json</a> - Download GeoNames enriched data</li>
-        <li><a href="/data/extracted/country_associations.json">/health</a> - Health check endpoint</li>
+        <li><a href="/data/extracted/country_associations.json">/data/extracted/country_associations.json</a> - Download country associations</li>
     </ul>
     
     <h2>Setup Instructions:</h2>
