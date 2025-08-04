@@ -26,7 +26,9 @@ def main():
     )
     
     logger = logging.getLogger(__name__)
-    logger.info("Starting GeoNames enrichment process...")
+    
+    print("GEONAMES ENRICHMENT - Starting location data enhancement")
+    print("=" * 60)
     
     # File paths
     input_file = "data/extracted/country_associations.json"
@@ -34,16 +36,27 @@ def main():
     
     # Check if input file exists
     if not os.path.exists(input_file):
+        print(f"INPUT ERROR: File not found - {input_file}")
+        print("REQUIREMENT: Run main.py first to generate location data")
         logger.error(f"Input file not found: {input_file}")
         return
     
+    print(f"INPUT: Reading from {input_file}")
+    print(f"OUTPUT: Writing to {output_file}")
+    
     # Create enricher and run
     try:
+        print("PROCESSING: Initializing GeoNames enricher")
         enricher = GeoNamesEnricher(username="user1")
+        
+        print("PROCESSING: Starting country associations enrichment")
         enricher.enrich_country_associations(input_file, output_file)
+        
+        print("SUCCESS: GeoNames enrichment completed")
         logger.info("GeoNames enrichment completed successfully!")
         
     except Exception as e:
+        print(f"PROCESSING ERROR: {e}")
         logger.error(f"Error during enrichment: {e}")
         raise
 

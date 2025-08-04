@@ -24,7 +24,7 @@ if src_dir not in sys.path:
 def run_script(script_name, timeout=1800):
     """Run a Python script and return the result"""
     try:
-        logger.info(f"Starting {script_name} at {datetime.now()}")
+        print(f"EXECUTING: {script_name} - Started at {datetime.now().strftime('%H:%M:%S')}")
         
         # Ensure AUTO_MODE is set for automatic execution
         env = os.environ.copy()
@@ -38,7 +38,11 @@ def run_script(script_name, timeout=1800):
             env=env
         )
         
-        logger.info(f"Completed {script_name}")
+        status = "SUCCESS" if result.returncode == 0 else "FAILED"
+        print(f"COMPLETED: {script_name} - Status: {status} - Duration: {datetime.now().strftime('%H:%M:%S')}")
+        
+        if result.returncode != 0 and result.stderr:
+            print(f"ERROR OUTPUT: {result.stderr.strip()}")
         
         return {
             'success': result.returncode == 0,
@@ -50,6 +54,7 @@ def run_script(script_name, timeout=1800):
         }
         
     except subprocess.TimeoutExpired:
+        print(f"TIMEOUT: {script_name} - Exceeded {timeout} seconds")
         return {
             'success': False,
             'script': script_name,
@@ -57,6 +62,7 @@ def run_script(script_name, timeout=1800):
             'error': f'Script timed out after {timeout} seconds'
         }
     except Exception as e:
+        print(f"EXCEPTION: {script_name} - Error: {str(e)}")
         return {
             'success': False,
             'script': script_name,
@@ -69,7 +75,7 @@ def home():
     """Home page with available endpoints"""
     return """
     <h1>Field Reports Pipeline Runner</h1>
-    <h2>🤖 Automated Daily Execution via GitHub Actions</h2>
+    <h2>Automated Daily Execution via GitHub Actions</h2>
     <p><strong>Schedule:</strong> Daily at 10:00 AM UTC</p>
     
     <h2>Available Endpoints:</h2>
@@ -109,20 +115,21 @@ def run_final():
 @app.route('/run-both-and-commit')
 def run_both_and_commit():
     """Run both scripts sequentially and commit results to git"""
+    print("PIPELINE START: Running complete pipeline with git commit")
     results = []
     
     # Run main.py first
-    logger.info("Running main.py first...")
+    print("STEP 1: Executing main.py (field reports processing)")
     main_result = run_script('main.py')
     results.append(main_result)
     
     # Only run final_run.py if main.py succeeded
     if main_result['success']:
-        logger.info("main.py succeeded, running final_run.py...")
+        print("STEP 2: main.py completed successfully, executing final_run.py (GeoNames enrichment)")
         final_result = run_script('final_run.py')
         results.append(final_result)
     else:
-        logger.warning("main.py failed, skipping final_run.py")
+        print("STEP 2: main.py failed, skipping final_run.py")
         results.append({
             'success': False,
             'script': 'final_run.py',
@@ -134,12 +141,17 @@ def run_both_and_commit():
     commit_result = {'success': False, 'message': 'Skipped - pipeline failed'}
     
     if all(r['success'] for r in results):
-        logger.info("Pipeline succeeded, committing changes to git...")
+        print("STEP 3: Pipeline succeeded, committing changes to git repository")
         commit_result = commit_data_to_git()
+    else:
+        print("STEP 3: Pipeline failed, skipping git commit")
+    
+    pipeline_success = all(r['success'] for r in results) and commit_result['success']
+    print(f"PIPELINE COMPLETE: Overall status: {'SUCCESS' if pipeline_success else 'FAILED'}")
     
     return jsonify({
         'timestamp': datetime.now().isoformat(),
-        'overall_success': all(r['success'] for r in results) and commit_result['success'],
+        'overall_success': pipeline_success,
         'pipeline_results': results,
         'git_commit': commit_result
     })
@@ -151,16 +163,21 @@ def commit_data_to_git():
         import json
         from datetime import datetime
         
+        print("GIT: Checking for changes in data files")
+        
         # Check if there are changes
         result = subprocess.run(['git', 'status', '--porcelain'], 
                               capture_output=True, text=True, cwd='.')
         
         if not result.stdout.strip():
+            print("GIT: No changes detected, nothing to commit")
             return {
                 'success': True,
                 'message': 'No changes to commit',
                 'timestamp': datetime.now().isoformat()
             }
+        
+        print("GIT: Changes detected, preparing commit")
         
         # Get data counts for commit message
         raw_count = 0
@@ -180,6 +197,8 @@ def commit_data_to_git():
         except:
             pass
         
+        print(f"GIT: Data summary - Raw reports: {raw_count}, Processed reports: {processed_count}")
+        
         # Configure git
         subprocess.run(['git', 'config', 'user.email', 'replit-automation@ifrc.org'], cwd='.')
         subprocess.run(['git', 'config', 'user.name', 'Replit Automation'], cwd='.')
@@ -198,27 +217,35 @@ Pipeline execution summary:
 
 Triggered by: GitHub Actions via Replit automation"""
         
+        print("GIT: Committing changes")
+        
         # Commit changes
         commit_result = subprocess.run(['git', 'commit', '-m', commit_msg], 
                                      capture_output=True, text=True, cwd='.')
         
         if commit_result.returncode != 0:
+            print(f"GIT: Commit failed - {commit_result.stderr}")
             return {
                 'success': False,
                 'message': f'Git commit failed: {commit_result.stderr}',
                 'timestamp': datetime.now().isoformat()
             }
         
+        print("GIT: Pushing to remote repository")
+        
         # Push to repository
         push_result = subprocess.run(['git', 'push'], 
                                    capture_output=True, text=True, cwd='.')
         
         if push_result.returncode != 0:
+            print(f"GIT: Push failed - {push_result.stderr}")
             return {
                 'success': False,
                 'message': f'Git push failed: {push_result.stderr}',
                 'timestamp': datetime.now().isoformat()
             }
+        
+        print("GIT: Successfully committed and pushed changes")
         
         return {
             'success': True,
@@ -230,6 +257,7 @@ Triggered by: GitHub Actions via Replit automation"""
         }
         
     except Exception as e:
+        print(f"GIT: Operation failed - {str(e)}")
         return {
             'success': False,
             'message': f'Git operation failed: {str(e)}',
@@ -355,13 +383,12 @@ def serve_log_file(filename):
         return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
-    print("Starting Field Reports Pipeline Web Runner...")
-    print("Available at: http://localhost:5000")
+    print("Field Reports Pipeline Web Runner - Starting...")
     
     # Get port from environment (Replit compatibility)
     port = int(os.environ.get('PORT', 5000))
     
-    print(f"Server starting on port {port}")
-    print("Replit Web Service Ready!")
+    print(f"Web service running on port {port}")
+    print("Ready to process field reports via HTTP endpoints")
     
     app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
