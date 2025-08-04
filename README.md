@@ -249,7 +249,7 @@ To run the program and access the data, go to the deployment URL and sign in wit
 
 ## 📁 Project Structure
 
-The pipeline processes IFRC field reports that are one week old, extracting geographic information and enriching it with detailed location data.
+The pipeline processes IFRC field reports that are 15 days old, extracting geographic information and enriching it with detailed location data.
 
 ## 🌐 External API Endpoints
 
