@@ -501,12 +501,71 @@ def github_actions_endpoint():
     
     return jsonify({
         'available_endpoints': [
-            '/run-both-and-commit',
+            '/api/github-actions/run-pipeline',
             '/health',
             '/api/github-actions'
         ],
-        'instructions': 'Use /run-both-and-commit for automated pipeline execution',
+        'instructions': 'Use /api/github-actions/run-pipeline for automated pipeline execution',
         'timestamp': datetime.now().isoformat()
+    })
+
+@app.route('/api/github-actions/run-pipeline')
+def github_actions_run_pipeline():
+    """GitHub Actions pipeline execution (bypasses web auth but has API security)"""
+    
+    # Security: Check User-Agent to ensure this is GitHub Actions
+    user_agent = request.headers.get('User-Agent', '')
+    if not ('GitHub-Actions' in user_agent or 'github-actions' in user_agent.lower()):
+        print(f"SECURITY: Non-GitHub Actions access attempt to API endpoint from {request.remote_addr}")
+        return jsonify({
+            'error': 'Access denied',
+            'message': 'This endpoint is restricted to GitHub Actions',
+            'timestamp': datetime.now().isoformat()
+        }), 403
+    
+    print(f"API: GitHub Actions pipeline execution started from {request.remote_addr}")
+    print(f"API: User-Agent: {user_agent}")
+    
+    results = []
+    
+    # Run main.py first
+    print("API STEP 1: Executing main.py (field reports processing)")
+    main_result = run_script('main.py')
+    results.append(main_result)
+    
+    # Only run final_run.py if main.py succeeded
+    if main_result['success']:
+        print("API STEP 2: main.py completed successfully, executing final_run.py (GeoNames enrichment)")
+        final_result = run_script('final_run.py')
+        results.append(final_result)
+    else:
+        print("API STEP 2: main.py failed, skipping final_run.py")
+        results.append({
+            'success': False,
+            'script': 'final_run.py',
+            'timestamp': datetime.now().isoformat(),
+            'error': 'Skipped due to main.py failure'
+        })
+    
+    # If both scripts succeeded, commit changes to git
+    commit_result = {'success': False, 'message': 'Skipped - pipeline failed'}
+    
+    if all(r['success'] for r in results):
+        print("API STEP 3: Pipeline succeeded, committing changes to git repository")
+        commit_result = commit_data_to_git()
+    else:
+        print("API STEP 3: Pipeline failed, skipping git commit")
+    
+    pipeline_success = all(r['success'] for r in results) and commit_result['success']
+    print(f"API PIPELINE COMPLETE: Overall status: {'SUCCESS' if pipeline_success else 'FAILED'}")
+    
+    return jsonify({
+        'timestamp': datetime.now().isoformat(),
+        'overall_success': pipeline_success,
+        'pipeline_results': results,
+        'git_commit': commit_result,
+        'triggered_by': 'GitHub Actions',
+        'security': 'API endpoint - bypassed web authentication'
     })
 
 @app.route('/status')
