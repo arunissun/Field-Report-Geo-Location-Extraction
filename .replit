@@ -1,7 +1,7 @@
-run = "python web_runner.py"
+run = "/home/runner/workspace/.pythonlibs/bin/python3 web_runner.py"
 
 [deployment]
-run = ["python", "web_runner.py"]
+run = ["/home/runner/workspace/.pythonlibs/bin/python3", "web_runner.py"]
 
 [env]
 AUTO_MODE = "true"
